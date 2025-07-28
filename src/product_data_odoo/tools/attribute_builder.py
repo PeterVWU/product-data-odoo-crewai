@@ -51,101 +51,182 @@ def attribute_builder_tool(
     for product in llm_products:
         _collect_product_attributes(product, attribute_data, source='llm')
     
-    # Generate Odoo attributes CSV (reusing existing attributes)
-    attributes_csv_data = []
+    # Generate two separate CSVs: existing attributes and new attributes
+    existing_attr_csv_data = []
+    new_attr_csv_data = []
     attribute_summary = {}
     reuse_stats = {'existing_attributes': 0, 'new_attributes': 0, 'existing_values': 0, 'new_values': 0}
     
     for attr_name, attr_info in attribute_data.items():
-        # Check if attribute already exists in Odoo
-        formatted_attr_name = _format_attribute_name(attr_name)
-        existing_attr_info = _find_existing_attribute(formatted_attr_name, existing_attributes)
+        # Check if attribute already exists in Odoo (use raw name first, then formatted)
+        existing_attr_info = _find_existing_attribute(attr_name, existing_attributes)
+        formatted_attr_name = None  # Initialize to avoid reference errors
+        
+        # If not found with raw name, try formatted name
+        if not existing_attr_info:
+            formatted_attr_name = _format_attribute_name(attr_name)
+            existing_attr_info = _find_existing_attribute(formatted_attr_name, existing_attributes)
         
         if existing_attr_info:
             # Reuse existing attribute
             attr_external_id = existing_attr_info['id']
-            attr_display_type = existing_attr_info.get('display_type', 'radio')  # Default if not specified
+            attr_display_type = existing_attr_info.get('display_type', 'radio')
+            # Use the existing attribute name from Odoo, or formatted name if we had to format it
+            attr_display_name = existing_attr_info['name']
             reuse_stats['existing_attributes'] += 1
+            
+            # Process values for existing attribute (only add new ones)
+            unique_values = sorted(attr_info['values'])
+            existing_values = existing_attr_info.get('values', {})
+            new_values_for_attr = []
+            
+            for value in unique_values:
+                if value is not None and str(value).strip():
+                    value_str = str(value).strip()
+                    
+                    # Check if value already exists
+                    existing_value_id = _find_existing_value(value_str, existing_values)
+                    
+                    if existing_value_id:
+                        reuse_stats['existing_values'] += 1
+                    else:
+                        new_values_for_attr.append(value_str)
+                        reuse_stats['new_values'] += 1
+            
+            # Add new values to existing attributes CSV
+            if new_values_for_attr:
+                for i, value_str in enumerate(new_values_for_attr):
+                    if i == 0:
+                        # First value - include attribute info (id,name,value/value format)
+                        existing_attr_csv_data.append({
+                            'id': attr_external_id,
+                            'name': attr_display_name,
+                            'value/value': value_str
+                        })
+                    else:
+                        # Additional values - empty id and name
+                        existing_attr_csv_data.append({
+                            'id': '',
+                            'name': '',
+                            'value/value': value_str
+                        })
+            
         else:
             # Create new attribute
             attr_external_id = f"attr_{_sanitize_name(attr_name)}"
             attr_display_type = _determine_display_type(attr_name, attr_info['values'])
             reuse_stats['new_attributes'] += 1
-        
-        # Process values for this attribute (only add new ones)
-        unique_values = sorted(attr_info['values'])
-        existing_values = existing_attr_info.get('values', {}) if existing_attr_info else {}
-        new_values_for_attr = []
-        
-        for value in unique_values:
-            if value is not None and str(value).strip():  # Skip empty/null values
-                value_str = str(value).strip()
-                
-                # Check if value already exists
-                existing_value_id = _find_existing_value(value_str, existing_values)
-                
-                if existing_value_id:
-                    # Value already exists - no need to add to CSV
-                    reuse_stats['existing_values'] += 1
-                else:
-                    # Value is new - collect for CSV
+            
+            # Process values for new attribute
+            unique_values = sorted(attr_info['values'])
+            new_values_for_attr = []
+            
+            for value in unique_values:
+                if value is not None and str(value).strip():
+                    value_str = str(value).strip()
                     new_values_for_attr.append(value_str)
                     reuse_stats['new_values'] += 1
-        
-        # Add new values to CSV (both new attributes and missing values for existing attributes)
-        if new_values_for_attr:
-            for i, value_str in enumerate(new_values_for_attr):
-                if i == 0:
-                    # First value - include attribute info
-                    # For existing attributes, use external ID; for new attributes, use name
-                    if existing_attr_info:
-                        # Existing attribute - use external ID
-                        attributes_csv_data.append({
-                            'value': value_str,
-                            'attribute/id': attr_external_id,
-                            'display_type': '',
-                            'create_variant': ''
-                        })
-                    else:
-                        # New attribute - use name
-                        attributes_csv_data.append({
-                            'value': value_str,
+            
+            # Add new attribute to new attributes CSV
+            if new_values_for_attr:
+                for i, value_str in enumerate(new_values_for_attr):
+                    if i == 0:
+                        # First value - include attribute info (value/value,attribute,display_type,create_variant format)
+                        new_attr_csv_data.append({
+                            'value/value': value_str,
                             'attribute': formatted_attr_name,
                             'display_type': attr_display_type,
                             'create_variant': 'instantly'
                         })
-                else:
-                    # Additional values - just the value
-                    attributes_csv_data.append({
-                        'value': value_str,
-                        'attribute': '',
-                        'attribute/id': '',
-                        'display_type': '',
-                        'create_variant': ''
-                    })
+                    else:
+                        # Additional values - just the value
+                        new_attr_csv_data.append({
+                            'value/value': value_str,
+                            'attribute': '',
+                            'display_type': '',
+                            'create_variant': ''
+                        })
         
         # Store summary stats
         attribute_summary[attr_name] = {
             'external_id': attr_external_id,
             'display_type': attr_display_type,
-            'value_count': len(unique_values),
+            'value_count': len(attr_info['values']),
             'total_usage': attr_info['count'],
             'sources': list(attr_info['sources']),
             'status': 'existing' if existing_attr_info else 'new'
         }
     
-    # Save attributes CSV
+    # Save both CSV files
     output_path = Path(output_dir) / "attributes"
     output_path.mkdir(parents=True, exist_ok=True)
     
-    attributes_file = output_path / "attributes.csv"
+    # Save existing attributes CSV (for adding values to existing attributes)
+    existing_attrs_file = output_path / "existing_attributes_values.csv"
+    if existing_attr_csv_data:
+        with open(existing_attrs_file, 'w', newline='', encoding='utf-8') as f:
+            fieldnames = ['id', 'name', 'value/value']
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(existing_attr_csv_data)
     
-    # Write CSV with simplified format (only new attributes and values)
+    # Save new attributes CSV (for creating new attributes)
+    new_attrs_file = output_path / "new_attributes.csv"
+    if new_attr_csv_data:
+        with open(new_attrs_file, 'w', newline='', encoding='utf-8') as f:
+            fieldnames = ['value/value', 'attribute', 'display_type', 'create_variant']
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(new_attr_csv_data)
+    
+    # Also keep the original combined CSV for backward compatibility
+    attributes_file = output_path / "attributes.csv"
+    all_csv_data = []
+    
+    # Convert existing attributes to original format
+    for row in existing_attr_csv_data:
+        if row['id']:  # First row of attribute
+            all_csv_data.append({
+                'value': row['value/value'],
+                'attribute': '',
+                'attribute/id': row['id'],
+                'display_type': '',
+                'create_variant': ''
+            })
+        else:  # Additional values
+            all_csv_data.append({
+                'value': row['value/value'],
+                'attribute': '',
+                'attribute/id': '',
+                'display_type': '',
+                'create_variant': ''
+            })
+    
+    # Add new attributes (convert from new format to old format)
+    for row in new_attr_csv_data:
+        if row['attribute']:  # First row of attribute
+            all_csv_data.append({
+                'value': row['value/value'],
+                'attribute': row['attribute'],
+                'attribute/id': '',
+                'display_type': row['display_type'],
+                'create_variant': row['create_variant']
+            })
+        else:  # Additional values
+            all_csv_data.append({
+                'value': row['value/value'],
+                'attribute': '',
+                'attribute/id': '',
+                'display_type': '',
+                'create_variant': ''
+            })
+    
+    # Write combined CSV
     with open(attributes_file, 'w', newline='', encoding='utf-8') as f:
         fieldnames = ['value', 'attribute', 'attribute/id', 'display_type', 'create_variant']
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
-        writer.writerows(attributes_csv_data)
+        writer.writerows(all_csv_data)
     
     # Save attribute summary
     summary_file = output_path / "attribute_summary.json"
@@ -155,13 +236,17 @@ def attribute_builder_tool(
     return {
         'status': 'success',
         'total_attributes': len(attribute_data),
-        'total_records': len(attributes_csv_data),
+        'total_records': len(all_csv_data),
+        'existing_attributes_records': len(existing_attr_csv_data),
+        'new_attributes_records': len(new_attr_csv_data),
         'clear_products_processed': len(clear_products),
         'llm_products_processed': len(llm_products),
         'reuse_statistics': reuse_stats,
         'attribute_summary': attribute_summary,
         'output_files': {
-            'attributes_csv': str(attributes_file),
+            'existing_attributes_csv': str(existing_attrs_file) if existing_attr_csv_data else None,
+            'new_attributes_csv': str(new_attrs_file) if new_attr_csv_data else None,
+            'combined_attributes_csv': str(attributes_file),
             'summary': str(summary_file)
         }
     }
@@ -299,11 +384,14 @@ def _find_existing_attribute(attr_name: str, existing_attributes: Dict) -> Dict:
         if existing_name.lower() == attr_name_lower:
             return attr_info
     
-    # Check for common variations
+    # Check for common variations - map product attributes to exact Odoo attribute names
     attr_variations = {
-        'nicotine (mg)': ['nicotine', 'nicotine_mg', 'nicotine strength'],
-        'volume (ml)': ['volume', 'volume_ml', 'size', 'capacity'],
-        'resistance (ω)': ['resistance', 'resistance_ohm', 'ohm'],
+        'nicotine level': ['nicotine', 'nicotine_mg', 'nicotine strength', 'nicotine_mg_range', 'nicotine_mg_min', 'nicotine_mg_max'],
+        'flavor': ['flavor'],
+        'brand': ['brand'],
+        'color': ['color'],
+        'resistance': ['resistance', 'resistance_ohm', 'ohm'],
+        'size': ['volume', 'volume_ml', 'capacity'],
         'coil type': ['coil_type', 'coil model', 'coil_model']
     }
     

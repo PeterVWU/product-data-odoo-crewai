@@ -21,10 +21,11 @@ async def run_async():
     """
     Run the crew with async batch processing for unclear products.
     """
-    # Simple hardcoded flag to skip parsing for development
+    # Pipeline control flags
     SKIP_PARSING = True  # Set to False to run full pipeline
+    ATTRIBUTE_IMPORT_COMPLETED = True  # Set to True after completing Odoo attribute import
     # Define standardized base paths
-    base_dir = Path("/root/development/data-cleaning/product_data_odoo")
+    base_dir = Path("/home/vwu/development/csv-clean-up/product-data-odoo-crewai")
     csv_path = str((base_dir / "src/product_data_odoo/VWU_Product_List.csv").resolve())
     
     # Define all output directories and file paths
@@ -40,6 +41,11 @@ async def run_async():
         "odoo_categories_file": str((base_dir / "src/product_data_odoo/odoo_product_category.csv").resolve()),
         "odoo_attributes_file": str((base_dir / "src/product_data_odoo/odoo_attributes.csv").resolve()),
         
+        # Checkpoint control
+        "attribute_import_completed": ATTRIBUTE_IMPORT_COMPLETED,
+        "updated_odoo_attributes_file": str((base_dir / "src/product_data_odoo/updated_odoo_attributes.csv").resolve()),
+        "existing_product_templates_file": str((base_dir / "src/product_data_odoo/existing_product_templates.csv").resolve()),
+        
         # Output directories
         "cleaned_dir": str(cleaned_dir),
         "parsed_dir": str(parsed_dir),
@@ -52,7 +58,7 @@ async def run_async():
         "unclear_products_file": str(parsed_dir / "unclear_products.json"),
         "parsed_results_file": str(parsed_dir / "parsed_results.json"),
         "llm_results_file": str(llm_dir / "llm_parsed_results.json"),
-        "clear_products_file": str(parsed_dir / "parsed_results.json"),  # Use existing parsed results
+        "clear_products_file": str(parsed_dir / "parsed_results.json"),
         "llm_parsed_results_file": str(llm_dir / "llm_parsed_results.json"),
         
         # Final output files
@@ -259,19 +265,34 @@ async def run_async():
         attribute_result = attribute_crew.kickoff(inputs=inputs)
         print("✅ Attribute building completed!")
         
-        # Step 5: Run final merger
-        print("🔄 Running final product merger...")
-        merger_crew = Crew(
+        # Step 5: Human checkpoint for Odoo attribute import
+        print("🔄 Running human checkpoint...")
+        checkpoint_crew = Crew(
             agents=[crew_instance.orchestrator()],
-            tasks=[Task(
-                description="Merge regex parsing results with LLM parsing results using the product_merger_tool",
-                agent=crew_instance.orchestrator(),
-                expected_output="Final merged product data files"
-            )],
+            tasks=[crew_instance.human_checkpoint_task()],
             verbose=True
         )
         
-        merger_crew.kickoff(inputs=inputs)
+        checkpoint_result = checkpoint_crew.kickoff(inputs=inputs)
+        
+        # Check if we need to pause for human action
+        if not ATTRIBUTE_IMPORT_COMPLETED:
+            print("🛑 Pipeline paused for human Odoo import/export.")
+            print("📋 Follow the instructions above, then set ATTRIBUTE_IMPORT_COMPLETED = True and re-run.")
+            return
+        
+        print("✅ Human checkpoint completed! Continuing pipeline...")
+        
+        # Step 6: Run template building
+        print("🏗️ Running template building...")
+        template_crew = Crew(
+            agents=[crew_instance.orchestrator()],
+            tasks=[crew_instance.template_building_task()],
+            verbose=True
+        )
+        
+        template_result = template_crew.kickoff(inputs=inputs)
+        print("✅ Template building completed!")
         print("🎉 Pipeline completed successfully!")
         
     except Exception as e:

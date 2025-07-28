@@ -305,16 +305,29 @@ The Orchestrator agent requests approval at key stages:
 - Generates `category_mappings.json` and `category_stats.json`
 
 #### 4. Attribute Builder Tool (IMPLEMENTED)
-**Purpose**: Generate Odoo product attributes CSV with existing attribute integration
+**Purpose**: Generate two separate attribute CSVs for existing vs new attributes
 **Implementation**:
 - Loads existing Odoo attributes from `odoo_attributes.csv`
 - Uses external IDs for existing attributes to prevent duplicates
-- Creates new attributes only when needed
-- Outputs 1,355 records: new attributes + missing values for existing attributes
-- Format: `value,attribute,attribute/id,display_type,create_variant`
-- Statistics: 9 existing attributes reused, 18 new attributes created
+- Separates existing attribute values from new attribute creation
+- **Outputs**:
+  - `existing_attributes_values.csv`: 1,313 records (id,name,value/value format)
+  - `new_attributes.csv`: 45 records (value/value,attribute,display_type,create_variant format)
+- **Statistics**: 12 existing attributes reused, 15 new attributes created
+- **Human-in-the-Loop**: Supports checkpoint system for attribute import approval
 
-#### 5. Advanced Processing Features
+#### 5. Template Builder Tool (IMPLEMENTED)
+**Purpose**: Create product template records with correct attribute-value mapping
+**Implementation**:
+- Groups variants by product_name (brand + name combination)
+- Uses attribute-specific value mappings to prevent cross-contamination
+- Calculates average pricing and attribute line configurations
+- **Fixed Issue**: Resolved attribute-value mixup where nicotine values were assigned to flavor attributes
+- **Output**: `new_templates.csv` with proper External ID references
+- **Format**: Multiple rows per template (one for each attribute)
+- **Statistics**: Generates templates for product lines with multiple attribute rows per template
+
+#### 6. Advanced Processing Features
 - **File Path Standardization**: All paths managed through crew inputs
 - **Concurrent Processing**: `kickoff_for_each_async` implementation
 - **Three-Part Parsing**: Brand + Product + Attributes extraction
@@ -322,18 +335,11 @@ The Orchestrator agent requests approval at key stages:
 - **Quality Assurance**: Progressive saving and error handling
 - **Brand Analytics**: Automatic brand extraction for categorization
 - **Skip Parsing Flag**: `SKIP_PARSING=True` for development efficiency
+- **Attribute-Specific Value Mapping**: Prevents value ID cross-contamination between attributes
 
 ### 🚧 NEXT DEVELOPMENT TASKS (Priority Order)
 
-#### 1. Build Template Builder Tool (MEDIUM PRIORITY)
-**Purpose**: Create product template records
-**Implementation Needed**:
-- Group variants by product_name (brand + name combination)
-- Calculate average pricing and attribute line configurations
-- Generate product templates with attribute assignments
-- Output `product_templates.csv` for Odoo import
-
-#### 2. Build Variant Builder Tool (LOW PRIORITY)
+#### 1. Build Variant Builder Tool (MEDIUM PRIORITY)
 **Purpose**: Generate product variant records
 **Implementation Needed**:
 - Link variants to their parent templates
@@ -341,7 +347,7 @@ The Orchestrator agent requests approval at key stages:
 - Handle attribute value combinations
 - Output `product_variants.csv` for Odoo import
 
-#### 3. Build Inventory Builder Tool (LOW PRIORITY)
+#### 2. Build Inventory Builder Tool (LOW PRIORITY)
 **Purpose**: Create inventory adjustment records
 **Implementation Needed**:
 - Consolidate quantities by variant and location
@@ -358,5 +364,7 @@ The Orchestrator agent requests approval at key stages:
 - ✅ Quality gates and error handling
 - ✅ Standardized file path management
 - ✅ Category mapping (3,725 products → 8 Odoo categories)
-- ✅ Attribute integration (1,355 records, existing + new attributes)
+- ✅ Attribute separation (1,313 existing values + 45 new attributes)
+- ✅ Template generation with correct attribute-value mapping
 - ✅ External ID management for Odoo import compatibility
+- ✅ Human-in-the-loop checkpoint system for attribute imports

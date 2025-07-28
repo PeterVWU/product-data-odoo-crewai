@@ -96,3 +96,74 @@ attribute_building_task:
     - Recommendations for attribute standardization
     - Path to generated attributes.csv file
   agent: orchestrator
+
+human_checkpoint_task:
+  description: >
+    Coordinate the human-in-the-loop checkpoint for Odoo attribute import/export.
+    
+    Check the checkpoint status using the flag: {attribute_import_completed}
+    
+    If checkpoint NOT completed (attribute_import_completed = False):
+    1. Provide clear, step-by-step instructions for human to complete Odoo imports
+    2. List the exact file paths to import into Odoo:
+       - output/attributes/existing_attributes_values.csv (format: id,name,value/value)  
+       - output/attributes/new_attributes.csv (format: value/value,attribute,display_type,create_variant)
+    3. Specify the required export files and where to place them:
+       - Export updated attributes → src/product_data_odoo/updated_odoo_attributes.csv
+       - Export product templates → src/product_data_odoo/existing_product_templates.csv  
+    4. Explain how to resume: Set ATTRIBUTE_IMPORT_COMPLETED = True and re-run
+    
+    If checkpoint IS completed (attribute_import_completed = True):
+    1. Report that checkpoint is complete and pipeline will continue
+    2. Confirm files are ready for template building phase
+    3. Do NOT use any tools - just provide confirmation message
+    
+    IMPORTANT: Do not use any tools for file validation. Only provide status messages based on the flag.
+    
+    Required files after human import:
+    - {updated_odoo_attributes_file}: Updated attributes with new External IDs
+    - {existing_product_templates_file}: Current product templates from Odoo
+      Format: "id","default_code","name","categ_id/id","attribute_line_ids/attribute_id","attribute_line_ids/attribute_id/id"
+  expected_output: >
+    Either detailed human instructions for Odoo import/export OR confirmation that
+    checkpoint is complete and ready to proceed to template building phase.
+  agent: orchestrator
+
+template_building_task:
+  description: >
+    Generate Odoo product templates CSV using the Template Builder tool.
+    
+    Use the following inputs for the tool:
+    - clear_products_file: {clear_products_file}
+    - llm_parsed_results_file: {llm_parsed_results_file}
+    - category_mappings_file: {output_dir}/categories/category_mappings.json
+    - updated_odoo_attributes_file: {updated_odoo_attributes_file}
+    - existing_product_templates_file: {existing_product_templates_file}
+    - output_dir: {output_dir}
+    - odoo_categories_file: {odoo_categories_file}
+    
+    The tool will:
+    1. Group products by product_name to create templates
+    2. Calculate template-level data (average pricing, attribute configurations)
+    3. Check against existing Odoo templates to avoid duplicates
+    4. Generate two separate CSVs:
+       - existing_template_updates.csv: Add attribute lines to existing templates
+       - new_templates.csv: Create completely new templates
+    5. Use updated attribute External IDs from post-import Odoo data
+    
+    Review the template generation results and provide insights about:
+    - Total templates created vs updated
+    - Template grouping logic and variant counts
+    - Attribute line configurations
+    - Pricing calculations and category assignments
+    - Recommendations for template optimization
+  expected_output: >
+    A comprehensive template generation report including:
+    - Total templates processed (existing vs new)
+    - Template grouping statistics and variant counts
+    - Attribute line configuration summary
+    - Category distribution across templates
+    - Quality assessment of template generation
+    - Recommendations for template management
+    - Paths to generated CSV files
+  agent: orchestrator

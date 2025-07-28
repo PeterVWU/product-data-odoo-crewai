@@ -57,15 +57,17 @@ This pipeline processes raw vendor product data and generates clean, structured 
 - **Output**: `category_mappings.json` and `category_stats.json`
 
 #### Attribute Builder Tool
-- **Function**: Generates Odoo product attributes CSV with existing attribute integration
+- **Function**: Generates two separate attribute CSVs for existing vs new attributes
 - **Processing**: Loads existing Odoo attributes, uses external IDs to prevent duplicates
-- **Results**: 1,355 records (new attributes + missing values for existing attributes)
-- **Output**: `attributes.csv` in format: `value,attribute,attribute/id,display_type,create_variant`
+- **Results**: 1,313 existing attribute values + 45 new attribute records
+- **Output**: 
+  - `existing_attributes_values.csv`: Add new values to existing attributes (id,name,value/value)
+  - `new_attributes.csv`: Create new attributes (value/value,attribute,display_type,create_variant)
 
 #### Template Builder Tool
-- **Function**: Creates product template records
-- **Processing**: Groups variants by product line, calculates average pricing
-- **Output**: `product_templates.csv` with attribute line configurations
+- **Function**: Creates product template records with proper attribute-value mapping
+- **Processing**: Groups variants by product line, uses attribute-specific value lookups
+- **Output**: `new_templates.csv` with correct External ID references for attributes and values
 
 #### Variant Builder Tool
 - **Function**: Generates product variant records
@@ -186,14 +188,15 @@ uv run test
 - **CSV Processor Tool**: Working with standardized file paths
 - **Product Parser Tool**: Hybrid regex + AI approach operational
 - **Category Mapper Tool**: Maps 3,725 products to existing Odoo categories
-- **Attribute Builder Tool**: Generates 1,355 attribute records with existing integration
+- **Attribute Builder Tool**: Generates attribute CSVs with existing/new attribute separation
+- **Template Builder Tool**: Creates product templates with correct attribute-value mapping
 - **Concurrent Processing**: `kickoff_for_each_async` implementation for scaling
 - **File Path Management**: Standardized paths passed through crew inputs
 - **Quality Assurance**: 85.5% completion rate on 551 complex products
 - **External ID Management**: Prevents duplicates in Odoo imports
+- **Human-in-the-Loop**: Checkpoint system for attribute import approval
 
 ### 🚧 Pending Components
-- **Template Builder Tool**: For product template records
 - **Variant Builder Tool**: For product variant records
 - **Inventory Builder Tool**: For inventory adjustment records
 

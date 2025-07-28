@@ -7,6 +7,7 @@ from product_data_odoo.tools.product_parser import product_parser_tool
 from product_data_odoo.tools.product_merger import product_merger_tool
 from product_data_odoo.tools.category_mapper import category_mapper_tool
 from product_data_odoo.tools.attribute_builder import attribute_builder_tool
+from product_data_odoo.tools.template_builder import template_builder_tool
 # If you want to run a snippet of code before or after the crew starts,
 # you can use the @before_kickoff and @after_kickoff decorators
 # https://docs.crewai.com/concepts/crews#example-crew-class-with-decorators
@@ -29,7 +30,7 @@ class ProductDataOdoo():
         return Agent(
             config=self.agents_config['orchestrator'], # type: ignore[index]
             verbose=True,
-            tools=[csv_processor_tool, product_parser_tool, product_merger_tool, category_mapper_tool, attribute_builder_tool],
+            tools=[csv_processor_tool, product_parser_tool, product_merger_tool, category_mapper_tool, attribute_builder_tool, template_builder_tool],
         )
 
     @agent
@@ -69,6 +70,18 @@ class ProductDataOdoo():
     def attribute_building_task(self) -> Task:
         return Task(
             config=self.tasks_config['attribute_building_task'], # type: ignore[index]
+        )
+
+    @task
+    def human_checkpoint_task(self) -> Task:
+        return Task(
+            config=self.tasks_config['human_checkpoint_task'], # type: ignore[index]
+        )
+
+    @task
+    def template_building_task(self) -> Task:
+        return Task(
+            config=self.tasks_config['template_building_task'], # type: ignore[index]
         )
 
     @crew
