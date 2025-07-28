@@ -1,0 +1,2376 @@
+[
+  {
+    "index": 90,
+    "brand": "7DZE",
+    "product_name": "7DZE - 7Daze (LIQ FB)(60mL) Reds",
+    "flavor": "Fruit Mix Iced",
+    "nicotine_mg": 12
+  },
+  {
+    "index": 91,
+    "brand": "7DZE",
+    "product_name": "7DZE - 7Daze (LIQ FB)(60mL) Reds",
+    "flavor": "Guava",
+    "nicotine_mg": 12
+  },
+  {
+    "index": 196,
+    "brand": "7DZE",
+    "product_name": "7DZE - 7Daze Clickmate Colors (Device Only)",
+    "color": "Midnight",
+    "shade": "Jet Black",
+    "battery_capacity_mAh": 650
+  },
+  {
+    "index": 197,
+    "brand": "7DZE",
+    "product_name": "7DZE - 7Daze Clickmate Refillable MATES (2-Pack)"
+  },
+  {
+    "index": 198,
+    "brand": "7DZE",
+    "product_name": "7DZE - 7Daze Clickmate Refillable MAX Starter Kit"
+  },
+  {
+    "index": 227,
+    "brand": "7DZE",
+    "product_name": "7DZE - 7Daze Click-Mates Pods (Liq Pod)(20mg 18mL; 9mL x2) (2-Pack)",
+    "flavor": "Cherry Lime"
+  },
+  {
+    "index": 228,
+    "brand": "7DZE",
+    "product_name": "7DZE - 7Daze Click-Mates Pods (Liq Pod)(20mg 18mL; 9mL x2) (2-Pack)",
+    "flavor": "Hawaiian Gummii"
+  },
+  {
+    "index": 229,
+    "brand": "7DZE",
+    "product_name": "7DZE - 7Daze Click-Mates Pods (Liq Pod)(20mg 18mL; 9mL x2) (2-Pack)",
+    "flavor": "Island Tiki Punch"
+  },
+  {
+    "index": 230,
+    "brand": "7DZE",
+    "product_name": "7DZE - 7Daze Click-Mates Pods (Liq Pod)(20mg 18mL; 9mL x2) (2-Pack)",
+    "flavor": "Lush Ice"
+  },
+  {
+    "index": 231,
+    "brand": "7DZE",
+    "product_name": "7DZE - 7Daze Click-Mates Pods (Liq Pod)(20mg 18mL; 9mL x2) (2-Pack)",
+    "flavor": "Mango Sunset"
+  },
+  {
+    "index": 232,
+    "brand": "7DZE",
+    "product_name": "7DZE - 7Daze Click-Mates Pods (Liq Pod)(20mg 18mL; 9mL x2) (2-Pack)",
+    "flavor": "Rainbow Berries"
+  },
+  {
+    "index": 233,
+    "brand": "7DZE",
+    "product_name": "7DZE - 7Daze Click-Mates Pods (Liq Pod)(20mg 18mL; 9mL x2) (2-Pack)",
+    "flavor": "Red Grapplemelon"
+  },
+  {
+    "index": 234,
+    "brand": "7DZE",
+    "product_name": "7DZE - 7Daze Click-Mates Pods (Liq Pod)(20mg 18mL; 9mL x2) (2-Pack)",
+    "flavor": "Sakura Grape"
+  },
+  {
+    "index": 235,
+    "brand": "7DZE",
+    "product_name": "7DZE - 7Daze Click-Mates Pods (Liq Pod)(20mg 18mL; 9mL x2) (2-Pack)",
+    "flavor": "Sour Apple Belts"
+  },
+  {
+    "index": 236,
+    "brand": "7DZE",
+    "product_name": "7DZE - 7Daze Click-Mates Pods (Liq Pod)(20mg 18mL; 9mL x2) (2-Pack)",
+    "flavor": "Strawberry Watermelon"
+  },
+  {
+    "index": 237,
+    "brand": "7DZE",
+    "product_name": "7DZE - 7Daze Click-Mates Pods (Liq Pod)(50mg 18mL; 9mL x2) (2-Pack)",
+    "flavor": "Bomb Pop"
+  },
+  {
+    "index": 238,
+    "brand": "7DZE",
+    "product_name": "7DZE - 7Daze Click-Mates Pods (Liq Pod)(50mg 18mL; 9mL x2) (2-Pack)",
+    "flavor": "Georgia Peach"
+  },
+  {
+    "index": 239,
+    "brand": "7DZE",
+    "product_name": "7DZE - 7Daze Click-Mates Pods (Liq Pod)(50mg 18mL; 9mL x2) (2-Pack)",
+    "flavor": "Grapeberry Splash"
+  },
+  {
+    "index": 240,
+    "brand": "7DZE",
+    "product_name": "7DZE - 7Daze Click-Mates Pods (Liq Pod)(50mg 18mL; 9mL x2) (2-Pack)",
+    "flavor": "Island Cooler"
+  },
+  {
+    "index": 241,
+    "brand": "7DZE",
+    "product_name": "7DZE - 7Daze Click-Mates Pods (Liq Pod)(50mg 18mL; 9mL x2) (2-Pack)",
+    "flavor": "Island Tiki Punch"
+  },
+  {
+    "index": 242,
+    "brand": "7DZE",
+    "product_name": "7DZE - 7Daze Click-Mates Pods (Liq Pod)(50mg 18mL; 9mL x2) (2-Pack)",
+    "flavor": "Lycheed Dragon Jelly"
+  },
+  {
+    "index": 243,
+    "brand": "7DZE",
+    "product_name": "7DZE - 7Daze Click-Mates Pods (Liq Pod)(50mg 18mL; 9mL x2) (2-Pack)",
+    "flavor": "Mango Madness"
+  },
+  {
+    "index": 244,
+    "brand": "7DZE",
+    "product_name": "7DZE - 7Daze Click-Mates Pods (Liq Pod)(50mg 18mL; 9mL x2) (2-Pack)",
+    "flavor": "Rainbow Berries"
+  },
+  {
+    "index": 245,
+    "brand": "7DZE",
+    "product_name": "7DZE - 7Daze Click-Mates Pods (Liq Pod)(50mg 18mL; 9mL x2) (2-Pack)",
+    "flavor": "Red Grapplemelon"
+  },
+  {
+    "index": 246,
+    "brand": "7DZE",
+    "product_name": "7DZE - 7Daze Click-Mates Pods (Liq Pod)(50mg 18mL; 9mL x2) (2-Pack)",
+    "flavor": "Sakura Grape"
+  },
+  {
+    "index": 247,
+    "brand": "7DZE",
+    "product_name": "7DZE - 7Daze Click-Mates Pods (Liq Pod)(50mg 18mL; 9mL x2) (2-Pack)",
+    "flavor": "Sour Apple Belts"
+  },
+  {
+    "index": 390,
+    "brand": "BDVC",
+    "product_name": "BDVC - Beard (LIQ FB)(120mL)",
+    "flavor": "Sweet and Sour Sugar Peach",
+    "nicotine_mg": 0,
+    "product_series": "No. 71"
+  },
+  {
+    "index": 391,
+    "brand": "BDVC",
+    "product_name": "BDVC - Beard (LIQ FB)(120mL)",
+    "flavor": "Sweet and Sour Sugar Peach",
+    "nicotine_mg": 3,
+    "product_series": "No. 71"
+  },
+  {
+    "index": 392,
+    "brand": "BDVC",
+    "product_name": "BDVC - Beard (LIQ FB)(120mL)",
+    "flavor": "Sweet and Sour Sugar Peach",
+    "nicotine_mg": 6,
+    "product_series": "No. 71"
+  },
+  {
+    "index": 400,
+    "brand": "BDVC",
+    "product_name": "BDVC - Beard (LIQ FB)(60mL)",
+    "flavor": "Sweet and Sour Sugar Peach",
+    "nicotine_mg": 3,
+    "product_series": "No. 71"
+  },
+  {
+    "index": 401,
+    "brand": "BDVC",
+    "product_name": "BDVC - Beard (LIQ FB)(60mL)",
+    "flavor": "Sweet and Sour Sugar Peach",
+    "nicotine_mg": 6,
+    "product_series": "No. 71"
+  },
+  {
+    "index": 409,
+    "brand": "BDVC",
+    "product_name": "BDVC - Beard (LIQ Salt)(30mL)",
+    "flavor": "Sweet and Sour Sugar Peach",
+    "nicotine_mg": 30,
+    "product_series": "No. 71"
+  },
+  {
+    "index": 410,
+    "brand": "BDVC",
+    "product_name": "BDVC - Beard (LIQ Salt)(30mL)",
+    "flavor": "Sweet and Sour Sugar Peach",
+    "nicotine_mg": 50,
+    "product_series": "No. 71"
+  },
+  {
+    "index": 435,
+    "brand": "BLKO",
+    "product_name": "BLKO - Loud (LIQ FB)(100mL) TFN",
+    "flavor": "Apple Ice",
+    "nicotine_mg": 3,
+    "discontinued": true
+  },
+  {
+    "index": 436,
+    "brand": "BLKO",
+    "product_name": "BLKO - Loud (LIQ FB)(100mL) TFN",
+    "flavor": "Cereal Milk",
+    "nicotine_mg": 3,
+    "discontinued": true
+  },
+  {
+    "index": 437,
+    "brand": "BLKO",
+    "product_name": "BLKO - Loud (LIQ FB)(100mL) TFN",
+    "flavor": "Crunch Toast",
+    "nicotine_mg": 3,
+    "discontinued": true
+  },
+  {
+    "index": 438,
+    "brand": "BLKO",
+    "product_name": "BLKO - Loud (LIQ FB)(100mL) TFN",
+    "flavor": "Strawberry Kiwi",
+    "nicotine_mg": 3,
+    "discontinued": true
+  },
+  {
+    "index": 439,
+    "brand": "BLKO",
+    "product_name": "BLKO - Loud (LIQ FB)(100mL)TFN",
+    "flavor": "Crunch Toast",
+    "nicotine_mg": 6,
+    "discontinued": true
+  },
+  {
+    "index": 1007,
+    "brand": "DDYS",
+    "product_name": "DDYS - No Hype (LIQ FB)(100mL)"
+  },
+  {
+    "index": 1008,
+    "brand": "DDYS",
+    "product_name": "DDYS - No Hype (LIQ FB)(100mL)"
+  },
+  {
+    "index": 1012,
+    "brand": "DDYS",
+    "product_name": "DDYS - No Hype (LIQ Salt)(30mL)"
+  },
+  {
+    "index": 1013,
+    "brand": "DDYS",
+    "product_name": "DDYS - No Hype (LIQ Salt)(30mL)"
+  },
+  {
+    "index": 1163,
+    "brand": "DMVW",
+    "product_name": "DMVW - Geek Bar Digi Flavor BRK (Battery Only) (1000mAh)",
+    "color": "Black"
+  },
+  {
+    "index": 1186,
+    "brand": "DOTM",
+    "product_name": "DOTM - Dotmod DotPod Plus (Pods)(2-Pack) 3mL",
+    "resistance_ohm": "0.6"
+  },
+  {
+    "index": 1187,
+    "brand": "DOTM",
+    "product_name": "DOTM - Dotmod DotPod Plus (Pods)(2-Pack) 3mL",
+    "resistance_ohm": "1.0"
+  },
+  {
+    "index": 1188,
+    "brand": "DOTM",
+    "product_name": "DOTM - Dotmod Dotstick (Coils)(5-Pack)",
+    "resistance_ohm": "1.0"
+  },
+  {
+    "index": 1248,
+    "brand": "DVPO",
+    "product_name": "DVPO - Dovpo TMD Mesh (Coils)(5-Pack)",
+    "resistance_ohm": "0.55"
+  },
+  {
+    "index": 1249,
+    "brand": "EFST",
+    "product_name": "EFST - Efest (Charger) Lush Box Battery"
+  },
+  {
+    "index": 1338,
+    "brand": "FNST",
+    "product_name": "FNST - Finest (LIQ FB)(120mL; 60mL x2) Signature Edt.",
+    "flavor": "VCT",
+    "nicotine_mg": 6,
+    "discontinued": true
+  },
+  {
+    "index": 1368,
+    "brand": "FRFM",
+    "product_name": "FRFM - Esco Bar/Fruitia Mesh (Dispo) (5000Puff)(12mL) -White Gummy 50mg"
+  },
+  {
+    "index": 1390,
+    "brand": "FRMX",
+    "product_name": "FRMX - Freemax (REPL. Glass)(1pc) Mesh Pro"
+  },
+  {
+    "index": 1391,
+    "brand": "FRMX",
+    "product_name": "FRMX - Freemax EVOX (Pods)(3-pack) 5mL",
+    "resistance_ohm": "0.6"
+  },
+  {
+    "index": 1392,
+    "brand": "FRMX",
+    "product_name": "FRMX - Freemax Fireluke M Series (Coils)(5-Pack)",
+    "coil_model": "NX2 Mesh",
+    "resistance_ohm": "0.5"
+  },
+  {
+    "index": 1393,
+    "brand": "FRMX",
+    "product_name": "FRMX - Freemax Fireluke M Series (Coils)(5-Pack)",
+    "coil_model": "SS316 X1 Mesh",
+    "resistance_ohm": "0.12"
+  },
+  {
+    "index": 1394,
+    "brand": "FRMX",
+    "product_name": "FRMX - Freemax Fireluke M Series (Coils)(5-Pack)",
+    "coil_model": "TX1",
+    "resistance_ohm": "0.15"
+  },
+  {
+    "index": 1395,
+    "brand": "FRMX",
+    "product_name": "FRMX - Freemax Fireluke M Series (Coils)(5-Pack)",
+    "coil_model": "TX2",
+    "resistance_ohm": "0.2"
+  },
+  {
+    "index": 1396,
+    "brand": "FRMX",
+    "product_name": "FRMX - Freemax Fireluke M Series (Coils)(5-Pack)",
+    "coil_model": "X1 Mesh",
+    "resistance_ohm": "0.15"
+  },
+  {
+    "index": 1397,
+    "brand": "FRMX",
+    "product_name": "FRMX - Freemax Fireluke M Series (Coils)(5-Pack)",
+    "coil_model": "X2 Mesh",
+    "resistance_ohm": "0.2"
+  },
+  {
+    "index": 1398,
+    "brand": "FRMX",
+    "product_name": "FRMX - Freemax Fireluke M Series (Coils)(5-Pack)",
+    "coil_model": "X3 Mesh",
+    "resistance_ohm": "0.15"
+  },
+  {
+    "index": 1399,
+    "brand": "FRMX",
+    "product_name": "FRMX - Freemax Galex (Pods)(2-Pack)"
+  },
+  {
+    "index": 1420,
+    "brand": "FRMX",
+    "product_name": "FRMX - Freemax Maxus Pro 904L M Mesh (Coils)(3-Pack)",
+    "coil_model": "M4 Mesh",
+    "resistance_ohm": "0.15"
+  },
+  {
+    "index": 1421,
+    "brand": "FRMX",
+    "product_name": "FRMX - Freemax MS Mesh (Coils)(5-Pack)",
+    "resistance_ohm": "0.25"
+  },
+  {
+    "index": 1422,
+    "brand": "FRMX",
+    "product_name": "FRMX - Freemax MS Mesh (Coils)(5-Pack)",
+    "resistance_ohm": "0.35"
+  },
+  {
+    "index": 1423,
+    "brand": "FRMX",
+    "product_name": "FRMX - Freemax Starlux (Kit PS)",
+    "color": "Black"
+  },
+  {
+    "index": 1424,
+    "brand": "FRMX",
+    "product_name": "FRMX - Freemax Starlux (Kit PS)",
+    "color": "Red Gold"
+  },
+  {
+    "index": 1425,
+    "brand": "FRMX",
+    "product_name": "FRMX - Freemax Starlux (Pods)(1pc)",
+    "volume_ml": 4
+  },
+  {
+    "index": 1426,
+    "brand": "FRMX",
+    "product_name": "FRMX - Freemax X1-D Mesh (Coils)(5-Pack)",
+    "resistance_ohm": "0.15"
+  },
+  {
+    "index": 1427,
+    "brand": "FRMX",
+    "product_name": "FRMX - Freemax Xfill Pods (5mL pod + 10mL bottle)",
+    "resistance_ohm": "0.6"
+  },
+  {
+    "index": 1437,
+    "brand": "GKVP",
+    "product_name": "GKVP - Geekvape Aegis Boost 3 (Kit PS)",
+    "color": "Black"
+  },
+  {
+    "index": 1438,
+    "brand": "GKVP",
+    "product_name": "GKVP - Geekvape Aegis Boost 3 (Kit PS)",
+    "color": "Rainbow Purple"
+  },
+  {
+    "index": 1439,
+    "brand": "GKVP",
+    "product_name": "GKVP - Geekvape Aegis Boost 3 (Kit PS)",
+    "color": "Teal Blue"
+  },
+  {
+    "index": 1440,
+    "brand": "GKVP",
+    "product_name": "GKVP - Geekvape Aegis Max 2 Max100 (Kit SK)",
+    "color": "Rainbow"
+  },
+  {
+    "index": 1441,
+    "brand": "GKVP",
+    "product_name": "GKVP - Geekvape Aegis Max 2 Max100 (Mod)",
+    "color": "Black"
+  },
+  {
+    "index": 1442,
+    "brand": "GKVP",
+    "product_name": "GKVP - Geekvape B Series (Coils)(5-Pack)",
+    "coil_model": "B1.2",
+    "resistance_ohm": "1.2"
+  },
+  {
+    "index": 1443,
+    "brand": "GKVP",
+    "product_name": "GKVP - GeekVape B100 Empty (Pods)(2-Pack)"
+  },
+  {
+    "index": 1444,
+    "brand": "GKVP",
+    "product_name": "GKVP - Geekvape Boost Pro 2 B100 (Kit PS)",
+    "color": "Black"
+  },
+  {
+    "index": 1445,
+    "brand": "GKVP",
+    "product_name": "GKVP - Geekvape Boost Pro 2 B100 (Kit PS)",
+    "color": "Bottle Green"
+  },
+  {
+    "index": 1446,
+    "brand": "GKVP",
+    "product_name": "GKVP - Geekvape Boost Pro 2 B100 (Kit PS)",
+    "color": "Golden Red"
+  },
+  {
+    "index": 1447,
+    "brand": "GKVP",
+    "product_name": "GKVP - Geekvape Boost Pro 2 B100 (Kit PS)",
+    "color": "Mint Blue"
+  },
+  {
+    "index": 1448,
+    "brand": "GKVP",
+    "product_name": "GKVP - Geekvape Boost Pro 2 B100 (Kit PS)",
+    "color": "Rainbow"
+  },
+  {
+    "index": 1583,
+    "brand": "HMBL",
+    "product_name": "HMBL - Humble (LIQ FB)(60mL)",
+    "flavor": "Strawberry Banana",
+    "nicotine_mg": 6
+  },
+  {
+    "index": 1584,
+    "brand": "HMBL",
+    "product_name": "HMBL - Humble (LIQ FB)(60mL)",
+    "flavor": "Sweet Citrus",
+    "nicotine_mg": 6
+  },
+  {
+    "index": 1585,
+    "brand": "HMBL",
+    "product_name": "HMBL - Humble (LIQ FB)(60mL)",
+    "flavor": "Toffee Vanilla Custard",
+    "nicotine_mg": 3
+  },
+  {
+    "index": 1586,
+    "brand": "HMBL",
+    "product_name": "HMBL - Humble (LIQ FB)(60mL)",
+    "flavor": "Unicorn",
+    "nicotine_mg": 6
+  },
+  {
+    "index": 1587,
+    "brand": "HMBL",
+    "product_name": "HMBL - Humble (LIQ FB)(60mL)",
+    "flavor": "Unicorn Treats",
+    "nicotine_mg": 3
+  },
+  {
+    "index": 1588,
+    "brand": "HMBL",
+    "product_name": "HMBL - Humble (LIQ FB)(60mL)",
+    "flavor": "Vanilla Almond Tobacco",
+    "nicotine_mg": 3
+  },
+  {
+    "index": 1589,
+    "brand": "HMBL",
+    "product_name": "HMBL - Humble (LIQ Salt)(30mL)",
+    "flavor": "Banana Bread",
+    "nicotine_mg": 36
+  },
+  {
+    "index": 1590,
+    "brand": "HMBL",
+    "product_name": "HMBL - Humble (LIQ Salt)(30mL)",
+    "flavor": "Blue Raspberry",
+    "nicotine_mg": 36
+  },
+  {
+    "index": 1591,
+    "brand": "HMBL",
+    "product_name": "HMBL - Humble (LIQ Salt)(30mL)",
+    "flavor": "Blue Raspberry Menthol",
+    "nicotine_mg": 36
+  },
+  {
+    "index": 1592,
+    "brand": "HMBL",
+    "product_name": "HMBL - Humble (LIQ Salt)(30mL)",
+    "flavor": "Creamy Crunch",
+    "nicotine_mg": 36
+  },
+  {
+    "index": 1593,
+    "brand": "HMBL",
+    "product_name": "HMBL - Humble (LIQ Salt)(30mL)",
+    "flavor": "Kiwi Berry Citrus",
+    "nicotine_mg": 36
+  },
+  {
+    "index": 1594,
+    "brand": "HMBL",
+    "product_name": "HMBL - Humble (LIQ Salt)(30mL)",
+    "flavor": "Mango Passionfruit",
+    "nicotine_mg": 36
+  },
+  {
+    "index": 1595,
+    "brand": "HMBL",
+    "product_name": "HMBL - Humble (LIQ Salt)(30mL)",
+    "flavor": "Strawberry Banana",
+    "nicotine_mg": 36
+  },
+  {
+    "index": 1596,
+    "brand": "HMBL",
+    "product_name": "HMBL - Humble (LIQ Salt)(30mL)",
+    "flavor": "Sweet Citrus",
+    "nicotine_mg": 36
+  },
+  {
+    "index": 1597,
+    "brand": "HMBL",
+    "product_name": "HMBL - Humble (LIQ Salt)(30mL)",
+    "flavor": "Toffee Vanilla Custard",
+    "nicotine_mg": 36
+  },
+  {
+    "index": 1598,
+    "brand": "HMBL",
+    "product_name": "HMBL - Humble (LIQ Salt)(30mL)",
+    "flavor": "Vanilla Almond Tobacco",
+    "nicotine_mg": 36
+  },
+  {
+    "index": 1599,
+    "brand": "HMBL",
+    "product_name": "HMBL - Humble (LIQ Salt)(30mL)",
+    "flavor": "VTR",
+    "nicotine_mg": 35
+  },
+  {
+    "index": 1600,
+    "brand": "HMBL",
+    "product_name": "HMBL - Humble (LIQ Salt)(30mL)",
+    "flavor": "Watermelon",
+    "nicotine_mg": 36
+  },
+  {
+    "index": 1611,
+    "brand": "HRZN",
+    "product_name": "HRZN - Horizon Aquila (Coils)(3-Pack)",
+    "model": "E2",
+    "resistance_ohm": "0.16",
+    "note": "was E1"
+  },
+  {
+    "index": 1626,
+    "brand": "HRZN",
+    "product_name": "HRZN - Horizon Falcon (Coils)(3-Pack)",
+    "model": "M1"
+  },
+  {
+    "index": 1627,
+    "brand": "HRZN",
+    "product_name": "HRZN - Horizon Falcon (Coils)(3-Pack)",
+    "model": "M6",
+    "resistance_ohm": "0.15"
+  },
+  {
+    "index": 1628,
+    "brand": "HRZN",
+    "product_name": "HRZN - Horizon Falcon (Coils)(3-Pack)",
+    "model": "M8",
+    "resistance_ohm": "0.15"
+  },
+  {
+    "index": 1629,
+    "brand": "HRZN",
+    "product_name": "HRZN - Horizon Falcon (Coils)(3-Pack)",
+    "model": "M-Triple"
+  },
+  {
+    "index": 1630,
+    "brand": "HRZN",
+    "product_name": "HRZN - Horizon Falcon 2 (Coils)(3-Pack)",
+    "model": "Sector Mesh",
+    "resistance_ohm": "0.14"
+  },
+  {
+    "index": 1631,
+    "brand": "HRZN",
+    "product_name": "HRZN - Horizon Sakerz Master (Tank)",
+    "color": "Rainbow"
+  },
+  {
+    "index": 1632,
+    "brand": "HRZN",
+    "product_name": "HRZN - Horizon Talons (Kit PS)",
+    "color": "Classic Black"
+  },
+  {
+    "index": 1633,
+    "brand": "HRZN",
+    "product_name": "HRZN - Horizon Talons (Pods)(2-Pack)",
+    "resistance_ohm": "0.4"
+  },
+  {
+    "index": 1634,
+    "brand": "HRZN",
+    "product_name": "HRZN - Horizon Talons (Pods)(2-Pack)",
+    "resistance_ohm": "0.6"
+  },
+  {
+    "index": 1635,
+    "brand": "HRZN",
+    "product_name": "HRZN - Horizon Talons (Pods)(2-Pack)",
+    "resistance_ohm": "0.8"
+  },
+  {
+    "index": 1636,
+    "brand": "HRZN",
+    "product_name": "HRZN - Horizon Talons (Pods)(2-Pack)",
+    "resistance_ohm": "1.0"
+  },
+  {
+    "index": 1637,
+    "brand": "HRZN",
+    "product_name": "HRZN - Horizon Talons Starter (Kit PS)",
+    "color": "Apple Green"
+  },
+  {
+    "index": 1638,
+    "brand": "HRZN",
+    "product_name": "HRZN - Horizon Talons Starter (Kit PS)",
+    "color": "Classic Black"
+  },
+  {
+    "index": 1639,
+    "brand": "HRZN",
+    "product_name": "HRZN - Horizon Talons Starter (Kit PS)",
+    "color": "Sky Blue"
+  },
+  {
+    "index": 1688,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK (REPL. Glass) #4 Baby Bulb (1pc)"
+  },
+  {
+    "index": 1689,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK (REPL. Glass) #7 Baby V2 Bulb (1pc)"
+  },
+  {
+    "index": 1690,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Baby (Coils)(5-Pack)",
+    "model": "Baby Strip"
+  },
+  {
+    "index": 1691,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Baby (Coils)(5-Pack)",
+    "model": "M2",
+    "resistance_ohm": "0.15"
+  },
+  {
+    "index": 1692,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Baby (Coils)(5-Pack)",
+    "model": "M2",
+    "resistance_ohm": "0.25"
+  },
+  {
+    "index": 1693,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Baby (Coils)(5-Pack)",
+    "coil_type": "Mesh",
+    "resistance_ohm": "0.15"
+  },
+  {
+    "index": 1694,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Baby (Coils)(5-Pack)",
+    "model": "Q2",
+    "resistance_ohm": "0.4"
+  },
+  {
+    "index": 1715,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Mag Solo (Mod)",
+    "color": "Grey",
+    "material": "Splicing Leather"
+  },
+  {
+    "index": 1716,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Mag Solo (Mod)",
+    "color": "Matte White"
+  },
+  {
+    "index": 1717,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Mag Solo (Mod)",
+    "color": [
+      "White",
+      "Blue"
+    ]
+  },
+  {
+    "index": 1718,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Nord (Coils)(5-Pack)",
+    "coil_type": "Mesh",
+    "vaping_style": "MTL",
+    "resistance_ohm": "0.8"
+  },
+  {
+    "index": 1719,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Nord (Coils)(5-Pack)",
+    "vaping_style": "MTL",
+    "coil_type": "DC",
+    "resistance_ohm": "0.8"
+  },
+  {
+    "index": 1720,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Nord 2 (Kit PS)",
+    "color_pattern": "7-Color Cobra"
+  },
+  {
+    "index": 1721,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Nord 2 (Pods)(3-Pack)",
+    "compatibility": "Nord"
+  },
+  {
+    "index": 1722,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Nord 4 (Kit PS)",
+    "color_pattern": "7-Color Armor"
+  },
+  {
+    "index": 1723,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Nord 4 (Kit PS)",
+    "color": "Black"
+  },
+  {
+    "index": 1724,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Nord 4 (Kit PS)",
+    "color": "Blue Grey Armor"
+  },
+  {
+    "index": 1725,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Nord 4 (Kit PS)",
+    "color_pattern": "Fluid 7-Color"
+  },
+  {
+    "index": 1726,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Nord 4 (Kit PS)",
+    "color": "White Armor"
+  },
+  {
+    "index": 1727,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Nord 5 (Kit PS)",
+    "color_pattern": "7-Color Dart"
+  },
+  {
+    "index": 1728,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Nord 5 (Kit PS)",
+    "color": [
+      "Beige",
+      "White"
+    ]
+  },
+  {
+    "index": 1729,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Nord 5 (Kit PS)",
+    "color": "Black"
+  },
+  {
+    "index": 1730,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Nord 5 (Kit PS)",
+    "color": "Black Dart"
+  },
+  {
+    "index": 1731,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Nord 5 (Kit PS)",
+    "color": "Blue Grey Dart"
+  },
+  {
+    "index": 1732,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Nord 5 (Kit PS)",
+    "color": "Green Blue Dart"
+  },
+  {
+    "index": 1733,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Nord 5 (Kit PS)",
+    "color": "Grey"
+  },
+  {
+    "index": 1734,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Nord 5 (Kit PS)",
+    "color": "Red Grey Dart"
+  },
+  {
+    "index": 1735,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Nord 50W (Pods)(3-Pack)",
+    "compatibility": "LP2"
+  },
+  {
+    "index": 1736,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Nord 50W (Pods)(3-Pack)",
+    "compatibility": "Nord"
+  },
+  {
+    "index": 1737,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Nord GT (Kit PS)",
+    "color": "Black Carbon Fiber"
+  },
+  {
+    "index": 1738,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Nord GT (Kit PS) Leather Edt.- Black Gun Metal"
+  },
+  {
+    "index": 1739,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Nord Pro (Coils)(5-Pack)",
+    "coil_type": "Mesh",
+    "resistance_ohm": "0.6",
+    "vaping_style": "DL"
+  },
+  {
+    "index": 1740,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Nord Pro (Coils)(5-Pack)",
+    "coil_type": "Mesh",
+    "resistance_ohm": "0.9"
+  },
+  {
+    "index": 1741,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Nord Pro (Pods)(3-Pack)"
+  },
+  {
+    "index": 1742,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo (Pods)(3-Pack)",
+    "coil_type": "Ceramic",
+    "resistance_ohm": "1.4"
+  },
+  {
+    "index": 1743,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo (Pods)(3-Pack)",
+    "coil_type": "Regular",
+    "resistance_ohm": "1.2"
+  },
+  {
+    "index": 1744,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo (Pods)(3-Pack)",
+    "coil_type": "Regular",
+    "resistance_ohm": "1.5"
+  },
+  {
+    "index": 1745,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo (Pods)(3-Pack) TF",
+    "coil_type": "Mesh",
+    "resistance_ohm": "0.6"
+  },
+  {
+    "index": 1746,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 2 (Kit PS)",
+    "color": "7-Color"
+  },
+  {
+    "index": 1747,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 2 (Kit PS)",
+    "color": "7-Color Shell"
+  },
+  {
+    "index": 1748,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 2 (Kit PS)",
+    "color": "7-Color Spray"
+  },
+  {
+    "index": 1749,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 2 (Kit PS)",
+    "color": "Black Carbon Fiber"
+  },
+  {
+    "index": 1750,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 2 (Kit PS)",
+    "color": "Black Wood"
+  },
+  {
+    "index": 1751,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 2 (Kit PS)",
+    "color": "Black/White"
+  },
+  {
+    "index": 1752,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 2 (Kit PS)",
+    "color": "Blue/Black"
+  },
+  {
+    "index": 1753,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 2 (Kit PS)",
+    "color": "Green/Red"
+  },
+  {
+    "index": 1754,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 2 (Kit PS)",
+    "color": "IML 7-Color Cobra"
+  },
+  {
+    "index": 1755,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 2 (Kit PS)",
+    "color": "IML Blue",
+    "pattern": "Cobra"
+  },
+  {
+    "index": 1756,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 2 (Kit PS)",
+    "color": "IML White",
+    "pattern": "Cobra"
+  },
+  {
+    "index": 1757,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 2 (Kit PS)",
+    "color": "Purple Wood"
+  },
+  {
+    "index": 1758,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 2 (Kit PS)",
+    "color": "Tiffany Blue",
+    "pattern": "Shell",
+    "design": "Peacock"
+  },
+  {
+    "index": 1759,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 2 (Kit PS)",
+    "color": "Yellow/Purple"
+  },
+  {
+    "index": 1760,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 2 (Pods)(3-Pack)",
+    "coil_type": "DC",
+    "resistance_ohm": "1.4",
+    "vaping_style": "MTL",
+    "pack_quantity": 3
+  },
+  {
+    "index": 1761,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 2 (Pods)(3-Pack)",
+    "coil_type": "Mesh",
+    "resistance_ohm": "1.0"
+  },
+  {
+    "index": 1762,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 2 (Pods)(3-Pack)",
+    "material": "Quartz",
+    "resistance_ohm": "1.4"
+  },
+  {
+    "index": 1763,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 2C (Kit PS)",
+    "color": "Black"
+  },
+  {
+    "index": 1764,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 2C (Kit PS)",
+    "color": "Grey"
+  },
+  {
+    "index": 1765,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 2C (Kit PS)",
+    "color": "Rose Gold"
+  },
+  {
+    "index": 1766,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 2C (Kit PS)",
+    "color": "Silver Blue"
+  },
+  {
+    "index": 1767,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 2C (Kit PS)",
+    "color": "Silver Green"
+  },
+  {
+    "index": 1768,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 2C (Kit PS)",
+    "color": "Silver Purple"
+  },
+  {
+    "index": 1769,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 2S (Kit PS)",
+    "color": "Blue Grey",
+    "pattern": "Armor"
+  },
+  {
+    "index": 1770,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 2X (Kit PS)",
+    "color": "7-Color",
+    "pattern": "Cobra"
+  },
+  {
+    "index": 1771,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 2X (Kit PS)",
+    "color": "Black",
+    "pattern": "Cobra"
+  },
+  {
+    "index": 1772,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 2X (Kit PS)",
+    "color": "Fluid",
+    "pattern": "7-Color"
+  },
+  {
+    "index": 1773,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 2X (Kit PS)",
+    "color": "Fluid Black Grey"
+  },
+  {
+    "index": 1774,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 2X (Kit PS)",
+    "color": "Green Blue",
+    "pattern": "Cobra"
+  },
+  {
+    "index": 1775,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 3 (Kit PS)",
+    "color": "Black",
+    "material": "Carbon Fiber"
+  },
+  {
+    "index": 1776,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 3 (Kit PS)",
+    "color": "Gold",
+    "material": "Carbon Fiber"
+  },
+  {
+    "index": 1777,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 3 (Kit PS)",
+    "color": "Red",
+    "material": "Carbon Fiber"
+  },
+  {
+    "index": 1778,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 3 (Kit PS)",
+    "color": "Tiffany Blue",
+    "material": "Carbon Fiber",
+    "pattern": "Peacock"
+  },
+  {
+    "index": 1779,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 5 (Kit PS)",
+    "color": "Beige White",
+    "material": "Leather"
+  },
+  {
+    "index": 1780,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 5 (Kit PS)",
+    "color": "Brown",
+    "material": "Leather"
+  },
+  {
+    "index": 1781,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo 5 (Kit PS)",
+    "color": "Red",
+    "material": "Stabwood"
+  },
+  {
+    "index": 1782,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo Eco (Kit PS) 1000mAh",
+    "color": "Pink"
+  },
+  {
+    "index": 1783,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo GT Box (Kit PS)",
+    "color": "Gun Metal"
+  },
+  {
+    "index": 1784,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo M (Pods)(3-Pack) 2mL Top-Fill",
+    "resistance_ohm": 0.6
+  },
+  {
+    "index": 1785,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo M (Pods)(3-Pack) 2mL Top-Fill -0.8ohm"
+  },
+  {
+    "index": 1786,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo M (Pods)(3-Pack) 2mL Top-Fill -1.0ohm"
+  },
+  {
+    "index": 1787,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo Master (Kit PS)",
+    "color": "Black",
+    "material": "Carbon Fiber"
+  },
+  {
+    "index": 1788,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo Master (Kit PS) Leather Series",
+    "color": "White"
+  },
+  {
+    "index": 1789,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo Pro (Kit PS)",
+    "color": "Pink Black"
+  },
+  {
+    "index": 1790,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo Pro (Kit PS)",
+    "color": "Silver Black"
+  },
+  {
+    "index": 1791,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo Pro (Kit PS) Leather Series",
+    "color": "Cyan"
+  },
+  {
+    "index": 1792,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo Pro (Kit PS) Leather Series",
+    "color": "Matte Black"
+  },
+  {
+    "index": 1793,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo Pro (Kit PS) Leather Series",
+    "color": "Purple Pink"
+  },
+  {
+    "index": 1794,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Novo SLR (Pods)(3-Pack) 2mL",
+    "resistance_ohm": 0.6
+  },
+  {
+    "index": 1835,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Solus 2 (Kit PS)",
+    "color": "Lake Blue"
+  },
+  {
+    "index": 1836,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Tech 247 (Pods)(2-Pack)"
+  },
+  {
+    "index": 1837,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK TF (Coils)(3-Pack)",
+    "coil_model": "Stick Mesh",
+    "resistance_ohm": 0.15
+  },
+  {
+    "index": 1838,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK TFV12 (Coils)(3-Pack)",
+    "coil_model": "V12-T12"
+  },
+  {
+    "index": 1839,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK TFV16 (Coils)(3-Pack)",
+    "coil_type": "Conical Mesh",
+    "resistance_ohm": 0.2
+  },
+  {
+    "index": 1840,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK TFV18 (Tank)",
+    "color": "7-Color"
+  },
+  {
+    "index": 1841,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK TFV18 (Tank)",
+    "color": "Blue"
+  },
+  {
+    "index": 1842,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK TFV18 (Tank)",
+    "color": "Gold"
+  },
+  {
+    "index": 1843,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK TFV18 (Tank)",
+    "color": "Matte Black"
+  },
+  {
+    "index": 1844,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK TFV8 (Coils)(3-Pack)",
+    "coil_model": "V8-T12",
+    "status": "Discontinued"
+  },
+  {
+    "index": 1845,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK TFV8 (Coils)(3-Pack)",
+    "coil_model": "V8-X4",
+    "status": "Discontinued"
+  },
+  {
+    "index": 1846,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK TFV9 (Tank)",
+    "color": "Matte Black"
+  },
+  {
+    "index": 1847,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Vape Pen (Coils)(5-Pack)",
+    "resistance_ohm": 0.25
+  },
+  {
+    "index": 1848,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Vape Pen (Coils)(5-Pack)",
+    "coil_type": "Mesh",
+    "resistance_ohm": 0.15
+  },
+  {
+    "index": 1849,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Vape Pen 22 (Coils)(5-Pack)",
+    "resistance_ohm": 0.3
+  },
+  {
+    "index": 1850,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Vape Pen 22 (Coils)(5-Pack)",
+    "coil_model": "X4",
+    "resistance_ohm": 0.4
+  },
+  {
+    "index": 1851,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Vape Pen V2 (Kit SK)",
+    "color": "7-Color"
+  },
+  {
+    "index": 1852,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Vape Pen V2 (Kit SK)",
+    "color": "Black"
+  },
+  {
+    "index": 1853,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Vape Pen V2 (Kit SK)",
+    "color": "Gold"
+  },
+  {
+    "index": 1854,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Vape Pen V2 (Kit SK)",
+    "color": "Red"
+  },
+  {
+    "index": 1855,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK Vape Pen V2 (Kit SK)",
+    "material": "Stainless Steel"
+  },
+  {
+    "index": 1856,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK X-Priv Plus (Kit SK)",
+    "color": "Black"
+  },
+  {
+    "index": 1857,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK X-Priv Plus (Kit SK)",
+    "color": "Mineral Green"
+  },
+  {
+    "index": 1858,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK X-Priv Plus (Mod)",
+    "color": "Black"
+  },
+  {
+    "index": 1859,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK X-Priv Plus (Mod)",
+    "color": "Black Shell"
+  },
+  {
+    "index": 1860,
+    "brand": "IVPS",
+    "product_name": "IVPS - SMOK X-Priv Plus (Mod)",
+    "color": "Mineral Green"
+  },
+  {
+    "index": 1942,
+    "brand": "LMRY",
+    "product_name": "LMRY - Lost Mary BM5000 (Dispo) (5000Puff) 4-5% (14mL)",
+    "flavor": "Lush Ice",
+    "nicotine_mg_range": [
+      40,
+      50
+    ]
+  },
+  {
+    "index": 1943,
+    "brand": "LMRY",
+    "product_name": "LMRY - Lost Mary BM5000 (Dispo) (5000Puff) 4-5% (14mL)",
+    "flavor": "Mango Passion Fruit",
+    "nicotine_mg_range": [
+      40,
+      50
+    ]
+  },
+  {
+    "index": 1944,
+    "brand": "LMRY",
+    "product_name": "LMRY - Lost Mary BM5000 (Dispo) (5000Puff) 4-5% (14mL)",
+    "flavor": "Root",
+    "nicotine_mg_range": [
+      40,
+      50
+    ]
+  },
+  {
+    "index": 1945,
+    "brand": "LSTV",
+    "product_name": "LSTV - Lost Vape E Plus (Pods)(3-Pack)",
+    "coil_type": "Dual Mesh",
+    "resistance_ohm": 0.3
+  },
+  {
+    "index": 1946,
+    "brand": "LSTV",
+    "product_name": "LSTV - Lost Vape Thelema Mini (Kit SK) UB Lite Tank Edt.",
+    "color": "Pink Survivor"
+  },
+  {
+    "index": 1947,
+    "brand": "LSTV",
+    "product_name": "LSTV - Lost Vape UB Lite (Coils)(5-Pack)",
+    "model": "L7",
+    "resistance_ohm": 0.3
+  },
+  {
+    "index": 1948,
+    "brand": "LSTV",
+    "product_name": "LSTV - Lost Vape UB Lite (Coils)(5-Pack)",
+    "model": "L8",
+    "resistance_ohm": 1.2
+  },
+  {
+    "index": 1949,
+    "brand": "LSTV",
+    "product_name": "LSTV - Lost Vape UB Max (Coils)(3-Pack)",
+    "model": "X1",
+    "resistance_ohm": 0.15
+  },
+  {
+    "index": 1950,
+    "brand": "LSTV",
+    "product_name": "LSTV - Lost Vape UB Max (Coils)(3-Pack)",
+    "model": "X3",
+    "resistance_ohm": 0.3
+  },
+  {
+    "index": 1951,
+    "brand": "LSTV",
+    "product_name": "LSTV - Lost Vape UB Ultra (Coils)(5-Pack)",
+    "model": "M7",
+    "resistance_ohm": 0.2
+  },
+  {
+    "index": 1952,
+    "brand": "LSTV",
+    "product_name": "LSTV - Lost Vape Ultra Boost (Coils)(5-Pack)",
+    "model": "M4 V2",
+    "resistance_ohm": 0.2
+  },
+  {
+    "index": 1953,
+    "brand": "LSTV",
+    "product_name": "LSTV - Lost Vape Ultra Boost (Coils)(5-Pack)",
+    "vaping_style": "MTL",
+    "version": "V1",
+    "resistance_ohm": 1.0
+  },
+  {
+    "index": 1954,
+    "brand": "LSTV",
+    "product_name": "LSTV - Lost Vape Ursa (Pods)(1pc) 2mL",
+    "color": "Black"
+  },
+  {
+    "index": 1955,
+    "brand": "LSTV",
+    "product_name": "LSTV - Lost Vape Ursa V2 (Pods)(3-Pack) 2.5mL",
+    "resistance_ohm": 0.6
+  },
+  {
+    "index": 1956,
+    "brand": "LSTV",
+    "product_name": "LSTV - Lost Vape Ursa V2 (Pods)(3-Pack) 2.5mL",
+    "resistance_ohm": "0.8"
+  },
+  {
+    "index": 2036,
+    "brand": "MIPD",
+    "product_name": "MIPD - Mi-Pod 2.0 (Pods)(2-Pack) 2mL",
+    "color": "Clear"
+  },
+  {
+    "index": 2037,
+    "brand": "MIPD",
+    "product_name": "MIPD - Mi-Pod Pro (Kit PS)",
+    "color": "Blue Pebbles"
+  },
+  {
+    "index": 2038,
+    "brand": "MIPD",
+    "product_name": "MIPD - Mi-Pod Pro (Pods)(2-Pack) 2mL",
+    "color": "Black"
+  },
+  {
+    "index": 2039,
+    "brand": "MIPD",
+    "product_name": "MIPD - Mi-Pod Pro (Pods)(2-Pack) 2mL",
+    "color": "Red"
+  },
+  {
+    "index": 2048,
+    "brand": "MISC",
+    "product_name": "MISC - Voom Pod (Kit SK)",
+    "color": "Gold"
+  },
+  {
+    "index": 2049,
+    "brand": "MLVS",
+    "product_name": "MLVS - Phix (LIQPOD)(Pods)(4-Pack)",
+    "flavor": "Original Blend"
+  },
+  {
+    "index": 2050,
+    "brand": "MLVS",
+    "product_name": "MLVS - Phix (LIQPOD)(Pods)(4-Pack)",
+    "flavor": "Tobacco Menthol"
+  },
+  {
+    "index": 2290,
+    "brand": "OXBR",
+    "product_name": "OXBR - Oxbar Nic-Switch (Dispo) (35000Puff)(14mL) Pod Juice Edt.",
+    "flavor": "Jewel Tobacco",
+    "nicotine_mg_min": 0,
+    "nicotine_mg_max": 50
+  },
+  {
+    "index": 2291,
+    "brand": "OXBR",
+    "product_name": "OXBR - Oxbar Nic-Switch (Dispo) (35000Puff)(14mL) Pod Juice Edt.",
+    "flavor": "Unflavored",
+    "nicotine_mg_min": 0,
+    "nicotine_mg_max": 50
+  },
+  {
+    "index": 2292,
+    "brand": "OXBR",
+    "product_name": "OXBR - Oxbar Oxpod Elite (Pods)(2-Pack) 8mL Pod Juice Edt.",
+    "resistance_ohm": "0.8"
+  },
+  {
+    "index": 2293,
+    "brand": "OXBR",
+    "product_name": "OXBR - SVOPP 30K Battery (Battery Only) Pod Juice Edt.",
+    "color": "Gunmetal"
+  },
+  {
+    "index": 2294,
+    "brand": "OXBR",
+    "product_name": "OXBR - SVOPP 30K Battery (Battery Only) Pod Juice Edt.",
+    "color": "Midnight Black"
+  },
+  {
+    "index": 2296,
+    "brand": "OXBR",
+    "product_name": "OXBR - SVOPP Pods (Liq Pod)(30000Puff)(13mL) Pod Juice Edt.",
+    "color": "Clear Ruby"
+  },
+  {
+    "index": 2297,
+    "brand": "OXBR",
+    "product_name": "OXBR - SVOPP Pods (Liq Pod)(30000Puff)(13mL) Pod Juice Edt.",
+    "color": "Clear Turquoise"
+  },
+  {
+    "index": 2305,
+    "brand": "OXVA",
+    "product_name": "OXVA - OXVA Xlim V3 (Pods)(3-Pack)",
+    "resistance_ohm": "1.2"
+  },
+  {
+    "index": 2306,
+    "brand": "PATA",
+    "product_name": "PATA - Urban Tale Xplore (Pods)(3-Pack) 2mL",
+    "resistance_ohm": "0.6"
+  },
+  {
+    "index": 2307,
+    "brand": "PATA",
+    "product_name": "PATA - Urban Tale Xplore (Pods)(3-Pack) 2mL",
+    "resistance_ohm": "0.8"
+  },
+  {
+    "index": 2416,
+    "brand": "RCKY",
+    "product_name": "RCKY - LVE Orion II (Kit PS)",
+    "color": "Silver Textured Carbon"
+  },
+  {
+    "index": 2417,
+    "brand": "RCKY",
+    "product_name": "RCKY - LVE Orion II (Pods)(2-Pack)",
+    "volume_ml": 4.5
+  },
+  {
+    "index": 2418,
+    "brand": "RCKY",
+    "product_name": "RCKY - LVE Orion II Mesh (Coils)(5-Pack)",
+    "resistance_ohm": "0.4",
+    "vaping_style": "DTL"
+  },
+  {
+    "index": 2585,
+    "brand": "RUTH",
+    "product_name": "RUTH - Ruthless Essentials (LIQ FB)(100mL)",
+    "flavor": "Watermelon Rush on Ice",
+    "nicotine_mg": 3
+  },
+  {
+    "index": 2586,
+    "brand": "RUTH",
+    "product_name": "RUTH - Ruthless Essentials (LIQ FB)(100mL)",
+    "flavor": "Watermelon Rush on Ice",
+    "nicotine_mg": 6
+  },
+  {
+    "index": 2663,
+    "brand": "SIGE",
+    "product_name": "SIGE - Sigelei Sobra (Kit SK)",
+    "color": "Serpentine Yellow"
+  },
+  {
+    "index": 2710,
+    "brand": "STRM",
+    "product_name": "STRM - Juice Head (DSPLY 5pc)(Nic Pouch)(20ct Can) ZTN",
+    "flavor": "Raspberry Lemon Mint",
+    "nicotine_mg": 12
+  },
+  {
+    "index": 2711,
+    "brand": "STRM",
+    "product_name": "STRM - Juice Head (DSPLY 5pc)(Nic Pouch)(20ct Can) ZTN pre-priced",
+    "flavor": "Raspberry Lemon Mint",
+    "nicotine_mg": 6
+  },
+  {
+    "index": 2769,
+    "brand": "SURN",
+    "product_name": "SURN - Suorin Air Mini (Pods)(1pc)"
+  },
+  {
+    "index": 2770,
+    "brand": "SURN",
+    "product_name": "SURN - Suorin Air Pod (Pods)(1pc)",
+    "color": "Black"
+  },
+  {
+    "index": 2771,
+    "brand": "SURN",
+    "product_name": "SURN - Suorin Fero (Pods)(1pc) 3mL",
+    "resistance_ohm": "0.6"
+  },
+  {
+    "index": 2772,
+    "brand": "SURN",
+    "product_name": "SURN - Suorin Fero (Pods)(1pc) 3mL",
+    "resistance_ohm": "0.8"
+  },
+  {
+    "index": 2854,
+    "brand": "TBCO",
+    "product_name": "TBCO - Tobeco Super Tank (Coils)(5-Pack)",
+    "resistance_ohm": "0.5"
+  },
+  {
+    "index": 2855,
+    "brand": "TBCO",
+    "product_name": "TBCO - Tobeco Super Tank (Coils)(5-Pack)",
+    "coil_type": "Mesh",
+    "resistance_ohm": "0.5"
+  },
+  {
+    "index": 2996,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Aeglos (Coils)(4-Pack)",
+    "coil_type": "Regular",
+    "resistance_ohm": "0.8"
+  },
+  {
+    "index": 2997,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Caliburn (Pods)(4-Pack)",
+    "resistance_ohm": "1.4"
+  },
+  {
+    "index": 2998,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Caliburn A2S (Kit PS)",
+    "color": "Blue"
+  },
+  {
+    "index": 2999,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Caliburn A2S (Kit PS)",
+    "color": "Gold"
+  },
+  {
+    "index": 3000,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Caliburn A2S (Kit PS)",
+    "color": "Gradient"
+  },
+  {
+    "index": 3001,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Caliburn A2S (Kit PS)",
+    "color": "Gray"
+  },
+  {
+    "index": 3002,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Caliburn A2S (Kit PS)",
+    "color": "Purple"
+  },
+  {
+    "index": 3003,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Caliburn A3S (Kit PS)",
+    "color": "Iris Purple"
+  },
+  {
+    "index": 3004,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Caliburn A3S (Kit PS)",
+    "color": "Lake Green"
+  },
+  {
+    "index": 3005,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Caliburn A3S (Pods)(4-Pack)",
+    "resistance_ohm": "0.8"
+  },
+  {
+    "index": 3006,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Caliburn A3S (Pods)(4-Pack)",
+    "resistance_ohm": "1.0"
+  },
+  {
+    "index": 3007,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Caliburn AZ3 (Pods)(4-Pack)",
+    "resistance_ohm": "1.2"
+  },
+  {
+    "index": 3008,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Caliburn Explorer (Kit PS)",
+    "color": "Black"
+  },
+  {
+    "index": 3009,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Caliburn Explorer (Pods)(2-Pack)",
+    "volume_ml": 4
+  },
+  {
+    "index": 3010,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Caliburn G (Pods)(2-Pack)",
+    "resistance_ohm": "1.0"
+  },
+  {
+    "index": 3011,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Caliburn G (Pods)(2-Pack)",
+    "coil_type": "UN2 Mesh-H",
+    "resistance_ohm": "0.8"
+  },
+  {
+    "index": 3012,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Caliburn G3 Lite (Kit PS)",
+    "color": "Pearl White"
+  },
+  {
+    "index": 3013,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Caliburn G3 Lite KOKO (Kit PS) 1200mAh",
+    "color": "Basalt Gray"
+  },
+  {
+    "index": 3014,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Caliburn G3 Pro (Kit PS)",
+    "color": "Black Carbon"
+  },
+  {
+    "index": 3015,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Caliburn G3 Pro (Kit PS)",
+    "color": "Frozen Aurora"
+  },
+  {
+    "index": 3016,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Caliburn G4 Mini (Kit PS)",
+    "color": "Light Silver"
+  },
+  {
+    "index": 3017,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Caliburn G4 Mini (Kit PS)",
+    "color": "Night Black"
+  },
+  {
+    "index": 3018,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Caliburn G4 Mini (Kit PS)",
+    "color": "Slate Grey"
+  },
+  {
+    "index": 3019,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Caliburn GPP (Pods)(3-Pack) 3mL Top-Fill",
+    "resistance_ohm": "0.6"
+  },
+  {
+    "index": 3020,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Caliburn Tenet (Kit PS)",
+    "color": "Carbon Black"
+  },
+  {
+    "index": 3021,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Caliburn Tenet (Kit PS)",
+    "color": "Copper Red"
+  },
+  {
+    "index": 3022,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Caliburn X (Pods)(2-Pack) 3mL"
+  },
+  {
+    "index": 3023,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Caliburn X (Pods)(2-Pack) 3mL",
+    "resistance_ohm": "0.8"
+  },
+  {
+    "index": 3044,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Valyrian 2 (Coils)(2-Pack)",
+    "coil_type": "UN2 Single Mesh",
+    "resistance_ohm": "0.32"
+  },
+  {
+    "index": 3045,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Valyrian 2 (Coils)(2-Pack)",
+    "coil_type": "UN2-2 Dual Mesh",
+    "resistance_ohm": "0.14"
+  },
+  {
+    "index": 3046,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Valyrian 2 (Coils)(2-Pack)",
+    "coil_type": "UN2-3 Triple Mesh",
+    "resistance_ohm": "0.16"
+  },
+  {
+    "index": 3047,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Valyrian 3 (Coils)(2-Pack)",
+    "resistance_ohm": "0.14"
+  },
+  {
+    "index": 3048,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Valyrian 3 (Coils)(2-Pack)",
+    "resistance_ohm": "0.32"
+  },
+  {
+    "index": 3049,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Valyrian 3 (Kit SK)",
+    "color": "Amaretto Brown"
+  },
+  {
+    "index": 3050,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Valyrian 3 (Kit SK)",
+    "color": "Lagoon Blue"
+  },
+  {
+    "index": 3051,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Valyrian 3 (Tank)",
+    "color": "Black"
+  },
+  {
+    "index": 3052,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Valyrian 3 (Tank)",
+    "color": "Iridescent"
+  },
+  {
+    "index": 3053,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Valyrian Pod (Coils)(4-Pack) SE",
+    "resistance_ohm": "0.6",
+    "vaping_style": "DTL"
+  },
+  {
+    "index": 3054,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Valyrian Pod (Coils)(4-Pack) SE",
+    "resistance_ohm": "1.0",
+    "vaping_style": "MTL"
+  },
+  {
+    "index": 3055,
+    "brand": "UWLL",
+    "product_name": "UWLL - Uwell Valyrian Pod-Kit (Pods)(1pc)"
+  },
+  {
+    "index": 3092,
+    "brand": "VDXD",
+    "product_name": "VDXD - Mamasan (LIQ FB)(60mL)",
+    "flavor": "Apple Peach Strawberry",
+    "nicotine_mg": 0
+  },
+  {
+    "index": 3093,
+    "brand": "VDXD",
+    "product_name": "VDXD - Mamasan (LIQ FB)(60mL)",
+    "flavor": "Apple Peach Strawberry Ice",
+    "nicotine_mg": 6
+  },
+  {
+    "index": 3094,
+    "brand": "VDXD",
+    "product_name": "VDXD - Mamasan (LIQ FB)(60mL)",
+    "flavor": "Mango Lychee Ice",
+    "nicotine_mg": 6
+  },
+  {
+    "index": 3095,
+    "brand": "VDXD",
+    "product_name": "VDXD - Mamasan (LIQ FB)(60mL)",
+    "flavor": "Honeydew Melon",
+    "nicotine_mg": 0
+  },
+  {
+    "index": 3122,
+    "brand": "VNDY",
+    "product_name": "VNDY - Vandy Vape Jackaroo (Pods)",
+    "color": "SS/Black"
+  },
+  {
+    "index": 3123,
+    "brand": "VNDY",
+    "product_name": "VNDY - Vandy Vape Kylin M Mesh (Coils)(10-Pack)",
+    "coil_type": "Ka1 Mesh",
+    "resistance_ohm": "0.15"
+  },
+  {
+    "index": 3124,
+    "brand": "VNDY",
+    "product_name": "VNDY - Vandy Vape VVC (Coils)(4-Pack)",
+    "resistance_ohm": "0.3",
+    "model": "VVC-30"
+  },
+  {
+    "index": 3125,
+    "brand": "VOPO",
+    "product_name": "VOPO - Voopoo Argus (Pods)(3-Pack) 2mL Top-Fill",
+    "resistance_ohm": "1.0"
+  },
+  {
+    "index": 3146,
+    "brand": "VOPO",
+    "product_name": "VOPO - Voopoo PnP X (Pod Tank)",
+    "vaping_style": "DTL",
+    "color": "Black"
+  },
+  {
+    "index": 3147,
+    "brand": "VOPO",
+    "product_name": "VOPO - Voopoo PnP X (Pods)(2-Pack) 5mL",
+    "vaping_style": "DTL",
+    "color": "Gray"
+  },
+  {
+    "index": 3148,
+    "brand": "VOPO",
+    "product_name": "VOPO - Voopoo Uforce L (REPL. Glass)(1pc)",
+    "color": "Bubble"
+  },
+  {
+    "index": 3149,
+    "brand": "VOPO",
+    "product_name": "VOPO - Voopoo Uforce L (Tank)",
+    "color": "Gunmetal"
+  },
+  {
+    "index": 3150,
+    "brand": "VOPO",
+    "product_name": "VOPO - Voopoo Vinci V2 (Pods)(3-Pack)",
+    "resistance_ohm": 0.8
+  },
+  {
+    "index": 3151,
+    "brand": "VOPO",
+    "product_name": "VOPO - Voopoo Vinci V2 (Pods)(3-Pack)",
+    "resistance_ohm": 1.2
+  },
+  {
+    "index": 3152,
+    "brand": "VOPO",
+    "product_name": "VOPO - Voopoo Vmate V2 (Pods)(2-Pack) 3mL",
+    "resistance_ohm": 0.7
+  },
+  {
+    "index": 3153,
+    "brand": "VOPO",
+    "product_name": "VOPO - Voopoo Vrizz (Kit PS) 800mAh",
+    "color": "Midnight Black"
+  },
+  {
+    "index": 3167,
+    "brand": "VPRB",
+    "product_name": "Sour Summer Splash",
+    "flavor": "Watermelon Green Apple Ice",
+    "nicotine_mg": 6
+  },
+  {
+    "index": 3171,
+    "brand": "VPRB",
+    "product_name": "Sour Summer Splash",
+    "flavor": "Watermelon Green Apple Ice",
+    "nicotine_mg": 25
+  },
+  {
+    "index": 3182,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso (REPL. Glass)(1pc) iTank 2",
+    "volume_ml": 8
+  },
+  {
+    "index": 3183,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso Armour G (Pods)(2-Pack) 5mL",
+    "vaping_style": "DTL"
+  },
+  {
+    "index": 3184,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso Armour GS (Kit SK)",
+    "color": "Black"
+  },
+  {
+    "index": 3185,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso Eco Nano (Kit PS) Metal Edt.",
+    "color": "Phantom Blue"
+  },
+  {
+    "index": 3186,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso Eco Nano (Kit PS) Metal Edt.",
+    "color": "Sakura Pink"
+  },
+  {
+    "index": 3187,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso Eco Nano (Kit PS) Metal Edt.",
+    "color": "Sparkling Purple"
+  },
+  {
+    "index": 3188,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso Eco Nano (Kit PS) Metal Edt.",
+    "color": "Sunrise Orange"
+  },
+  {
+    "index": 3189,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso Eco Nano (Pods)(2-Pack) 6mL",
+    "resistance_ohm": 0.6,
+    "coil_type": "Mesh"
+  },
+  {
+    "index": 3190,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso Eco Nano (Pods)(2-Pack) 6mL Lush Edt.",
+    "resistance_ohm": 0.6,
+    "coil_type": "Mesh"
+  },
+  {
+    "index": 3191,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso Eco Nano (Pods)(2-Pack) 6mL Mesh",
+    "resistance_ohm": 1.2
+  },
+  {
+    "index": 3212,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso Luxe Q (Pods)(4-Pack) 3mL",
+    "resistance": "1.0",
+    "coil_type": "Mesh"
+  },
+  {
+    "index": 3213,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso Luxe Q2 SE (Kit PS)",
+    "color": "Mint Green"
+  },
+  {
+    "index": 3214,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso Luxe XR Max (Kit PS) x1 Pod + x2 Coils Edt.",
+    "color": "Black"
+  },
+  {
+    "index": 3215,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso Luxe XR Max (Kit PS) x1 Pod + x2 Coils Edt.",
+    "color": "Blue"
+  },
+  {
+    "index": 3216,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso Luxe XR Max (Kit PS) x1 Pod + x2 Coils Edt.",
+    "color": "Gray"
+  },
+  {
+    "index": 3217,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso Luxe XR Max (Kit PS) x1 Pod + x2 Coils Edt.",
+    "color": "Green"
+  },
+  {
+    "index": 3218,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso Luxe XR Max (Kit PS) x1 Pod + x2 Coils Edt.",
+    "color": "Red"
+  },
+  {
+    "index": 3219,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso Luxe XR Max (Kit PS) x1 Pod + x2 Coils Edt.",
+    "color": "White"
+  },
+  {
+    "index": 3220,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso QF (Coils)(3-Pack)",
+    "coil_type": "Strip",
+    "resistance": "0.15"
+  },
+  {
+    "index": 3221,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso Veco Go (Pods)(2-Pack)",
+    "resistance": "0.6"
+  },
+  {
+    "index": 3222,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso Vibe (Kit PS) 1000mAh",
+    "color": "Berry Purple"
+  },
+  {
+    "index": 3223,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso Vibe (Kit PS) 1000mAh",
+    "color": "Sky Blue"
+  },
+  {
+    "index": 3224,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso Vibe (Pods)(2-Pack) 4.5mL",
+    "resistance": "1.0",
+    "coil_type": "Mesh"
+  },
+  {
+    "index": 3225,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso XROS (Pods)(4-Pack) 3mL",
+    "resistance": "0.7",
+    "coil_type": "Mesh"
+  },
+  {
+    "index": 3226,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso XROS 2 (Kit PS)",
+    "color": "Sakura Pink"
+  },
+  {
+    "index": 3227,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso XROS 3 Mini (Kit PS) 1.0ohm",
+    "color": "Lilac Purple"
+  },
+  {
+    "index": 3228,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso XROS 4 Mini (Kit PS)",
+    "color": "Black"
+  },
+  {
+    "index": 3229,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso XROS 4 Mini (Kit PS)",
+    "color": "Camo Red"
+  },
+  {
+    "index": 3230,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso XROS 4 Mini (Kit PS)",
+    "color": "Camo Silver"
+  },
+  {
+    "index": 3231,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso XROS 4 Mini (Kit PS)",
+    "color": "Ice Green"
+  },
+  {
+    "index": 3232,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso XROS 4 Mini (Kit PS)",
+    "color": "Ice Pink"
+  },
+  {
+    "index": 3233,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso XROS 4 Mini (Kit PS)",
+    "color": "Ice Purple"
+  },
+  {
+    "index": 3234,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso XROS 4 Mini (Kit PS)",
+    "color": "Space Grey"
+  },
+  {
+    "index": 3235,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso XROS 4 Nano (Kit PS)",
+    "color": "Aquamarine"
+  },
+  {
+    "index": 3236,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso XROS 4 Nano (Kit PS)",
+    "color": "Race Track"
+  },
+  {
+    "index": 3237,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso XROS 4 Nano (Kit PS)",
+    "color": "Titanium Silver"
+  },
+  {
+    "index": 3238,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso XROS 4 Nano (Kit PS)",
+    "color": "Twilight Purple"
+  },
+  {
+    "index": 3239,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso XROS COREX 2.0 (Pods)(4-Pack) 3mL",
+    "resistance_ohm": 0.4,
+    "coil_type": "Mesh"
+  },
+  {
+    "index": 3240,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso xTank (Pods)(2-Pack)",
+    "color": "Gunmetal"
+  },
+  {
+    "index": 3241,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso XTRA Unipod (Pods)(2-Pack)",
+    "coil_type": "Mesh",
+    "resistance_ohm": 0.8
+  },
+  {
+    "index": 3242,
+    "brand": "VRSO",
+    "product_name": "VRSO - Vaporesso Zero S (Pods)(2-Pack) 2mL",
+    "resistance_ohm": 1.0
+  }
+]

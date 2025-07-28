@@ -1,0 +1,98 @@
+orchestrate_task:
+  description: >
+    Coordinate the initial data processing pipeline using standardized file paths. 
+    1) Call CSV Processor tool: input={csv_path}, output={cleaned_dir}
+    2) Call Product Parser tool: input={cleaned_csv}, output={parsed_dir}  
+    Use the provided file paths from inputs for coordination. This task focuses on CSV processing 
+    and regex parsing. Batch LLM processing is handled separately.
+  expected_output: >
+    A comprehensive project status report including data quality metrics, parsing results,
+    LLM assistance statistics, and final output file locations. Include decision rationale 
+    for each processing stage and recommendations.
+  agent: orchestrator
+
+smart_parse_task:
+  description: >
+    You are an expert at extracting attributes from product text. You will receive a batch containing 
+    multiple attribute texts in the {batch} input. Each item has an index and attributes_text to analyze.
+    
+    Your job: For each attributes_text, identify what attributes are present and extract their values.
+    
+    Common attributes you might find:
+    - Flavors (e.g., "Cherry Lime", "Vanilla", "Apple Ice")
+    - Nicotine strength in mg (e.g., "12mg", "6mg", "50mg")  
+    - Volume in ml (e.g., "60mL", "100mL", "30ml")
+    - Colors (e.g., "Black", "Blue", "Rainbow")
+    - Technical specs (e.g., "0.2ohm", "80W", "1.0ohm")
+    
+    Rules:
+    - Extract any attribute you can identify from the text
+    - Clean up values (remove "(Discontinued)", convert "mg" to numbers)
+    - If text seems like hardware specs or colors, those are valid attributes too
+    - If text is empty or unclear, return empty attributes object
+  expected_output: >
+    Return ONLY a valid JSON array. Each object must have: index (number) and attributes (object with key-value pairs).
+    Example: [{"index": 123, "attributes": {"flavor": "Cherry Lime", "nicotine_mg": 12, "volume_ml": 60}}]
+    For hardware: [{"index": 456, "attributes": {"color": "Black", "resistance": "0.2ohm"}}]
+  agent: smart_parser
+
+category_mapping_task:
+  description: >
+    Map all parsed products to existing Odoo categories using the Category Mapper tool.
+    
+    Use the following inputs for the tool:
+    - clear_products_file: {clear_products_file}
+    - llm_parsed_results_file: {llm_parsed_results_file}
+    - odoo_categories_file: {odoo_categories_file}
+    - output_dir: {output_dir}
+    
+    The tool will analyze product characteristics (flavors, nicotine, hardware specs) and map them to
+    appropriate Odoo categories like E-Juice, Disposable, Coil, Kit, etc.
+    
+    Review the mapping results and provide insights about:
+    - Category distribution across products
+    - Mapping confidence and reasoning
+    - Any products that need manual review
+    - Recommendations for category optimization
+  expected_output: >
+    A detailed category mapping report including:
+    - Total products mapped and distribution by category
+    - Mapping methodology and confidence levels
+    - Summary of most common categories assigned
+    - Identification of any edge cases or products needing manual review
+    - Quality assessment of category assignments
+  agent: orchestrator
+
+attribute_building_task:
+  description: >
+    Generate Odoo product attributes CSV using the Attribute Builder tool.
+    
+    Use the following inputs for the tool:
+    - clear_products_file: {clear_products_file}
+    - llm_parsed_results_file: {llm_parsed_results_file}
+    - odoo_attributes_file: {odoo_attributes_file}
+    - output_dir: {output_dir}
+    
+    The tool will:
+    1. Collect all unique attributes from both regex and LLM parsed results
+    2. Generate Odoo attribute definitions (flavor, nicotine_mg, volume_ml, color, etc.)
+    3. Create attribute values with External IDs
+    4. Determine appropriate display types (radio, select) based on value characteristics
+    5. Output attributes.csv for Odoo import
+    
+    Review the attribute generation results and provide insights about:
+    - Total attributes discovered and their value counts
+    - Attribute usage distribution between regex vs LLM sources
+    - Display type assignments and reasoning
+    - Data quality assessment for attribute values
+    - Recommendations for attribute optimization
+  expected_output: >
+    A comprehensive attribute generation report including:
+    - Total attributes created and value counts
+    - Source distribution (regex vs LLM parsing)
+    - Display type assignments with justification
+    - Quality assessment of attribute values
+    - Summary of most common attribute types
+    - Recommendations for attribute standardization
+    - Path to generated attributes.csv file
+  agent: orchestrator
