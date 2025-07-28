@@ -9,7 +9,11 @@
       "Bash(find:*)",
       "Bash(ls:*)",
       "Bash(rm:*)",
-      "WebFetch(domain:www.odoo.com)"
+      "WebFetch(domain:www.odoo.com)",
+      "Bash(grep:*)",
+      "Bash(cut:*)",
+      "Bash(python:*)",
+      "Bash(/dev/null)"
     ],
     "deny": []
   }
