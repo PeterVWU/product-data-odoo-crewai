@@ -270,7 +270,7 @@ def _collect_product_attributes(product: Dict[str, Any], attribute_data: Dict, s
                 _add_attribute_value(attribute_data, attr_name, value, source)
     
     # Handle additional dynamic attributes (any other fields)
-    excluded_fields = {'product_name', 'name', 'index', 'confidence', 'attributes', 'original_name'}
+    excluded_fields = {'product_name', 'name', 'index', 'confidence', 'attributes', 'original_name', 'sku', 'price'}
     for attr_name, value in product.items():
         if attr_name not in excluded_fields and attr_name not in standard_attrs and value is not None:
             _add_attribute_value(attribute_data, attr_name, value, source)

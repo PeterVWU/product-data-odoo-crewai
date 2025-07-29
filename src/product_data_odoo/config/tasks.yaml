@@ -30,10 +30,15 @@ smart_parse_task:
     - Clean up values (remove "(Discontinued)", convert "mg" to numbers)
     - If text seems like hardware specs or colors, those are valid attributes too
     - If text is empty or unclear, return empty attributes object
+    - CRITICAL: Always return attribute values as simple strings, NEVER as arrays
+    - Each CSV row represents ONE specific product variant, so extract the specific attribute value for that row only
   expected_output: >
     Return ONLY a valid JSON array. Each object must have: index (number) and attributes (object with key-value pairs).
-    Example: [{"index": 123, "attributes": {"flavor": "Cherry Lime", "nicotine_mg": 12, "volume_ml": 60}}]
+    All attribute values MUST be simple strings, never arrays.
+    Example: [{"index": 123, "attributes": {"flavor": "Cherry Lime", "nicotine_mg": "12", "volume_ml": "60"}}]
     For hardware: [{"index": 456, "attributes": {"color": "Black", "resistance": "0.2ohm"}}]
+    WRONG: {"color": ["White", "Blue"]} - Do not use arrays
+    CORRECT: {"color": "White"} - Use single string values only
   agent: smart_parser
 
 category_mapping_task:
@@ -166,4 +171,70 @@ template_building_task:
     - Quality assessment of template generation
     - Recommendations for template management
     - Paths to generated CSV files
+  agent: orchestrator
+
+variant_checkpoint_task:
+  description: >
+    Coordinate the human-in-the-loop checkpoint for Odoo template import/variant export.
+    
+    Check the checkpoint status using the flag: {variant_import_completed}
+    
+    If checkpoint NOT completed (variant_import_completed = False):
+    1. Provide clear, step-by-step instructions for human to complete Odoo template import and variant export
+    2. List the exact file paths to import into Odoo:
+       - output/templates/new_templates.csv (format: External ID-based template records)
+    3. Specify the required export file and where to place it:
+       - Export all product variants → src/product_data_odoo/odoo_product_variant.csv
+       - Format: "ID","Name","Variant Values" (includes newly created variants from templates)
+    4. Explain how to resume: Set VARIANT_IMPORT_COMPLETED = True and re-run
+    
+    If checkpoint IS completed (variant_import_completed = True):
+    1. Report that checkpoint is complete and pipeline will continue
+    2. Confirm odoo_product_variant.csv is ready for variant building phase
+    3. Do NOT use any tools - just provide confirmation message
+    
+    IMPORTANT: Do not use any tools for file validation. Only provide status messages based on the flag.
+    
+    Required file after human export:
+    - {odoo_product_variant_file}: All product variants with External IDs
+      Format: "ID","Name","Variant Values" (e.g., "Color: Black", "Flavor: Cherry Lime")
+  expected_output: >
+    Either detailed human instructions for Odoo template import/variant export OR confirmation that
+    checkpoint is complete and ready to proceed to variant building phase.
+  agent: orchestrator
+
+variant_building_task:
+  description: >
+    Generate product variant import CSV using template value IDs from Odoo template export.
+    
+    Use the following inputs for the tool:
+    - clear_products_file: {clear_products_file}
+    - llm_parsed_results_file: {llm_parsed_results_file}
+    - odoo_product_template_file: {odoo_product_template_file}
+    - output_dir: {output_dir}
+    
+    The tool will:
+    1. Load all processed product data (clear + LLM parsed with SKU/price included)
+    2. Parse Odoo template export to extract template value IDs by template
+    3. Match products to templates first, then find attribute combinations within templates
+    4. Generate variant import CSV using template-specific value IDs
+    5. Create records with External IDs, template references, value ID combinations, SKUs, and prices
+    
+    Review the variant generation results and provide insights about:
+    - Total products processed and variant generation success rate
+    - Template matching accuracy and template coverage
+    - Attribute combination matching within templates
+    - SKU assignment and pricing distribution
+    - Any unmatched products that need manual review
+    - Template value ID mapping quality
+  expected_output: >
+    A comprehensive variant generation report including:
+    - Total products processed and variants successfully generated
+    - Generation rate percentage and template matching accuracy
+    - Template coverage analysis and attribute mapping success
+    - SKU assignment statistics and pricing summary
+    - Details on unmatched products or failed attribute combinations
+    - Template value ID mapping quality assessment
+    - Path to generated product_variant_import.csv file
+    - Generation statistics file for review
   agent: orchestrator

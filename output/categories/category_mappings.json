@@ -13902,26 +13902,6 @@
   },
   {
     "source": "regex",
-    "product_name": null,
-    "original_name": null,
-    "category_id": "product.product_category_1",
-    "category_name": "Saleable",
-    "mapping_reason": "Default category - no specific match found",
-    "confidence": 0,
-    "attributes": {}
-  },
-  {
-    "source": "regex",
-    "product_name": null,
-    "original_name": null,
-    "category_id": "product.product_category_1",
-    "category_name": "Saleable",
-    "mapping_reason": "Default category - no specific match found",
-    "confidence": 0,
-    "attributes": {}
-  },
-  {
-    "source": "regex",
     "product_name": "DDYS - No Hype (LIQ FB)(100mL)",
     "original_name": "DDYS - No Hype (LIQ FB)(100mL)",
     "category_id": "__export__.product_category_12_40483604",
@@ -13961,26 +13941,6 @@
       "nicotine_mg": 50,
       "volume_ml": 30
     }
-  },
-  {
-    "source": "regex",
-    "product_name": null,
-    "original_name": null,
-    "category_id": "product.product_category_1",
-    "category_name": "Saleable",
-    "mapping_reason": "Default category - no specific match found",
-    "confidence": 0,
-    "attributes": {}
-  },
-  {
-    "source": "regex",
-    "product_name": null,
-    "original_name": null,
-    "category_id": "product.product_category_1",
-    "category_name": "Saleable",
-    "mapping_reason": "Default category - no specific match found",
-    "confidence": 0,
-    "attributes": {}
   },
   {
     "source": "regex",
@@ -44645,7 +44605,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Fruit Mix Iced",
-      "nicotine_mg": 12,
+      "nicotine_mg": "12",
       "brand": "7DZE"
     }
   },
@@ -44660,7 +44620,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Guava",
-      "nicotine_mg": 12,
+      "nicotine_mg": "12",
       "brand": "7DZE"
     }
   },
@@ -45002,13 +44962,13 @@
     "product_name": "BDVC - Beard (LIQ FB)(120mL)",
     "original_name": "BDVC - Beard (LIQ FB)(120mL)",
     "brand": "BDVC",
-    "category_id": "product.product_category_1",
-    "category_name": "Saleable",
-    "mapping_reason": "Default category - no specific match found",
+    "category_id": "__export__.product_category_12_40483604",
+    "category_name": "E-Juice",
+    "mapping_reason": "Product has flavor and nicotine/volume - liquid e-juice",
     "confidence": 1.0,
     "attributes": {
       "flavor": "Sweet and Sour Sugar Peach",
-      "nicotine_mg": 0,
+      "nicotine_mg": "0",
       "brand": "BDVC"
     }
   },
@@ -45023,7 +44983,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Sweet and Sour Sugar Peach",
-      "nicotine_mg": 3,
+      "nicotine_mg": "3",
       "brand": "BDVC"
     }
   },
@@ -45038,7 +44998,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Sweet and Sour Sugar Peach",
-      "nicotine_mg": 6,
+      "nicotine_mg": "6",
       "brand": "BDVC"
     }
   },
@@ -45053,7 +45013,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Sweet and Sour Sugar Peach",
-      "nicotine_mg": 3,
+      "nicotine_mg": "3",
       "brand": "BDVC"
     }
   },
@@ -45068,7 +45028,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Sweet and Sour Sugar Peach",
-      "nicotine_mg": 6,
+      "nicotine_mg": "6",
       "brand": "BDVC"
     }
   },
@@ -45083,7 +45043,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Sweet and Sour Sugar Peach",
-      "nicotine_mg": 30,
+      "nicotine_mg": "30",
       "brand": "BDVC"
     }
   },
@@ -45098,7 +45058,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Sweet and Sour Sugar Peach",
-      "nicotine_mg": 50,
+      "nicotine_mg": "50",
       "brand": "BDVC"
     }
   },
@@ -45113,7 +45073,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Apple Ice",
-      "nicotine_mg": 3,
+      "nicotine_mg": "3",
       "brand": "BLKO"
     }
   },
@@ -45128,7 +45088,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Cereal Milk",
-      "nicotine_mg": 3,
+      "nicotine_mg": "3",
       "brand": "BLKO"
     }
   },
@@ -45143,7 +45103,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Crunch Toast",
-      "nicotine_mg": 3,
+      "nicotine_mg": "3",
       "brand": "BLKO"
     }
   },
@@ -45158,7 +45118,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Strawberry Kiwi",
-      "nicotine_mg": 3,
+      "nicotine_mg": "3",
       "brand": "BLKO"
     }
   },
@@ -45173,60 +45133,8 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Crunch Toast",
-      "nicotine_mg": 6,
+      "nicotine_mg": "6",
       "brand": "BLKO"
-    }
-  },
-  {
-    "source": "llm",
-    "product_name": "DDYS - No Hype (LIQ FB)(100mL)",
-    "original_name": "DDYS - No Hype (LIQ FB)(100mL)",
-    "brand": "DDYS",
-    "category_id": "product.product_category_1",
-    "category_name": "Saleable",
-    "mapping_reason": "Default category - no specific match found",
-    "confidence": 1.0,
-    "attributes": {
-      "brand": "DDYS"
-    }
-  },
-  {
-    "source": "llm",
-    "product_name": "DDYS - No Hype (LIQ FB)(100mL)",
-    "original_name": "DDYS - No Hype (LIQ FB)(100mL)",
-    "brand": "DDYS",
-    "category_id": "product.product_category_1",
-    "category_name": "Saleable",
-    "mapping_reason": "Default category - no specific match found",
-    "confidence": 1.0,
-    "attributes": {
-      "brand": "DDYS"
-    }
-  },
-  {
-    "source": "llm",
-    "product_name": "DDYS - No Hype (LIQ Salt)(30mL)",
-    "original_name": "DDYS - No Hype (LIQ Salt)(30mL)",
-    "brand": "DDYS",
-    "category_id": "product.product_category_1",
-    "category_name": "Saleable",
-    "mapping_reason": "Default category - no specific match found",
-    "confidence": 1.0,
-    "attributes": {
-      "brand": "DDYS"
-    }
-  },
-  {
-    "source": "llm",
-    "product_name": "DDYS - No Hype (LIQ Salt)(30mL)",
-    "original_name": "DDYS - No Hype (LIQ Salt)(30mL)",
-    "brand": "DDYS",
-    "category_id": "product.product_category_1",
-    "category_name": "Saleable",
-    "mapping_reason": "Default category - no specific match found",
-    "confidence": 1.0,
-    "attributes": {
-      "brand": "DDYS"
     }
   },
   {
@@ -45318,7 +45226,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "VCT",
-      "nicotine_mg": 6,
+      "nicotine_mg": "6",
       "brand": "FNST"
     }
   },
@@ -45467,6 +45375,266 @@
   },
   {
     "source": "llm",
+    "product_name": "FRMX - Freemax Gemm G1 (Dispo Tank)(2-Pack) - 0.12ohm SS316 550F",
+    "original_name": "FRMX - Freemax Gemm G1 (Dispo Tank)(2-Pack) - 0.12ohm SS316 550F",
+    "brand": "FRMX",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "FRMX"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "FRMX - Freemax Gemm G1 (Dispo Tank)(2-Pack) - 0.12ohm SS316 550F",
+    "original_name": "FRMX - Freemax Gemm G1 (Dispo Tank)(2-Pack) - 0.12ohm SS316 550F",
+    "brand": "FRMX",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "FRMX"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "FRMX - Freemax Gemm G1 (Dispo Tank)(2-Pack) - 0.12ohm SS316 550F",
+    "original_name": "FRMX - Freemax Gemm G1 (Dispo Tank)(2-Pack) - 0.12ohm SS316 550F",
+    "brand": "FRMX",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "FRMX"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "FRMX - Freemax Gemm G1 (Dispo Tank)(2-Pack) - 0.12ohm SS316 550F",
+    "original_name": "FRMX - Freemax Gemm G1 (Dispo Tank)(2-Pack) - 0.12ohm SS316 550F",
+    "brand": "FRMX",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "FRMX"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "FRMX - Freemax Gemm G1 (Dispo Tank)(2-Pack) - 0.15ohm 80W",
+    "original_name": "FRMX - Freemax Gemm G1 (Dispo Tank)(2-Pack) - 0.15ohm 80W",
+    "brand": "FRMX",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "FRMX"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "FRMX - Freemax Gemm G1 (Dispo Tank)(2-Pack) - 0.15ohm 80W",
+    "original_name": "FRMX - Freemax Gemm G1 (Dispo Tank)(2-Pack) - 0.15ohm 80W",
+    "brand": "FRMX",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "FRMX"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "FRMX - Freemax Gemm G2 (Dispo Tank)(2-Pack) - 0.2ohm 80W",
+    "original_name": "FRMX - Freemax Gemm G2 (Dispo Tank)(2-Pack) - 0.2ohm 80W",
+    "brand": "FRMX",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "FRMX"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "FRMX - Freemax Gemm G2 (Dispo Tank)(2-Pack) - 0.2ohm 80W",
+    "original_name": "FRMX - Freemax Gemm G2 (Dispo Tank)(2-Pack) - 0.2ohm 80W",
+    "brand": "FRMX",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "FRMX"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "FRMX - Freemax Gemm G2 (Dispo Tank)(2-Pack) - 0.2ohm 80W",
+    "original_name": "FRMX - Freemax Gemm G2 (Dispo Tank)(2-Pack) - 0.2ohm 80W",
+    "brand": "FRMX",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "FRMX"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "FRMX - Freemax Gemm G2 (Dispo Tank)(2-Pack) - 0.2ohm 80W",
+    "original_name": "FRMX - Freemax Gemm G2 (Dispo Tank)(2-Pack) - 0.2ohm 80W",
+    "brand": "FRMX",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "FRMX"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "FRMX - Freemax Gemm G2 (Dispo Tank)(2-Pack) - 0.5ohm 30W",
+    "original_name": "FRMX - Freemax Gemm G2 (Dispo Tank)(2-Pack) - 0.5ohm 30W",
+    "brand": "FRMX",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "FRMX"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "FRMX - Freemax Gemm G2 (Dispo Tank)(2-Pack) - 0.5ohm 30W",
+    "original_name": "FRMX - Freemax Gemm G2 (Dispo Tank)(2-Pack) - 0.5ohm 30W",
+    "brand": "FRMX",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "FRMX"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "FRMX - Freemax Gemm G2 (Dispo Tank)(2-Pack)",
+    "original_name": "FRMX - Freemax Gemm G2 (Dispo Tank)(2-Pack)",
+    "brand": "FRMX",
+    "category_id": "__export__.product_category_19_3438cdbf",
+    "category_name": "Tank",
+    "mapping_reason": "Product contains tank keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "FRMX"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "FRMX - Freemax Gemm G3 (Dispo Tank)(2-Pack) - 0.15ohm 90W",
+    "original_name": "FRMX - Freemax Gemm G3 (Dispo Tank)(2-Pack) - 0.15ohm 90W",
+    "brand": "FRMX",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "FRMX"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "FRMX - Freemax Gemm G3 (Dispo Tank)(2-Pack) - 0.15ohm 90W",
+    "original_name": "FRMX - Freemax Gemm G3 (Dispo Tank)(2-Pack) - 0.15ohm 90W",
+    "brand": "FRMX",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "FRMX"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "FRMX - Freemax Gemm G3 (Dispo Tank)(2-Pack) - 0.15ohm 90W",
+    "original_name": "FRMX - Freemax Gemm G3 (Dispo Tank)(2-Pack) - 0.15ohm 90W",
+    "brand": "FRMX",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "FRMX"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "FRMX - Freemax Gemm G4 (Dispo Tank)(2-Pack) - 0.15ohm 80W",
+    "original_name": "FRMX - Freemax Gemm G4 (Dispo Tank)(2-Pack) - 0.15ohm 80W",
+    "brand": "FRMX",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "FRMX"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "FRMX - Freemax GX Mesh (Coils)(5-Pack)",
+    "original_name": "FRMX - Freemax GX Mesh (Coils)(5-Pack)",
+    "brand": "FRMX",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "FRMX"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "FRMX - Freemax Marvos MS-D Mesh (Coils)(5-Pack)",
+    "original_name": "FRMX - Freemax Marvos MS-D Mesh (Coils)(5-Pack)",
+    "brand": "FRMX",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "FRMX"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "FRMX - Freemax Maxus 2 (Kit SK)",
+    "original_name": "FRMX - Freemax Maxus 2 (Kit SK)",
+    "brand": "FRMX",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "FRMX"
+    }
+  },
+  {
+    "source": "llm",
     "product_name": "FRMX - Freemax Maxus Pro 904L M Mesh (Coils)(3-Pack)",
     "original_name": "FRMX - Freemax Maxus Pro 904L M Mesh (Coils)(3-Pack)",
     "brand": "FRMX",
@@ -45540,7 +45708,7 @@
     "mapping_reason": "Product contains pod/cartridge keywords",
     "confidence": 1.0,
     "attributes": {
-      "volume_ml": 4,
+      "volume_ml": "4mL",
       "brand": "FRMX"
     }
   },
@@ -45728,6 +45896,535 @@
   },
   {
     "source": "llm",
+    "product_name": "GKVP - Geekvape Digi Max (Kit PS)",
+    "original_name": "GKVP - Geekvape Digi Max (Kit PS)",
+    "brand": "GKVP",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "GKVP"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "GKVP - Geekvape Digi Max (Kit PS)",
+    "original_name": "GKVP - Geekvape Digi Max (Kit PS)",
+    "brand": "GKVP",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "GKVP"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "GKVP - Geekvape Digi Max (Kit PS)",
+    "original_name": "GKVP - Geekvape Digi Max (Kit PS)",
+    "brand": "GKVP",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "GKVP"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "GKVP - Geekvape H45 Hero 2 (Pods) Rte Edt. (2-Pack)",
+    "original_name": "GKVP - Geekvape H45 Hero 2 (Pods) Rte Edt. (2-Pack)",
+    "brand": "GKVP",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "GKVP"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "GKVP - Geekvape H45 Hero 2 (Refillable Pods + Coil) 5ml",
+    "original_name": "GKVP - Geekvape H45 Hero 2 (Refillable Pods + Coil) 5ml",
+    "brand": "GKVP",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "GKVP"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "GKVP - Geekvape H45 Hero 2 (Refillable Pods + Coil) 5ml",
+    "original_name": "GKVP - Geekvape H45 Hero 2 (Refillable Pods + Coil) 5ml",
+    "brand": "GKVP",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "GKVP"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "GKVP - Geekvape J (Coils)(5-Pack)",
+    "original_name": "GKVP - Geekvape J (Coils)(5-Pack)",
+    "brand": "GKVP",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "GKVP"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "GKVP - Geekvape J (Coils)(5-Pack)",
+    "original_name": "GKVP - Geekvape J (Coils)(5-Pack)",
+    "brand": "GKVP",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "GKVP"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "GKVP - Geekvape J (Coils)(5-Pack)",
+    "original_name": "GKVP - Geekvape J (Coils)(5-Pack)",
+    "brand": "GKVP",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "GKVP"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "GKVP - Geekvape J (Coils)(5-Pack)",
+    "original_name": "GKVP - Geekvape J (Coils)(5-Pack)",
+    "brand": "GKVP",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "GKVP"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "GKVP - Geekvape J (Pods)(2-Pack) 5mL",
+    "original_name": "GKVP - Geekvape J (Pods)(2-Pack) 5mL",
+    "brand": "GKVP",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "GKVP"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "GKVP - Geekvape Jr (Pods)(2-Pack) 5mL",
+    "original_name": "GKVP - Geekvape Jr (Pods)(2-Pack) 5mL",
+    "brand": "GKVP",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "GKVP"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "GKVP - Geekvape P (Coils)(5-Pack)",
+    "original_name": "GKVP - Geekvape P (Coils)(5-Pack)",
+    "brand": "GKVP",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "GKVP"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "GKVP - Geekvape Peak (Kit PS)",
+    "original_name": "GKVP - Geekvape Peak (Kit PS)",
+    "brand": "GKVP",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "GKVP"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "GKVP - Geekvape Q (Pods)(3-Pack) 3mL Side-Fill",
+    "original_name": "GKVP - Geekvape Q (Pods)(3-Pack) 3mL Side-Fill",
+    "brand": "GKVP",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "GKVP"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "GKVP - Geekvape Sonder Q (Kit PS)",
+    "original_name": "GKVP - Geekvape Sonder Q (Kit PS)",
+    "brand": "GKVP",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "GKVP"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "GKVP - Geekvape Sonder U (Kit PS)",
+    "original_name": "GKVP - Geekvape Sonder U (Kit PS)",
+    "brand": "GKVP",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "GKVP"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "GKVP - Geekvape Sonder/Aegis U (Pods)(3-Pack) 2mL",
+    "original_name": "GKVP - Geekvape Sonder/Aegis U (Pods)(3-Pack) 2mL",
+    "brand": "GKVP",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "GKVP"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "GKVP - Geekvape Sonder/Wenax Q (Pods)(3-Pack)",
+    "original_name": "GKVP - Geekvape Sonder/Wenax Q (Pods)(3-Pack)",
+    "brand": "GKVP",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "GKVP"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "GKVP - Geekvape Soul (Pods)",
+    "original_name": "GKVP - Geekvape Soul (Pods)",
+    "brand": "GKVP",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "GKVP"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "GKVP - Geekvape Wenax H1 (Pods)(3-Pack)",
+    "original_name": "GKVP - Geekvape Wenax H1 (Pods)(3-Pack)",
+    "brand": "GKVP",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "GKVP"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "GKVP - Geekvape Wenax H1 (Pods)(3-Pack)",
+    "original_name": "GKVP - Geekvape Wenax H1 (Pods)(3-Pack)",
+    "brand": "GKVP",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "GKVP"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "GKVP - Geekvape Wenax K1 (Pods)(3-Pack)",
+    "original_name": "GKVP - Geekvape Wenax K1 (Pods)(3-Pack)",
+    "brand": "GKVP",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "GKVP"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "GKVP - Geekvape Wenax M1 0.8ohm (Kit PS)",
+    "original_name": "GKVP - Geekvape Wenax M1 0.8ohm (Kit PS)",
+    "brand": "GKVP",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "GKVP"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "GKVP - Geekvape Wenax M1 V2 (Pods)(4-Pack)",
+    "original_name": "GKVP - Geekvape Wenax M1 V2 (Pods)(4-Pack)",
+    "brand": "GKVP",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "GKVP"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "GKVP - Geekvape Wenax Q (Kit PS)",
+    "original_name": "GKVP - Geekvape Wenax Q (Kit PS)",
+    "brand": "GKVP",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "GKVP"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "GKVP - Geekvape Wenax Q Ultra (Kit PS) 1300mAh",
+    "original_name": "GKVP - Geekvape Wenax Q Ultra (Kit PS) 1300mAh",
+    "brand": "GKVP",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "GKVP"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "GLAS - Basix Pouches (DSPLY 5pc)(Nic Pouch)(20ct Can)",
+    "original_name": "GLAS - Basix Pouches (DSPLY 5pc)(Nic Pouch)(20ct Can)",
+    "brand": "GLAS",
+    "category_id": "__export__.product_category_12_40483604",
+    "category_name": "E-Juice",
+    "mapping_reason": "Product has flavor and nicotine/volume - liquid e-juice",
+    "confidence": 1.0,
+    "attributes": {
+      "flavor": "The Mint",
+      "nicotine_mg": "3",
+      "brand": "GLAS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "GMDI - Lookah (REPL. Glass)(1pc) Unicorn Mini Glass Bubbler",
+    "original_name": "GMDI - Lookah (REPL. Glass)(1pc) Unicorn Mini Glass Bubbler",
+    "brand": "GMDI",
+    "category_id": "product.product_category_1",
+    "category_name": "Saleable",
+    "mapping_reason": "Default category - no specific match found",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "GMDI"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "HMBL - Humble (LIQ FB)(120mL) TFN",
+    "original_name": "HMBL - Humble (LIQ FB)(120mL) TFN",
+    "brand": "HMBL",
+    "category_id": "__export__.product_category_12_40483604",
+    "category_name": "E-Juice",
+    "mapping_reason": "Product has flavor and nicotine/volume - liquid e-juice",
+    "confidence": 1.0,
+    "attributes": {
+      "flavor": "Kiwi Melon Apple Ice",
+      "nicotine_mg": "6",
+      "brand": "HMBL"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "HMBL - Humble (LIQ FB)(60mL)",
+    "original_name": "HMBL - Humble (LIQ FB)(60mL)",
+    "brand": "HMBL",
+    "category_id": "__export__.product_category_12_40483604",
+    "category_name": "E-Juice",
+    "mapping_reason": "Product has flavor and nicotine/volume - liquid e-juice",
+    "confidence": 1.0,
+    "attributes": {
+      "flavor": "Banana Bread",
+      "nicotine_mg": "3",
+      "brand": "HMBL"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "HMBL - Humble (LIQ FB)(60mL)",
+    "original_name": "HMBL - Humble (LIQ FB)(60mL)",
+    "brand": "HMBL",
+    "category_id": "__export__.product_category_12_40483604",
+    "category_name": "E-Juice",
+    "mapping_reason": "Product has flavor and nicotine/volume - liquid e-juice",
+    "confidence": 1.0,
+    "attributes": {
+      "flavor": "Banana Bread",
+      "nicotine_mg": "6",
+      "brand": "HMBL"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "HMBL - Humble (LIQ FB)(60mL)",
+    "original_name": "HMBL - Humble (LIQ FB)(60mL)",
+    "brand": "HMBL",
+    "category_id": "__export__.product_category_12_40483604",
+    "category_name": "E-Juice",
+    "mapping_reason": "Product has flavor and nicotine/volume - liquid e-juice",
+    "confidence": 1.0,
+    "attributes": {
+      "flavor": "Blue Raspberry",
+      "nicotine_mg": "3",
+      "brand": "HMBL"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "HMBL - Humble (LIQ FB)(60mL)",
+    "original_name": "HMBL - Humble (LIQ FB)(60mL)",
+    "brand": "HMBL",
+    "category_id": "__export__.product_category_12_40483604",
+    "category_name": "E-Juice",
+    "mapping_reason": "Product has flavor and nicotine/volume - liquid e-juice",
+    "confidence": 1.0,
+    "attributes": {
+      "flavor": "Blue Raspberry Menthol",
+      "nicotine_mg": "3",
+      "brand": "HMBL"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "HMBL - Humble (LIQ FB)(60mL)",
+    "original_name": "HMBL - Humble (LIQ FB)(60mL)",
+    "brand": "HMBL",
+    "category_id": "__export__.product_category_12_40483604",
+    "category_name": "E-Juice",
+    "mapping_reason": "Product has flavor and nicotine/volume - liquid e-juice",
+    "confidence": 1.0,
+    "attributes": {
+      "flavor": "Creamy Crunch",
+      "nicotine_mg": "6",
+      "brand": "HMBL"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "HMBL - Humble (LIQ FB)(60mL)",
+    "original_name": "HMBL - Humble (LIQ FB)(60mL)",
+    "brand": "HMBL",
+    "category_id": "__export__.product_category_12_40483604",
+    "category_name": "E-Juice",
+    "mapping_reason": "Product has flavor and nicotine/volume - liquid e-juice",
+    "confidence": 1.0,
+    "attributes": {
+      "flavor": "Kiwi Berry Citrus",
+      "nicotine_mg": "3",
+      "brand": "HMBL"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "HMBL - Humble (LIQ FB)(60mL)",
+    "original_name": "HMBL - Humble (LIQ FB)(60mL)",
+    "brand": "HMBL",
+    "category_id": "__export__.product_category_12_40483604",
+    "category_name": "E-Juice",
+    "mapping_reason": "Product has flavor and nicotine/volume - liquid e-juice",
+    "confidence": 1.0,
+    "attributes": {
+      "flavor": "Kiwi Berry Citrus",
+      "nicotine_mg": "6",
+      "brand": "HMBL"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "HMBL - Humble (LIQ FB)(60mL)",
+    "original_name": "HMBL - Humble (LIQ FB)(60mL)",
+    "brand": "HMBL",
+    "category_id": "__export__.product_category_12_40483604",
+    "category_name": "E-Juice",
+    "mapping_reason": "Product has flavor and nicotine/volume - liquid e-juice",
+    "confidence": 1.0,
+    "attributes": {
+      "flavor": "Mango Passionfruit",
+      "nicotine_mg": "3",
+      "brand": "HMBL"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "HMBL - Humble (LIQ FB)(60mL)",
+    "original_name": "HMBL - Humble (LIQ FB)(60mL)",
+    "brand": "HMBL",
+    "category_id": "__export__.product_category_12_40483604",
+    "category_name": "E-Juice",
+    "mapping_reason": "Product has flavor and nicotine/volume - liquid e-juice",
+    "confidence": 1.0,
+    "attributes": {
+      "flavor": "Mango Passionfruit",
+      "nicotine_mg": "6",
+      "brand": "HMBL"
+    }
+  },
+  {
+    "source": "llm",
     "product_name": "HMBL - Humble (LIQ FB)(60mL)",
     "original_name": "HMBL - Humble (LIQ FB)(60mL)",
     "brand": "HMBL",
@@ -45737,7 +46434,22 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Strawberry Banana",
-      "nicotine_mg": 6,
+      "nicotine_mg": "3",
+      "brand": "HMBL"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "HMBL - Humble (LIQ FB)(60mL)",
+    "original_name": "HMBL - Humble (LIQ FB)(60mL)",
+    "brand": "HMBL",
+    "category_id": "__export__.product_category_12_40483604",
+    "category_name": "E-Juice",
+    "mapping_reason": "Product has flavor and nicotine/volume - liquid e-juice",
+    "confidence": 1.0,
+    "attributes": {
+      "flavor": "Strawberry Banana",
+      "nicotine_mg": "6",
       "brand": "HMBL"
     }
   },
@@ -45752,7 +46464,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Sweet Citrus",
-      "nicotine_mg": 6,
+      "nicotine_mg": "6",
       "brand": "HMBL"
     }
   },
@@ -45767,7 +46479,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Toffee Vanilla Custard",
-      "nicotine_mg": 3,
+      "nicotine_mg": "3",
       "brand": "HMBL"
     }
   },
@@ -45782,7 +46494,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Unicorn",
-      "nicotine_mg": 6,
+      "nicotine_mg": "6",
       "brand": "HMBL"
     }
   },
@@ -45797,7 +46509,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Unicorn Treats",
-      "nicotine_mg": 3,
+      "nicotine_mg": "3",
       "brand": "HMBL"
     }
   },
@@ -45812,7 +46524,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Vanilla Almond Tobacco",
-      "nicotine_mg": 3,
+      "nicotine_mg": "3",
       "brand": "HMBL"
     }
   },
@@ -45827,7 +46539,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Banana Bread",
-      "nicotine_mg": 36,
+      "nicotine_mg": "36",
       "brand": "HMBL"
     }
   },
@@ -45842,7 +46554,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Blue Raspberry",
-      "nicotine_mg": 36,
+      "nicotine_mg": "36",
       "brand": "HMBL"
     }
   },
@@ -45857,7 +46569,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Blue Raspberry Menthol",
-      "nicotine_mg": 36,
+      "nicotine_mg": "36",
       "brand": "HMBL"
     }
   },
@@ -45872,7 +46584,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Creamy Crunch",
-      "nicotine_mg": 36,
+      "nicotine_mg": "36",
       "brand": "HMBL"
     }
   },
@@ -45887,7 +46599,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Kiwi Berry Citrus",
-      "nicotine_mg": 36,
+      "nicotine_mg": "36",
       "brand": "HMBL"
     }
   },
@@ -45902,7 +46614,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Mango Passionfruit",
-      "nicotine_mg": 36,
+      "nicotine_mg": "36",
       "brand": "HMBL"
     }
   },
@@ -45917,7 +46629,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Strawberry Banana",
-      "nicotine_mg": 36,
+      "nicotine_mg": "36",
       "brand": "HMBL"
     }
   },
@@ -45932,7 +46644,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Sweet Citrus",
-      "nicotine_mg": 36,
+      "nicotine_mg": "36",
       "brand": "HMBL"
     }
   },
@@ -45947,7 +46659,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Toffee Vanilla Custard",
-      "nicotine_mg": 36,
+      "nicotine_mg": "36",
       "brand": "HMBL"
     }
   },
@@ -45962,7 +46674,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Vanilla Almond Tobacco",
-      "nicotine_mg": 36,
+      "nicotine_mg": "36",
       "brand": "HMBL"
     }
   },
@@ -45977,7 +46689,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "VTR",
-      "nicotine_mg": 35,
+      "nicotine_mg": "35",
       "brand": "HMBL"
     }
   },
@@ -45992,7 +46704,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Watermelon",
-      "nicotine_mg": 36,
+      "nicotine_mg": "36",
       "brand": "HMBL"
     }
   },
@@ -46277,6 +46989,266 @@
     "category_id": "__export__.product_category_9_bc43a31e",
     "category_name": "Coil",
     "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Baby (Coils)(5-Pack)",
+    "original_name": "IVPS - SMOK Baby (Coils)(5-Pack)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Baby (Coils)(5-Pack)",
+    "original_name": "IVPS - SMOK Baby (Coils)(5-Pack)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Baby (Coils)(5-Pack)",
+    "original_name": "IVPS - SMOK Baby (Coils)(5-Pack)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Baby (Coils)(5-Pack)",
+    "original_name": "IVPS - SMOK Baby (Coils)(5-Pack)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Baby (Coils)(5-Pack)",
+    "original_name": "IVPS - SMOK Baby (Coils)(5-Pack)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Baby (Coils)(5-Pack)",
+    "original_name": "IVPS - SMOK Baby (Coils)(5-Pack)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Cobra (Drip Tip)",
+    "original_name": "IVPS - SMOK Cobra (Drip Tip)",
+    "brand": "IVPS",
+    "category_id": "product.product_category_1",
+    "category_name": "Saleable",
+    "mapping_reason": "Default category - no specific match found",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK D-Coil (Coils)(5-Pack)",
+    "original_name": "IVPS - SMOK D-Coil (Coils)(5-Pack)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK D-Coil (Coils)(5-Pack)",
+    "original_name": "IVPS - SMOK D-Coil (Coils)(5-Pack)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Fit (Pods)(3-Pack) [Disc.]",
+    "original_name": "IVPS - SMOK Fit (Pods)(3-Pack) [Disc.]",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK G-Priv 4 (Kit SK)",
+    "original_name": "IVPS - SMOK G-Priv 4 (Kit SK)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK IGEE A1 (Pods)(3-Pack) 2mL",
+    "original_name": "IVPS - SMOK IGEE A1 (Pods)(3-Pack) 2mL",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK IPX 80 (Kit PS)",
+    "original_name": "IVPS - SMOK IPX 80 (Kit PS)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK IPX 80 (Pods)(3-Pack)",
+    "original_name": "IVPS - SMOK IPX 80 (Pods)(3-Pack)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK LP2 (Coils)(5-Pack)",
+    "original_name": "IVPS - SMOK LP2 (Coils)(5-Pack)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK M (Coils)(5-Pack)",
+    "original_name": "IVPS - SMOK M (Coils)(5-Pack)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK M (Coils)(5-Pack)",
+    "original_name": "IVPS - SMOK M (Coils)(5-Pack)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK M (Coils)(5-Pack)",
+    "original_name": "IVPS - SMOK M (Coils)(5-Pack)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Mag Solo (Mod)",
+    "original_name": "IVPS - SMOK Mag Solo (Mod)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Mag Solo (Mod)",
+    "original_name": "IVPS - SMOK Mag Solo (Mod)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
     "confidence": 1.0,
     "attributes": {
       "brand": "IVPS"
@@ -47324,6 +48296,526 @@
   },
   {
     "source": "llm",
+    "product_name": "IVPS - SMOK Novo SLR (Pods)(3-Pack) 2mL",
+    "original_name": "IVPS - SMOK Novo SLR (Pods)(3-Pack) 2mL",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Novo SLR (Pods)(3-Pack) 2mL",
+    "original_name": "IVPS - SMOK Novo SLR (Pods)(3-Pack) 2mL",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Novo X (Kit PS)",
+    "original_name": "IVPS - SMOK Novo X (Kit PS)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Novo X (Kit PS)",
+    "original_name": "IVPS - SMOK Novo X (Kit PS)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Novo X (Kit PS)",
+    "original_name": "IVPS - SMOK Novo X (Kit PS)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Novo X (Kit PS)",
+    "original_name": "IVPS - SMOK Novo X (Kit PS)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Novo X (Kit PS)",
+    "original_name": "IVPS - SMOK Novo X (Kit PS)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Novo X (Kit PS)",
+    "original_name": "IVPS - SMOK Novo X (Kit PS)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Novo X (Kit PS)",
+    "original_name": "IVPS - SMOK Novo X (Kit PS)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Prince (Coils)(3-Pack)",
+    "original_name": "IVPS - SMOK Prince (Coils)(3-Pack)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Prince (Coils)(3-Pack)",
+    "original_name": "IVPS - SMOK Prince (Coils)(3-Pack)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Prince (Coils)(3-Pack)",
+    "original_name": "IVPS - SMOK Prince (Coils)(3-Pack)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Prince (Coils)(3-Pack)",
+    "original_name": "IVPS - SMOK Prince (Coils)(3-Pack)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Prince (Coils)(3-Pack)",
+    "original_name": "IVPS - SMOK Prince (Coils)(3-Pack)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Prince (Coils)(3-Pack)",
+    "original_name": "IVPS - SMOK Prince (Coils)(3-Pack)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Prince (Coils)(3-Pack)",
+    "original_name": "IVPS - SMOK Prince (Coils)(3-Pack)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Prince (Coils)(3-Pack)",
+    "original_name": "IVPS - SMOK Prince (Coils)(3-Pack)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK ProPod GT (Kit PS)",
+    "original_name": "IVPS - SMOK ProPod GT (Kit PS)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK ProPod GT (Kit PS)",
+    "original_name": "IVPS - SMOK ProPod GT (Kit PS)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK ProPod GT (Kit PS)",
+    "original_name": "IVPS - SMOK ProPod GT (Kit PS)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK ProPod GT (Kit PS)",
+    "original_name": "IVPS - SMOK ProPod GT (Kit PS)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Resin (Drip Tip)",
+    "original_name": "IVPS - SMOK Resin (Drip Tip)",
+    "brand": "IVPS",
+    "category_id": "product.product_category_1",
+    "category_name": "Saleable",
+    "mapping_reason": "Default category - no specific match found",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Resin (Drip Tip)",
+    "original_name": "IVPS - SMOK Resin (Drip Tip)",
+    "brand": "IVPS",
+    "category_id": "product.product_category_1",
+    "category_name": "Saleable",
+    "mapping_reason": "Default category - no specific match found",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Resin (Drip Tip)",
+    "original_name": "IVPS - SMOK Resin (Drip Tip)",
+    "brand": "IVPS",
+    "category_id": "product.product_category_1",
+    "category_name": "Saleable",
+    "mapping_reason": "Default category - no specific match found",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK R-KISS 2 (Kit SK)",
+    "original_name": "IVPS - SMOK R-KISS 2 (Kit SK)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK RPM (Coils)(5-Pack)",
+    "original_name": "IVPS - SMOK RPM (Coils)(5-Pack)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK RPM 100 (Kit PS)",
+    "original_name": "IVPS - SMOK RPM 100 (Kit PS)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK RPM 100 (Kit PS)",
+    "original_name": "IVPS - SMOK RPM 100 (Kit PS)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK RPM 2 (Coils)(5-Pack)",
+    "original_name": "IVPS - SMOK RPM 2 (Coils)(5-Pack)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK RPM 2 (Kit PS)",
+    "original_name": "IVPS - SMOK RPM 2 (Kit PS)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK RPM 5 (Kit PS)",
+    "original_name": "IVPS - SMOK RPM 5 (Kit PS)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK RPM 5 (Kit PS)",
+    "original_name": "IVPS - SMOK RPM 5 (Kit PS)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK RPM 5 (Kit PS)",
+    "original_name": "IVPS - SMOK RPM 5 (Kit PS)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK RPM 5 (Kit PS)",
+    "original_name": "IVPS - SMOK RPM 5 (Kit PS)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK RPM 85 (Kit PS)",
+    "original_name": "IVPS - SMOK RPM 85 (Kit PS)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK RPM 85/100 (Pods)(3-Pack)",
+    "original_name": "IVPS - SMOK RPM 85/100 (Pods)(3-Pack)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK RPM25W (Pods)(3-Pack)",
+    "original_name": "IVPS - SMOK RPM25W (Pods)(3-Pack)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK SLM (Pods)(5-Pack)",
+    "original_name": "IVPS - SMOK SLM (Pods)(5-Pack)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Solus (Pods)(3-Pack)",
+    "original_name": "IVPS - SMOK Solus (Pods)(3-Pack)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "IVPS - SMOK Solus 2 (Kit PS)",
+    "original_name": "IVPS - SMOK Solus 2 (Kit PS)",
+    "brand": "IVPS",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "IVPS"
+    }
+  },
+  {
+    "source": "llm",
     "product_name": "IVPS - SMOK Solus 2 (Kit PS)",
     "original_name": "IVPS - SMOK Solus 2 (Kit PS)",
     "brand": "IVPS",
@@ -47665,12 +49157,13 @@
     "product_name": "LMRY - Lost Mary BM5000 (Dispo) (5000Puff) 4-5% (14mL)",
     "original_name": "LMRY - Lost Mary BM5000 (Dispo) (5000Puff) 4-5% (14mL)",
     "brand": "LMRY",
-    "category_id": "__export__.product_category_10_69ea89e2",
-    "category_name": "Disposable",
-    "mapping_reason": "Product contains disposable/puff/device keywords",
+    "category_id": "__export__.product_category_12_40483604",
+    "category_name": "E-Juice",
+    "mapping_reason": "Product has flavor and nicotine/volume - liquid e-juice",
     "confidence": 1.0,
     "attributes": {
       "flavor": "Lush Ice",
+      "nicotine_mg": "40-50",
       "brand": "LMRY"
     }
   },
@@ -47679,12 +49172,13 @@
     "product_name": "LMRY - Lost Mary BM5000 (Dispo) (5000Puff) 4-5% (14mL)",
     "original_name": "LMRY - Lost Mary BM5000 (Dispo) (5000Puff) 4-5% (14mL)",
     "brand": "LMRY",
-    "category_id": "__export__.product_category_10_69ea89e2",
-    "category_name": "Disposable",
-    "mapping_reason": "Product contains disposable/puff/device keywords",
+    "category_id": "__export__.product_category_12_40483604",
+    "category_name": "E-Juice",
+    "mapping_reason": "Product has flavor and nicotine/volume - liquid e-juice",
     "confidence": 1.0,
     "attributes": {
       "flavor": "Mango Passion Fruit",
+      "nicotine_mg": "40-50",
       "brand": "LMRY"
     }
   },
@@ -47693,12 +49187,13 @@
     "product_name": "LMRY - Lost Mary BM5000 (Dispo) (5000Puff) 4-5% (14mL)",
     "original_name": "LMRY - Lost Mary BM5000 (Dispo) (5000Puff) 4-5% (14mL)",
     "brand": "LMRY",
-    "category_id": "__export__.product_category_10_69ea89e2",
-    "category_name": "Disposable",
-    "mapping_reason": "Product contains disposable/puff/device keywords",
+    "category_id": "__export__.product_category_12_40483604",
+    "category_name": "E-Juice",
+    "mapping_reason": "Product has flavor and nicotine/volume - liquid e-juice",
     "confidence": 1.0,
     "attributes": {
       "flavor": "Root",
+      "nicotine_mg": "40-50",
       "brand": "LMRY"
     }
   },
@@ -47956,12 +49451,13 @@
     "product_name": "OXBR - Oxbar Nic-Switch (Dispo) (35000Puff)(14mL) Pod Juice Edt.",
     "original_name": "OXBR - Oxbar Nic-Switch (Dispo) (35000Puff)(14mL) Pod Juice Edt.",
     "brand": "OXBR",
-    "category_id": "__export__.product_category_10_69ea89e2",
-    "category_name": "Disposable",
-    "mapping_reason": "Product contains disposable/puff/device keywords",
+    "category_id": "__export__.product_category_12_40483604",
+    "category_name": "E-Juice",
+    "mapping_reason": "Product has flavor and nicotine/volume - liquid e-juice",
     "confidence": 1.0,
     "attributes": {
       "flavor": "Jewel Tobacco",
+      "nicotine_mg": "0",
       "brand": "OXBR"
     }
   },
@@ -47970,12 +49466,13 @@
     "product_name": "OXBR - Oxbar Nic-Switch (Dispo) (35000Puff)(14mL) Pod Juice Edt.",
     "original_name": "OXBR - Oxbar Nic-Switch (Dispo) (35000Puff)(14mL) Pod Juice Edt.",
     "brand": "OXBR",
-    "category_id": "__export__.product_category_10_69ea89e2",
-    "category_name": "Disposable",
-    "mapping_reason": "Product contains disposable/puff/device keywords",
+    "category_id": "__export__.product_category_12_40483604",
+    "category_name": "E-Juice",
+    "mapping_reason": "Product has flavor and nicotine/volume - liquid e-juice",
     "confidence": 1.0,
     "attributes": {
       "flavor": "Unflavored",
+      "nicotine_mg": "0",
       "brand": "OXBR"
     }
   },
@@ -48106,7 +49603,7 @@
     "mapping_reason": "Product contains pod/cartridge keywords",
     "confidence": 1.0,
     "attributes": {
-      "volume_ml": 4.5,
+      "volume_ml": "4.5mL",
       "brand": "RCKY"
     }
   },
@@ -48134,7 +49631,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Watermelon Rush on Ice",
-      "nicotine_mg": 3,
+      "nicotine_mg": "3",
       "brand": "RUTH"
     }
   },
@@ -48149,7 +49646,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Watermelon Rush on Ice",
-      "nicotine_mg": 6,
+      "nicotine_mg": "6",
       "brand": "RUTH"
     }
   },
@@ -48177,7 +49674,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Raspberry Lemon Mint",
-      "nicotine_mg": 12,
+      "nicotine_mg": "12",
       "brand": "STRM"
     }
   },
@@ -48192,7 +49689,7 @@
     "confidence": 1.0,
     "attributes": {
       "flavor": "Raspberry Lemon Mint",
-      "nicotine_mg": 6,
+      "nicotine_mg": "6",
       "brand": "STRM"
     }
   },
@@ -48453,7 +49950,7 @@
     "mapping_reason": "Product contains pod/cartridge keywords",
     "confidence": 1.0,
     "attributes": {
-      "volume_ml": 4,
+      "volume_ml": "4mL",
       "brand": "UWLL"
     }
   },
@@ -48641,6 +50138,266 @@
   },
   {
     "source": "llm",
+    "product_name": "UWLL - Uwell Caliburn X (Pods)(2-Pack) 3mL",
+    "original_name": "UWLL - Uwell Caliburn X (Pods)(2-Pack) 3mL",
+    "brand": "UWLL",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "UWLL"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "UWLL - Uwell Caliburn X (Pods)(2-Pack) 3mL",
+    "original_name": "UWLL - Uwell Caliburn X (Pods)(2-Pack) 3mL",
+    "brand": "UWLL",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "UWLL"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "UWLL - Uwell Cravat (Kit PS)",
+    "original_name": "UWLL - Uwell Cravat (Kit PS)",
+    "brand": "UWLL",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "UWLL"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "UWLL - Uwell Crown 3 (Coils)(4-Pack)",
+    "original_name": "UWLL - Uwell Crown 3 (Coils)(4-Pack)",
+    "brand": "UWLL",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "UWLL"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "UWLL - Uwell Crown 3 (Coils)(4-Pack)",
+    "original_name": "UWLL - Uwell Crown 3 (Coils)(4-Pack)",
+    "brand": "UWLL",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "UWLL"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "UWLL - Uwell Crown D (Kit PS)",
+    "original_name": "UWLL - Uwell Crown D (Kit PS)",
+    "brand": "UWLL",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "UWLL"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "UWLL - Uwell Crown M (Coils)(4-Pack)",
+    "original_name": "UWLL - Uwell Crown M (Coils)(4-Pack)",
+    "brand": "UWLL",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "UWLL"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "UWLL - Uwell Crown X (Coils)(4-Pack)",
+    "original_name": "UWLL - Uwell Crown X (Coils)(4-Pack)",
+    "brand": "UWLL",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "UWLL"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "UWLL - Uwell Crown X (Coils)(4-Pack)",
+    "original_name": "UWLL - Uwell Crown X (Coils)(4-Pack)",
+    "brand": "UWLL",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "UWLL"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "UWLL - Uwell Crown X (Kit PS)",
+    "original_name": "UWLL - Uwell Crown X (Kit PS)",
+    "brand": "UWLL",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "UWLL"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "UWLL - Uwell Crown X (Kit PS)",
+    "original_name": "UWLL - Uwell Crown X (Kit PS)",
+    "brand": "UWLL",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "UWLL"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "UWLL - Uwell Havok V1 (Coils)(4-Pack)",
+    "original_name": "UWLL - Uwell Havok V1 (Coils)(4-Pack)",
+    "brand": "UWLL",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "UWLL"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "UWLL - Uwell PA (Coils)(4-Pack)",
+    "original_name": "UWLL - Uwell PA (Coils)(4-Pack)",
+    "brand": "UWLL",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "UWLL"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "UWLL - Uwell PA (Coils)(4-Pack)",
+    "original_name": "UWLL - Uwell PA (Coils)(4-Pack)",
+    "brand": "UWLL",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "UWLL"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "UWLL - Uwell Popreel N1 (Pods)(2-Pack)",
+    "original_name": "UWLL - Uwell Popreel N1 (Pods)(2-Pack)",
+    "brand": "UWLL",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "UWLL"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "UWLL - Uwell Popreel P1 (Kit PS)",
+    "original_name": "UWLL - Uwell Popreel P1 (Kit PS)",
+    "brand": "UWLL",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "UWLL"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "UWLL - Uwell Popreel P1 (Kit PS)",
+    "original_name": "UWLL - Uwell Popreel P1 (Kit PS)",
+    "brand": "UWLL",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "UWLL"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "UWLL - Uwell Popreel P1 (Kit PS)",
+    "original_name": "UWLL - Uwell Popreel P1 (Kit PS)",
+    "brand": "UWLL",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "UWLL"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "UWLL - Uwell Popreel P1 (Kit PS)",
+    "original_name": "UWLL - Uwell Popreel P1 (Kit PS)",
+    "brand": "UWLL",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "UWLL"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "UWLL - Uwell Popreel P1/PK1 (Pods)(4-Pack)",
+    "original_name": "UWLL - Uwell Popreel P1/PK1 (Pods)(4-Pack)",
+    "brand": "UWLL",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "UWLL"
+    }
+  },
+  {
+    "source": "llm",
     "product_name": "UWLL - Uwell Valyrian 2 (Coils)(2-Pack)",
     "original_name": "UWLL - Uwell Valyrian 2 (Coils)(2-Pack)",
     "brand": "UWLL",
@@ -48800,13 +50557,13 @@
     "product_name": "VDXD - Mamasan (LIQ FB)(60mL)",
     "original_name": "VDXD - Mamasan (LIQ FB)(60mL)",
     "brand": "VDXD",
-    "category_id": "product.product_category_1",
-    "category_name": "Saleable",
-    "mapping_reason": "Default category - no specific match found",
+    "category_id": "__export__.product_category_12_40483604",
+    "category_name": "E-Juice",
+    "mapping_reason": "Product has flavor and nicotine/volume - liquid e-juice",
     "confidence": 1.0,
     "attributes": {
-      "flavor": "Apple Peach Strawberry",
-      "nicotine_mg": 0,
+      "flavor": "A.S.A.P. (Apple Peach Strawberry)",
+      "nicotine_mg": "0",
       "brand": "VDXD"
     }
   },
@@ -48820,8 +50577,8 @@
     "mapping_reason": "Product has flavor and nicotine/volume - liquid e-juice",
     "confidence": 1.0,
     "attributes": {
-      "flavor": "Apple Peach Strawberry Ice",
-      "nicotine_mg": 6,
+      "flavor": "A.S.A.P. Ice (Apple Peach Strawberry Ice)",
+      "nicotine_mg": "6",
       "brand": "VDXD"
     }
   },
@@ -48835,8 +50592,8 @@
     "mapping_reason": "Product has flavor and nicotine/volume - liquid e-juice",
     "confidence": 1.0,
     "attributes": {
-      "flavor": "Mango Lychee Ice",
-      "nicotine_mg": 6,
+      "flavor": "Bruce Leechee Ice (Mango Lychee Ice)",
+      "nicotine_mg": "6",
       "brand": "VDXD"
     }
   },
@@ -48845,13 +50602,13 @@
     "product_name": "VDXD - Mamasan (LIQ FB)(60mL)",
     "original_name": "VDXD - Mamasan (LIQ FB)(60mL)",
     "brand": "VDXD",
-    "category_id": "product.product_category_1",
-    "category_name": "Saleable",
-    "mapping_reason": "Default category - no specific match found",
+    "category_id": "__export__.product_category_12_40483604",
+    "category_name": "E-Juice",
+    "mapping_reason": "Product has flavor and nicotine/volume - liquid e-juice",
     "confidence": 1.0,
     "attributes": {
-      "flavor": "Honeydew Melon",
-      "nicotine_mg": 0,
+      "flavor": "Mama Melon (Honeydew Melon)",
+      "nicotine_mg": "0",
       "brand": "VDXD"
     }
   },
@@ -48909,6 +50666,269 @@
   },
   {
     "source": "llm",
+    "product_name": "VOPO - Voopoo Argus E40 (Pods)(2-Pack) 4.5mL",
+    "original_name": "VOPO - Voopoo Argus E40 (Pods)(2-Pack) 4.5mL",
+    "brand": "VOPO",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VOPO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VOPO - Voopoo Argus E40 (Pods)(2-Pack) 4.5mL",
+    "original_name": "VOPO - Voopoo Argus E40 (Pods)(2-Pack) 4.5mL",
+    "brand": "VOPO",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VOPO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VOPO - Voopoo Argus E40 (Pods)(2-Pack) 4.5mL",
+    "original_name": "VOPO - Voopoo Argus E40 (Pods)(2-Pack) 4.5mL",
+    "brand": "VOPO",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VOPO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VOPO - Voopoo Argus G2 (Kit PS)",
+    "original_name": "VOPO - Voopoo Argus G2 (Kit PS)",
+    "brand": "VOPO",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VOPO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VOPO - Voopoo Argus P1S (Kit PS)",
+    "original_name": "VOPO - Voopoo Argus P1S (Kit PS)",
+    "brand": "VOPO",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "flavor": "Creed Rose",
+      "brand": "VOPO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VOPO - Voopoo Argus Pro 2 (Kit PS)",
+    "original_name": "VOPO - Voopoo Argus Pro 2 (Kit PS)",
+    "brand": "VOPO",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "flavor": "Sky Purple",
+      "brand": "VOPO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VOPO - Voopoo Argus V2 (Pods)(3-Pack) 2mL Top-Fill",
+    "original_name": "VOPO - Voopoo Argus V2 (Pods)(3-Pack) 2mL Top-Fill",
+    "brand": "VOPO",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VOPO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VOPO - Voopoo Argus V2 (Pods)(3-Pack) 3mL Top-Fill",
+    "original_name": "VOPO - Voopoo Argus V2 (Pods)(3-Pack) 3mL Top-Fill",
+    "brand": "VOPO",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VOPO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VOPO - Voopoo Argus V2 (Pods)(3-Pack) 3mL Top-Fill",
+    "original_name": "VOPO - Voopoo Argus V2 (Pods)(3-Pack) 3mL Top-Fill",
+    "brand": "VOPO",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VOPO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VOPO - Voopoo Drag 5 (Kit SK)",
+    "original_name": "VOPO - Voopoo Drag 5 (Kit SK)",
+    "brand": "VOPO",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VOPO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VOPO - Voopoo Drag 5 (Kit SK)",
+    "original_name": "VOPO - Voopoo Drag 5 (Kit SK)",
+    "brand": "VOPO",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VOPO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VOPO - Voopoo Drag H40 (Kit PS)",
+    "original_name": "VOPO - Voopoo Drag H40 (Kit PS)",
+    "brand": "VOPO",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VOPO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VOPO - Voopoo Drag H40 (Kit PS)",
+    "original_name": "VOPO - Voopoo Drag H40 (Kit PS)",
+    "brand": "VOPO",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VOPO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VOPO - Voopoo Drag M100S (Mod)",
+    "original_name": "VOPO - Voopoo Drag M100S (Mod)",
+    "brand": "VOPO",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VOPO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VOPO - Voopoo Drag X2 (Kit PS)",
+    "original_name": "VOPO - Voopoo Drag X2 (Kit PS)",
+    "brand": "VOPO",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VOPO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VOPO - Voopoo PnP (Coils)(5-Pack)",
+    "original_name": "VOPO - Voopoo PnP (Coils)(5-Pack)",
+    "brand": "VOPO",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VOPO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VOPO - Voopoo PnP (Pods)(2-Pack)",
+    "original_name": "VOPO - Voopoo PnP (Pods)(2-Pack)",
+    "brand": "VOPO",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VOPO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VOPO - Voopoo PnP (Pods)(2-Pack)",
+    "original_name": "VOPO - Voopoo PnP (Pods)(2-Pack)",
+    "brand": "VOPO",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "volume_ml": "5ml",
+      "brand": "VOPO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VOPO - Voopoo PnP X (Coils)(5-Pack)",
+    "original_name": "VOPO - Voopoo PnP X (Coils)(5-Pack)",
+    "brand": "VOPO",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VOPO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VOPO - Voopoo PnP X (Coils)(5-Pack)",
+    "original_name": "VOPO - Voopoo PnP X (Coils)(5-Pack)",
+    "brand": "VOPO",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VOPO"
+    }
+  },
+  {
+    "source": "llm",
     "product_name": "VOPO - Voopoo PnP X (Pod Tank)",
     "original_name": "VOPO - Voopoo PnP X (Pod Tank)",
     "brand": "VOPO",
@@ -48943,6 +50963,7 @@
     "mapping_reason": "Default category - no specific match found",
     "confidence": 1.0,
     "attributes": {
+      "flavor": "Bubble",
       "brand": "VOPO"
     }
   },
@@ -49013,31 +51034,31 @@
   },
   {
     "source": "llm",
-    "product_name": "Sour Summer Splash",
-    "original_name": "Sour Summer Splash",
+    "product_name": "VPRB - Skwezed (LIQ FB)(100mL) Frozen",
+    "original_name": "VPRB - Skwezed (LIQ FB)(100mL) Frozen",
     "brand": "VPRB",
     "category_id": "__export__.product_category_12_40483604",
     "category_name": "E-Juice",
     "mapping_reason": "Product has flavor and nicotine/volume - liquid e-juice",
     "confidence": 1.0,
     "attributes": {
-      "flavor": "Watermelon Green Apple Ice",
-      "nicotine_mg": 6,
+      "flavor": "Sour Summer Splash (Watermelon Green Apple Ice)",
+      "nicotine_mg": "6",
       "brand": "VPRB"
     }
   },
   {
     "source": "llm",
-    "product_name": "Sour Summer Splash",
-    "original_name": "Sour Summer Splash",
+    "product_name": "VPRB - Skwezed (LIQ Salt)(30mL) Frozen",
+    "original_name": "VPRB - Skwezed (LIQ Salt)(30mL) Frozen",
     "brand": "VPRB",
     "category_id": "__export__.product_category_12_40483604",
     "category_name": "E-Juice",
     "mapping_reason": "Product has flavor and nicotine/volume - liquid e-juice",
     "confidence": 1.0,
     "attributes": {
-      "flavor": "Watermelon Green Apple Ice",
-      "nicotine_mg": 25,
+      "flavor": "Sour Summer Splash (Watermelon Green Apple Ice)",
+      "nicotine_mg": "25",
       "brand": "VPRB"
     }
   },
@@ -49051,7 +51072,7 @@
     "mapping_reason": "Product contains tank keywords",
     "confidence": 1.0,
     "attributes": {
-      "volume_ml": 8,
+      "volume_ml": "8mL",
       "brand": "VRSO"
     }
   },
@@ -49167,6 +51188,268 @@
     "category_id": "__export__.product_category_9_bc43a31e",
     "category_name": "Coil",
     "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VRSO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VRSO - Vaporesso Eco Nano CMF (Kit PS)",
+    "original_name": "VRSO - Vaporesso Eco Nano CMF (Kit PS)",
+    "brand": "VRSO",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VRSO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VRSO - Vaporesso Gen Max (Mod)",
+    "original_name": "VRSO - Vaporesso Gen Max (Mod)",
+    "brand": "VRSO",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VRSO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VRSO - Vaporesso Gen80 S (Mod)",
+    "original_name": "VRSO - Vaporesso Gen80 S (Mod)",
+    "brand": "VRSO",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VRSO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VRSO - Vaporesso GenAir (Pods)(2-Pack)",
+    "original_name": "VRSO - Vaporesso GenAir (Pods)(2-Pack)",
+    "brand": "VRSO",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "volume_ml": "4.5mL",
+      "brand": "VRSO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VRSO - Vaporesso GenAir 40 (Kit PS)",
+    "original_name": "VRSO - Vaporesso GenAir 40 (Kit PS)",
+    "brand": "VRSO",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VRSO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VRSO - Vaporesso GenAir 40 (Kit PS)",
+    "original_name": "VRSO - Vaporesso GenAir 40 (Kit PS)",
+    "brand": "VRSO",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VRSO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VRSO - Vaporesso GTi (Coils)(5-Pack)",
+    "original_name": "VRSO - Vaporesso GTi (Coils)(5-Pack)",
+    "brand": "VRSO",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VRSO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VRSO - Vaporesso GTX (Coils)(5-Pack)",
+    "original_name": "VRSO - Vaporesso GTX (Coils)(5-Pack)",
+    "brand": "VRSO",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VRSO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VRSO - Vaporesso GTX (Coils)(5-Pack)",
+    "original_name": "VRSO - Vaporesso GTX (Coils)(5-Pack)",
+    "brand": "VRSO",
+    "category_id": "__export__.product_category_9_bc43a31e",
+    "category_name": "Coil",
+    "mapping_reason": "Product contains coil/mesh/ohm keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VRSO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VRSO - Vaporesso GTX GO 40 (Kit PS)",
+    "original_name": "VRSO - Vaporesso GTX GO 40 (Kit PS)",
+    "brand": "VRSO",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VRSO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VRSO - Vaporesso GTX GO 40 (Kit PS)",
+    "original_name": "VRSO - Vaporesso GTX GO 40 (Kit PS)",
+    "brand": "VRSO",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VRSO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VRSO - Vaporesso GTX GO 40 (Kit PS)",
+    "original_name": "VRSO - Vaporesso GTX GO 40 (Kit PS)",
+    "brand": "VRSO",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VRSO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VRSO - Vaporesso GTX GO 80 (Kit PS)",
+    "original_name": "VRSO - Vaporesso GTX GO 80 (Kit PS)",
+    "brand": "VRSO",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VRSO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VRSO - Vaporesso GTX GO 80 (Kit PS)",
+    "original_name": "VRSO - Vaporesso GTX GO 80 (Kit PS)",
+    "brand": "VRSO",
+    "category_id": "__export__.product_category_15_821f60b4",
+    "category_name": "Kit",
+    "mapping_reason": "Product contains kit/mod keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VRSO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VRSO - Vaporesso Luxe PM40 (Pods)(2-Pack)",
+    "original_name": "VRSO - Vaporesso Luxe PM40 (Pods)(2-Pack)",
+    "brand": "VRSO",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "volume_ml": "4mL",
+      "brand": "VRSO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VRSO - Vaporesso Luxe Q (Pods)(4-Pack) 2mL (All compatible version)",
+    "original_name": "VRSO - Vaporesso Luxe Q (Pods)(4-Pack) 2mL (All compatible version)",
+    "brand": "VRSO",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VRSO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VRSO - Vaporesso Luxe Q (Pods)(4-Pack) 2mL (All compatible version)",
+    "original_name": "VRSO - Vaporesso Luxe Q (Pods)(4-Pack) 2mL (All compatible version)",
+    "brand": "VRSO",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VRSO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VRSO - Vaporesso Luxe Q (Pods)(4-Pack) 2mL (All compatible version)",
+    "original_name": "VRSO - Vaporesso Luxe Q (Pods)(4-Pack) 2mL (All compatible version)",
+    "brand": "VRSO",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VRSO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VRSO - Vaporesso Luxe Q (Pods)(4-Pack) 2mL (All compatible version)",
+    "original_name": "VRSO - Vaporesso Luxe Q (Pods)(4-Pack) 2mL (All compatible version)",
+    "brand": "VRSO",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
+    "confidence": 1.0,
+    "attributes": {
+      "brand": "VRSO"
+    }
+  },
+  {
+    "source": "llm",
+    "product_name": "VRSO - Vaporesso Luxe Q (Pods)(4-Pack) 3mL",
+    "original_name": "VRSO - Vaporesso Luxe Q (Pods)(4-Pack) 3mL",
+    "brand": "VRSO",
+    "category_id": "__export__.product_category_17_ecb352d2",
+    "category_name": "Replacement Pod",
+    "mapping_reason": "Product contains pod/cartridge keywords",
     "confidence": 1.0,
     "attributes": {
       "brand": "VRSO"

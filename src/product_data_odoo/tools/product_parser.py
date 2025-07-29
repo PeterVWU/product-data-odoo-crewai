@@ -224,10 +224,17 @@ def product_parser_tool(cleaned_csv_path: str, out_dir: str) -> Dict[str, Any]:
             product_name = row['name']
             parsed = _extract_with_regex(product_name)
             
+            # Add SKU and price to parsed result
+            parsed['sku'] = row['sku']
+            parsed['price'] = float(row['price']) if pd.notna(row['price']) else 0.0
+            parsed['index'] = idx
+            
             if _needs_llm_help(parsed):
                 unclear_products.append({
                     'index': idx,
                     'name': product_name,
+                    'sku': row['sku'],
+                    'price': float(row['price']) if pd.notna(row['price']) else 0.0,
                     'regex_result': parsed
                 })
             

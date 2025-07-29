@@ -14,7 +14,8 @@
       "Bash(cut:*)",
       "Bash(python:*)",
       "Bash(/dev/null)",
-      "Bash(awk:*)"
+      "Bash(awk:*)",
+      "Bash(jq:*)"
     ],
     "deny": []
   }

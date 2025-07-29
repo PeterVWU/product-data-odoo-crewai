@@ -942,22 +942,22 @@
   "DDYS - No Hype (LIQ FB)(100mL)": {
     "external_id": "template_ddys_-_no_hype_liq_fb100ml",
     "status": "new",
-    "variants_count": 5,
+    "variants_count": 3,
     "attributes": [
       "flavor",
       "nicotine_mg"
     ],
-    "category": "Saleable"
+    "category": "E-Juice"
   },
   "DDYS - No Hype (LIQ Salt)(30mL)": {
     "external_id": "template_ddys_-_no_hype_liq_salt30ml",
     "status": "new",
-    "variants_count": 4,
+    "variants_count": 2,
     "attributes": [
       "flavor",
       "nicotine_mg"
     ],
-    "category": "Saleable"
+    "category": "E-Juice"
   },
   "DDYS - Pancake Man (LIQ FB)(100mL)": {
     "external_id": "template_ddys_-_pancake_man_liq_fb100ml",
@@ -1772,7 +1772,7 @@
   "HMBL - Humble (LIQ FB)(120mL) TFN": {
     "external_id": "template_hmbl_-_humble_liq_fb120ml_tfn",
     "status": "new",
-    "variants_count": 22,
+    "variants_count": 23,
     "attributes": [
       "flavor",
       "nicotine_mg"
@@ -3853,7 +3853,7 @@
   "VPRB - Skwezed (LIQ FB)(100mL) Frozen": {
     "external_id": "template_vprb_-_skwezed_liq_fb100ml_frozen",
     "status": "new",
-    "variants_count": 10,
+    "variants_count": 11,
     "attributes": [
       "flavor",
       "nicotine_mg"
@@ -3873,7 +3873,7 @@
   "VPRB - Skwezed (LIQ Salt)(30mL) Frozen": {
     "external_id": "template_vprb_-_skwezed_liq_salt30ml_frozen",
     "status": "new",
-    "variants_count": 1,
+    "variants_count": 2,
     "attributes": [
       "flavor",
       "nicotine_mg"
@@ -4104,27 +4104,21 @@
     "external_id": "template_dotm_-_dotmod_dotpod_plus_pods2-pack_3ml",
     "status": "new",
     "variants_count": 2,
-    "attributes": [
-      "resistance_ohm"
-    ],
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "DOTM - Dotmod Dotstick (Coils)(5-Pack)": {
     "external_id": "template_dotm_-_dotmod_dotstick_coils5-pack",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "DVPO - Dovpo TMD Mesh (Coils)(5-Pack)": {
     "external_id": "template_dvpo_-_dovpo_tmd_mesh_coils5-pack",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "EFST - Efest (Charger) Lush Box Battery": {
@@ -4162,19 +4156,14 @@
     "external_id": "template_frmx_-_freemax_evox_pods3-pack_5ml",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm"
-    ],
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "FRMX - Freemax Fireluke M Series (Coils)(5-Pack)": {
     "external_id": "template_frmx_-_freemax_fireluke_m_series_coils5-pack",
     "status": "new",
     "variants_count": 7,
-    "attributes": [
-      "resistance_ohm",
-      "coil_model"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "FRMX - Freemax Galex (Pods)(2-Pack)": {
@@ -4184,23 +4173,102 @@
     "attributes": [],
     "category": "Replacement Pod"
   },
+  "FRMX - Freemax Gemm G1 (Dispo Tank)(2-Pack) - 0.12ohm SS316 550F": {
+    "external_id": "template_frmx_-_freemax_gemm_g1_dispo_tank2-pack_-_012ohm_ss316_550f",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "color"
+    ],
+    "category": "Coil"
+  },
+  "FRMX - Freemax Gemm G1 (Dispo Tank)(2-Pack) - 0.15ohm 80W": {
+    "external_id": "template_frmx_-_freemax_gemm_g1_dispo_tank2-pack_-_015ohm_80w",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "color"
+    ],
+    "category": "Coil"
+  },
+  "FRMX - Freemax Gemm G2 (Dispo Tank)(2-Pack) - 0.2ohm 80W": {
+    "external_id": "template_frmx_-_freemax_gemm_g2_dispo_tank2-pack_-_02ohm_80w",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "color"
+    ],
+    "category": "Coil"
+  },
+  "FRMX - Freemax Gemm G2 (Dispo Tank)(2-Pack) - 0.5ohm 30W": {
+    "external_id": "template_frmx_-_freemax_gemm_g2_dispo_tank2-pack_-_05ohm_30w",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "color"
+    ],
+    "category": "Coil"
+  },
+  "FRMX - Freemax Gemm G2 (Dispo Tank)(2-Pack)": {
+    "external_id": "template_frmx_-_freemax_gemm_g2_dispo_tank2-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Tank"
+  },
+  "FRMX - Freemax Gemm G3 (Dispo Tank)(2-Pack) - 0.15ohm 90W": {
+    "external_id": "template_frmx_-_freemax_gemm_g3_dispo_tank2-pack_-_015ohm_90w",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "color"
+    ],
+    "category": "Coil"
+  },
+  "FRMX - Freemax Gemm G4 (Dispo Tank)(2-Pack) - 0.15ohm 80W": {
+    "external_id": "template_frmx_-_freemax_gemm_g4_dispo_tank2-pack_-_015ohm_80w",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Coil"
+  },
+  "FRMX - Freemax GX Mesh (Coils)(5-Pack)": {
+    "external_id": "template_frmx_-_freemax_gx_mesh_coils5-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "FRMX - Freemax Marvos MS-D Mesh (Coils)(5-Pack)": {
+    "external_id": "template_frmx_-_freemax_marvos_ms-d_mesh_coils5-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "FRMX - Freemax Maxus 2 (Kit SK)": {
+    "external_id": "template_frmx_-_freemax_maxus_2_kit_sk",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
   "FRMX - Freemax Maxus Pro 904L M Mesh (Coils)(3-Pack)": {
     "external_id": "template_frmx_-_freemax_maxus_pro_904l_m_mesh_coils3-pack",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm",
-      "coil_model"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "FRMX - Freemax MS Mesh (Coils)(5-Pack)": {
     "external_id": "template_frmx_-_freemax_ms_mesh_coils5-pack",
     "status": "new",
     "variants_count": 2,
-    "attributes": [
-      "resistance_ohm"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "FRMX - Freemax Starlux (Kit PS)": {
@@ -4223,18 +4291,14 @@
     "external_id": "template_frmx_-_freemax_x1-d_mesh_coils5-pack",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "FRMX - Freemax Xfill Pods (5mL pod + 10mL bottle)": {
     "external_id": "template_frmx_-_freemax_xfill_pods_5ml_pod_10ml_bottle",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm"
-    ],
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "GKVP - Geekvape Aegis Boost 3 (Kit PS)": {
@@ -4268,10 +4332,7 @@
     "external_id": "template_gkvp_-_geekvape_b_series_coils5-pack",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm",
-      "coil_model"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "GKVP - GeekVape B100 Empty (Pods)(2-Pack)": {
@@ -4290,10 +4351,183 @@
     ],
     "category": "Kit"
   },
+  "GKVP - Geekvape Digi Max (Kit PS)": {
+    "external_id": "template_gkvp_-_geekvape_digi_max_kit_ps",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "GKVP - Geekvape H45 Hero 2 (Pods) Rte Edt. (2-Pack)": {
+    "external_id": "template_gkvp_-_geekvape_h45_hero_2_pods_rte_edt_2-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Replacement Pod"
+  },
+  "GKVP - Geekvape H45 Hero 2 (Refillable Pods + Coil) 5ml": {
+    "external_id": "template_gkvp_-_geekvape_h45_hero_2_refillable_pods_coil_5ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "GKVP - Geekvape J (Coils)(5-Pack)": {
+    "external_id": "template_gkvp_-_geekvape_j_coils5-pack",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "GKVP - Geekvape J (Pods)(2-Pack) 5mL": {
+    "external_id": "template_gkvp_-_geekvape_j_pods2-pack_5ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "GKVP - Geekvape Jr (Pods)(2-Pack) 5mL": {
+    "external_id": "template_gkvp_-_geekvape_jr_pods2-pack_5ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Replacement Pod"
+  },
+  "GKVP - Geekvape P (Coils)(5-Pack)": {
+    "external_id": "template_gkvp_-_geekvape_p_coils5-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "GKVP - Geekvape Peak (Kit PS)": {
+    "external_id": "template_gkvp_-_geekvape_peak_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "GKVP - Geekvape Q (Pods)(3-Pack) 3mL Side-Fill": {
+    "external_id": "template_gkvp_-_geekvape_q_pods3-pack_3ml_side-fill",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "GKVP - Geekvape Sonder Q (Kit PS)": {
+    "external_id": "template_gkvp_-_geekvape_sonder_q_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "GKVP - Geekvape Sonder U (Kit PS)": {
+    "external_id": "template_gkvp_-_geekvape_sonder_u_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "GKVP - Geekvape Sonder/Aegis U (Pods)(3-Pack) 2mL": {
+    "external_id": "template_gkvp_-_geekvape_sonderaegis_u_pods3-pack_2ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "GKVP - Geekvape Sonder/Wenax Q (Pods)(3-Pack)": {
+    "external_id": "template_gkvp_-_geekvape_sonderwenax_q_pods3-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "GKVP - Geekvape Soul (Pods)": {
+    "external_id": "template_gkvp_-_geekvape_soul_pods",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "GKVP - Geekvape Wenax H1 (Pods)(3-Pack)": {
+    "external_id": "template_gkvp_-_geekvape_wenax_h1_pods3-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "GKVP - Geekvape Wenax K1 (Pods)(3-Pack)": {
+    "external_id": "template_gkvp_-_geekvape_wenax_k1_pods3-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "GKVP - Geekvape Wenax M1 0.8ohm (Kit PS)": {
+    "external_id": "template_gkvp_-_geekvape_wenax_m1_08ohm_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Coil"
+  },
+  "GKVP - Geekvape Wenax M1 V2 (Pods)(4-Pack)": {
+    "external_id": "template_gkvp_-_geekvape_wenax_m1_v2_pods4-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "GKVP - Geekvape Wenax Q (Kit PS)": {
+    "external_id": "template_gkvp_-_geekvape_wenax_q_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Kit"
+  },
+  "GKVP - Geekvape Wenax Q Ultra (Kit PS) 1300mAh": {
+    "external_id": "template_gkvp_-_geekvape_wenax_q_ultra_kit_ps_1300mah",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "GLAS - Basix Pouches (DSPLY 5pc)(Nic Pouch)(20ct Can)": {
+    "external_id": "template_glas_-_basix_pouches_dsply_5pcnic_pouch20ct_can",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "GMDI - Lookah (REPL. Glass)(1pc) Unicorn Mini Glass Bubbler": {
+    "external_id": "template_gmdi_-_lookah_repl_glass1pc_unicorn_mini_glass_bubbler",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Saleable"
+  },
   "HMBL - Humble (LIQ FB)(60mL)": {
     "external_id": "template_hmbl_-_humble_liq_fb60ml",
     "status": "new",
-    "variants_count": 6,
+    "variants_count": 16,
     "attributes": [
       "flavor",
       "nicotine_mg"
@@ -4314,10 +4548,7 @@
     "external_id": "template_hrzn_-_horizon_aquila_coils3-pack",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm",
-      "model"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "HRZN - Horizon Falcon (Coils)(3-Pack)": {
@@ -4325,8 +4556,7 @@
     "status": "new",
     "variants_count": 4,
     "attributes": [
-      "model",
-      "resistance_ohm"
+      "model"
     ],
     "category": "Coil"
   },
@@ -4334,10 +4564,7 @@
     "external_id": "template_hrzn_-_horizon_falcon_2_coils3-pack",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm",
-      "model"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "HRZN - Horizon Sakerz Master (Tank)": {
@@ -4362,9 +4589,7 @@
     "external_id": "template_hrzn_-_horizon_talons_pods2-pack",
     "status": "new",
     "variants_count": 4,
-    "attributes": [
-      "resistance_ohm"
-    ],
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "HRZN - Horizon Talons Starter (Kit PS)": {
@@ -4393,18 +4618,88 @@
   "IVPS - SMOK Baby (Coils)(5-Pack)": {
     "external_id": "template_ivps_-_smok_baby_coils5-pack",
     "status": "new",
-    "variants_count": 5,
+    "variants_count": 11,
     "attributes": [
-      "model",
-      "resistance_ohm",
-      "coil_type"
+      "color",
+      "model"
     ],
+    "category": "Coil"
+  },
+  "IVPS - SMOK Cobra (Drip Tip)": {
+    "external_id": "template_ivps_-_smok_cobra_drip_tip",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Saleable"
+  },
+  "IVPS - SMOK D-Coil (Coils)(5-Pack)": {
+    "external_id": "template_ivps_-_smok_d-coil_coils5-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "IVPS - SMOK Fit (Pods)(3-Pack) [Disc.]": {
+    "external_id": "template_ivps_-_smok_fit_pods3-pack_disc",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "IVPS - SMOK G-Priv 4 (Kit SK)": {
+    "external_id": "template_ivps_-_smok_g-priv_4_kit_sk",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK IGEE A1 (Pods)(3-Pack) 2mL": {
+    "external_id": "template_ivps_-_smok_igee_a1_pods3-pack_2ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "IVPS - SMOK IPX 80 (Kit PS)": {
+    "external_id": "template_ivps_-_smok_ipx_80_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK IPX 80 (Pods)(3-Pack)": {
+    "external_id": "template_ivps_-_smok_ipx_80_pods3-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "model"
+    ],
+    "category": "Replacement Pod"
+  },
+  "IVPS - SMOK LP2 (Coils)(5-Pack)": {
+    "external_id": "template_ivps_-_smok_lp2_coils5-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "IVPS - SMOK M (Coils)(5-Pack)": {
+    "external_id": "template_ivps_-_smok_m_coils5-pack",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [],
     "category": "Coil"
   },
   "IVPS - SMOK Mag Solo (Mod)": {
     "external_id": "template_ivps_-_smok_mag_solo_mod",
     "status": "new",
-    "variants_count": 3,
+    "variants_count": 5,
     "attributes": [
       "color"
     ],
@@ -4414,17 +4709,16 @@
     "external_id": "template_ivps_-_smok_nord_coils5-pack",
     "status": "new",
     "variants_count": 2,
-    "attributes": [
-      "resistance_ohm",
-      "coil_type"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "IVPS - SMOK Nord 2 (Kit PS)": {
     "external_id": "template_ivps_-_smok_nord_2_kit_ps",
     "status": "new",
     "variants_count": 1,
-    "attributes": [],
+    "attributes": [
+      "color"
+    ],
     "category": "Kit"
   },
   "IVPS - SMOK Nord 2 (Pods)(3-Pack)": {
@@ -4479,10 +4773,7 @@
     "external_id": "template_ivps_-_smok_nord_pro_coils5-pack",
     "status": "new",
     "variants_count": 2,
-    "attributes": [
-      "resistance_ohm",
-      "coil_type"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "IVPS - SMOK Nord Pro (Pods)(3-Pack)": {
@@ -4496,20 +4787,14 @@
     "external_id": "template_ivps_-_smok_novo_pods3-pack",
     "status": "new",
     "variants_count": 3,
-    "attributes": [
-      "resistance_ohm",
-      "coil_type"
-    ],
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "IVPS - SMOK Novo (Pods)(3-Pack) TF": {
     "external_id": "template_ivps_-_smok_novo_pods3-pack_tf",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm",
-      "coil_type"
-    ],
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "IVPS - SMOK Novo 2 (Kit PS)": {
@@ -4525,10 +4810,7 @@
     "external_id": "template_ivps_-_smok_novo_2_pods3-pack",
     "status": "new",
     "variants_count": 3,
-    "attributes": [
-      "resistance_ohm",
-      "coil_type"
-    ],
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "IVPS - SMOK Novo 2C (Kit PS)": {
@@ -4598,9 +4880,7 @@
     "external_id": "template_ivps_-_smok_novo_m_pods3-pack_2ml_top-fill",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm"
-    ],
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "IVPS - SMOK Novo M (Pods)(3-Pack) 2mL Top-Fill -0.8ohm": {
@@ -4656,16 +4936,135 @@
   "IVPS - SMOK Novo SLR (Pods)(3-Pack) 2mL": {
     "external_id": "template_ivps_-_smok_novo_slr_pods3-pack_2ml",
     "status": "new",
+    "variants_count": 3,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "IVPS - SMOK Novo X (Kit PS)": {
+    "external_id": "template_ivps_-_smok_novo_x_kit_ps",
+    "status": "new",
+    "variants_count": 7,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK Prince (Coils)(3-Pack)": {
+    "external_id": "template_ivps_-_smok_prince_coils3-pack",
+    "status": "new",
+    "variants_count": 8,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "IVPS - SMOK ProPod GT (Kit PS)": {
+    "external_id": "template_ivps_-_smok_propod_gt_kit_ps",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "color"
+    ],
+    "category": "Replacement Pod"
+  },
+  "IVPS - SMOK Resin (Drip Tip)": {
+    "external_id": "template_ivps_-_smok_resin_drip_tip",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "color"
+    ],
+    "category": "Saleable"
+  },
+  "IVPS - SMOK R-KISS 2 (Kit SK)": {
+    "external_id": "template_ivps_-_smok_r-kiss_2_kit_sk",
+    "status": "new",
     "variants_count": 1,
     "attributes": [
-      "resistance_ohm"
+      "color"
     ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK RPM (Coils)(5-Pack)": {
+    "external_id": "template_ivps_-_smok_rpm_coils5-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "IVPS - SMOK RPM 100 (Kit PS)": {
+    "external_id": "template_ivps_-_smok_rpm_100_kit_ps",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK RPM 2 (Coils)(5-Pack)": {
+    "external_id": "template_ivps_-_smok_rpm_2_coils5-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "IVPS - SMOK RPM 2 (Kit PS)": {
+    "external_id": "template_ivps_-_smok_rpm_2_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK RPM 5 (Kit PS)": {
+    "external_id": "template_ivps_-_smok_rpm_5_kit_ps",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK RPM 85 (Kit PS)": {
+    "external_id": "template_ivps_-_smok_rpm_85_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK RPM 85/100 (Pods)(3-Pack)": {
+    "external_id": "template_ivps_-_smok_rpm_85100_pods3-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "IVPS - SMOK RPM25W (Pods)(3-Pack)": {
+    "external_id": "template_ivps_-_smok_rpm25w_pods3-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "IVPS - SMOK SLM (Pods)(5-Pack)": {
+    "external_id": "template_ivps_-_smok_slm_pods5-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "IVPS - SMOK Solus (Pods)(3-Pack)": {
+    "external_id": "template_ivps_-_smok_solus_pods3-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "IVPS - SMOK Solus 2 (Kit PS)": {
     "external_id": "template_ivps_-_smok_solus_2_kit_ps",
     "status": "new",
-    "variants_count": 1,
+    "variants_count": 2,
     "attributes": [
       "color"
     ],
@@ -4682,29 +5081,21 @@
     "external_id": "template_ivps_-_smok_tf_coils3-pack",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm",
-      "coil_model"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "IVPS - SMOK TFV12 (Coils)(3-Pack)": {
     "external_id": "template_ivps_-_smok_tfv12_coils3-pack",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "coil_model"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "IVPS - SMOK TFV16 (Coils)(3-Pack)": {
     "external_id": "template_ivps_-_smok_tfv16_coils3-pack",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm",
-      "coil_type"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "IVPS - SMOK TFV18 (Tank)": {
@@ -4720,9 +5111,7 @@
     "external_id": "template_ivps_-_smok_tfv8_coils3-pack",
     "status": "new",
     "variants_count": 2,
-    "attributes": [
-      "coil_model"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "IVPS - SMOK TFV9 (Tank)": {
@@ -4738,20 +5127,14 @@
     "external_id": "template_ivps_-_smok_vape_pen_coils5-pack",
     "status": "new",
     "variants_count": 2,
-    "attributes": [
-      "resistance_ohm",
-      "coil_type"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "IVPS - SMOK Vape Pen 22 (Coils)(5-Pack)": {
     "external_id": "template_ivps_-_smok_vape_pen_22_coils5-pack",
     "status": "new",
     "variants_count": 2,
-    "attributes": [
-      "resistance_ohm",
-      "coil_model"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "IVPS - SMOK Vape Pen V2 (Kit SK)": {
@@ -4786,18 +5169,16 @@
     "status": "new",
     "variants_count": 3,
     "attributes": [
-      "flavor"
+      "flavor",
+      "nicotine_mg"
     ],
-    "category": "Disposable"
+    "category": "E-Juice"
   },
   "LSTV - Lost Vape E Plus (Pods)(3-Pack)": {
     "external_id": "template_lstv_-_lost_vape_e_plus_pods3-pack",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm",
-      "coil_type"
-    ],
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "LSTV - Lost Vape Thelema Mini (Kit SK) UB Lite Tank Edt.": {
@@ -4813,40 +5194,28 @@
     "external_id": "template_lstv_-_lost_vape_ub_lite_coils5-pack",
     "status": "new",
     "variants_count": 2,
-    "attributes": [
-      "resistance_ohm",
-      "model"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "LSTV - Lost Vape UB Max (Coils)(3-Pack)": {
     "external_id": "template_lstv_-_lost_vape_ub_max_coils3-pack",
     "status": "new",
     "variants_count": 2,
-    "attributes": [
-      "resistance_ohm",
-      "model"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "LSTV - Lost Vape UB Ultra (Coils)(5-Pack)": {
     "external_id": "template_lstv_-_lost_vape_ub_ultra_coils5-pack",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm",
-      "model"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "LSTV - Lost Vape Ultra Boost (Coils)(5-Pack)": {
     "external_id": "template_lstv_-_lost_vape_ultra_boost_coils5-pack",
     "status": "new",
     "variants_count": 2,
-    "attributes": [
-      "resistance_ohm",
-      "model"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "LSTV - Lost Vape Ursa (Pods)(1pc) 2mL": {
@@ -4862,9 +5231,7 @@
     "external_id": "template_lstv_-_lost_vape_ursa_v2_pods3-pack_25ml",
     "status": "new",
     "variants_count": 2,
-    "attributes": [
-      "resistance_ohm"
-    ],
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "MIPD - Mi-Pod 2.0 (Pods)(2-Pack) 2mL": {
@@ -4917,17 +5284,16 @@
     "status": "new",
     "variants_count": 2,
     "attributes": [
-      "flavor"
+      "flavor",
+      "nicotine_mg"
     ],
-    "category": "Disposable"
+    "category": "E-Juice"
   },
   "OXBR - Oxbar Oxpod Elite (Pods)(2-Pack) 8mL Pod Juice Edt.": {
     "external_id": "template_oxbr_-_oxbar_oxpod_elite_pods2-pack_8ml_pod_juice_edt",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm"
-    ],
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "OXBR - SVOPP 30K Battery (Battery Only) Pod Juice Edt.": {
@@ -4943,18 +5309,14 @@
     "external_id": "template_oxva_-_oxva_xlim_v3_pods3-pack",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm"
-    ],
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "PATA - Urban Tale Xplore (Pods)(3-Pack) 2mL": {
     "external_id": "template_pata_-_urban_tale_xplore_pods3-pack_2ml",
     "status": "new",
     "variants_count": 2,
-    "attributes": [
-      "resistance_ohm"
-    ],
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "RCKY - LVE Orion II (Kit PS)": {
@@ -4977,9 +5339,7 @@
     "external_id": "template_rcky_-_lve_orion_ii_mesh_coils5-pack",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "RUTH - Ruthless Essentials (LIQ FB)(100mL)": {
@@ -5041,38 +5401,28 @@
     "external_id": "template_surn_-_suorin_fero_pods1pc_3ml",
     "status": "new",
     "variants_count": 2,
-    "attributes": [
-      "resistance_ohm"
-    ],
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "TBCO - Tobeco Super Tank (Coils)(5-Pack)": {
     "external_id": "template_tbco_-_tobeco_super_tank_coils5-pack",
     "status": "new",
     "variants_count": 2,
-    "attributes": [
-      "resistance_ohm",
-      "coil_type"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "UWLL - Uwell Aeglos (Coils)(4-Pack)": {
     "external_id": "template_uwll_-_uwell_aeglos_coils4-pack",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm",
-      "coil_type"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "UWLL - Uwell Caliburn (Pods)(4-Pack)": {
     "external_id": "template_uwll_-_uwell_caliburn_pods4-pack",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm"
-    ],
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "UWLL - Uwell Caliburn A2S (Kit PS)": {
@@ -5097,18 +5447,14 @@
     "external_id": "template_uwll_-_uwell_caliburn_a3s_pods4-pack",
     "status": "new",
     "variants_count": 2,
-    "attributes": [
-      "resistance_ohm"
-    ],
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "UWLL - Uwell Caliburn AZ3 (Pods)(4-Pack)": {
     "external_id": "template_uwll_-_uwell_caliburn_az3_pods4-pack",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm"
-    ],
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "UWLL - Uwell Caliburn Explorer (Kit PS)": {
@@ -5131,10 +5477,7 @@
     "external_id": "template_uwll_-_uwell_caliburn_g_pods2-pack",
     "status": "new",
     "variants_count": 2,
-    "attributes": [
-      "resistance_ohm",
-      "coil_type"
-    ],
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "UWLL - Uwell Caliburn G3 Lite (Kit PS)": {
@@ -5177,9 +5520,7 @@
     "external_id": "template_uwll_-_uwell_caliburn_gpp_pods3-pack_3ml_top-fill",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm"
-    ],
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "UWLL - Uwell Caliburn Tenet (Kit PS)": {
@@ -5194,29 +5535,107 @@
   "UWLL - Uwell Caliburn X (Pods)(2-Pack) 3mL": {
     "external_id": "template_uwll_-_uwell_caliburn_x_pods2-pack_3ml",
     "status": "new",
+    "variants_count": 4,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "UWLL - Uwell Cravat (Kit PS)": {
+    "external_id": "template_uwll_-_uwell_cravat_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "UWLL - Uwell Crown 3 (Coils)(4-Pack)": {
+    "external_id": "template_uwll_-_uwell_crown_3_coils4-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "UWLL - Uwell Crown D (Kit PS)": {
+    "external_id": "template_uwll_-_uwell_crown_d_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "UWLL - Uwell Crown M (Coils)(4-Pack)": {
+    "external_id": "template_uwll_-_uwell_crown_m_coils4-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "UWLL - Uwell Crown X (Coils)(4-Pack)": {
+    "external_id": "template_uwll_-_uwell_crown_x_coils4-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "UWLL - Uwell Crown X (Kit PS)": {
+    "external_id": "template_uwll_-_uwell_crown_x_kit_ps",
+    "status": "new",
     "variants_count": 2,
     "attributes": [
-      "resistance_ohm"
+      "color"
     ],
+    "category": "Kit"
+  },
+  "UWLL - Uwell Havok V1 (Coils)(4-Pack)": {
+    "external_id": "template_uwll_-_uwell_havok_v1_coils4-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "UWLL - Uwell PA (Coils)(4-Pack)": {
+    "external_id": "template_uwll_-_uwell_pa_coils4-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "UWLL - Uwell Popreel N1 (Pods)(2-Pack)": {
+    "external_id": "template_uwll_-_uwell_popreel_n1_pods2-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "UWLL - Uwell Popreel P1 (Kit PS)": {
+    "external_id": "template_uwll_-_uwell_popreel_p1_kit_ps",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "UWLL - Uwell Popreel P1/PK1 (Pods)(4-Pack)": {
+    "external_id": "template_uwll_-_uwell_popreel_p1pk1_pods4-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "UWLL - Uwell Valyrian 2 (Coils)(2-Pack)": {
     "external_id": "template_uwll_-_uwell_valyrian_2_coils2-pack",
     "status": "new",
     "variants_count": 3,
-    "attributes": [
-      "resistance_ohm",
-      "coil_type"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "UWLL - Uwell Valyrian 3 (Coils)(2-Pack)": {
     "external_id": "template_uwll_-_uwell_valyrian_3_coils2-pack",
     "status": "new",
     "variants_count": 2,
-    "attributes": [
-      "resistance_ohm"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "UWLL - Uwell Valyrian 3 (Kit SK)": {
@@ -5241,9 +5660,7 @@
     "external_id": "template_uwll_-_uwell_valyrian_pod_coils4-pack_se",
     "status": "new",
     "variants_count": 2,
-    "attributes": [
-      "resistance_ohm"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "UWLL - Uwell Valyrian Pod-Kit (Pods)(1pc)": {
@@ -5261,7 +5678,7 @@
       "flavor",
       "nicotine_mg"
     ],
-    "category": "Saleable"
+    "category": "E-Juice"
   },
   "VNDY - Vandy Vape Jackaroo (Pods)": {
     "external_id": "template_vndy_-_vandy_vape_jackaroo_pods",
@@ -5276,30 +5693,127 @@
     "external_id": "template_vndy_-_vandy_vape_kylin_m_mesh_coils10-pack",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm",
-      "coil_type"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "VNDY - Vandy Vape VVC (Coils)(4-Pack)": {
     "external_id": "template_vndy_-_vandy_vape_vvc_coils4-pack",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm",
-      "model"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "VOPO - Voopoo Argus (Pods)(3-Pack) 2mL Top-Fill": {
     "external_id": "template_vopo_-_voopoo_argus_pods3-pack_2ml_top-fill",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm"
-    ],
+    "attributes": [],
     "category": "Replacement Pod"
+  },
+  "VOPO - Voopoo Argus E40 (Pods)(2-Pack) 4.5mL": {
+    "external_id": "template_vopo_-_voopoo_argus_e40_pods2-pack_45ml",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "VOPO - Voopoo Argus G2 (Kit PS)": {
+    "external_id": "template_vopo_-_voopoo_argus_g2_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VOPO - Voopoo Argus P1S (Kit PS)": {
+    "external_id": "template_vopo_-_voopoo_argus_p1s_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor"
+    ],
+    "category": "Kit"
+  },
+  "VOPO - Voopoo Argus Pro 2 (Kit PS)": {
+    "external_id": "template_vopo_-_voopoo_argus_pro_2_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor"
+    ],
+    "category": "Kit"
+  },
+  "VOPO - Voopoo Argus V2 (Pods)(3-Pack) 2mL Top-Fill": {
+    "external_id": "template_vopo_-_voopoo_argus_v2_pods3-pack_2ml_top-fill",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "VOPO - Voopoo Argus V2 (Pods)(3-Pack) 3mL Top-Fill": {
+    "external_id": "template_vopo_-_voopoo_argus_v2_pods3-pack_3ml_top-fill",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "VOPO - Voopoo Drag 5 (Kit SK)": {
+    "external_id": "template_vopo_-_voopoo_drag_5_kit_sk",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VOPO - Voopoo Drag H40 (Kit PS)": {
+    "external_id": "template_vopo_-_voopoo_drag_h40_kit_ps",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VOPO - Voopoo Drag M100S (Mod)": {
+    "external_id": "template_vopo_-_voopoo_drag_m100s_mod",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VOPO - Voopoo Drag X2 (Kit PS)": {
+    "external_id": "template_vopo_-_voopoo_drag_x2_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VOPO - Voopoo PnP (Coils)(5-Pack)": {
+    "external_id": "template_vopo_-_voopoo_pnp_coils5-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "VOPO - Voopoo PnP (Pods)(2-Pack)": {
+    "external_id": "template_vopo_-_voopoo_pnp_pods2-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "VOPO - Voopoo PnP X (Coils)(5-Pack)": {
+    "external_id": "template_vopo_-_voopoo_pnp_x_coils5-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Coil"
   },
   "VOPO - Voopoo PnP X (Pod Tank)": {
     "external_id": "template_vopo_-_voopoo_pnp_x_pod_tank",
@@ -5324,7 +5838,7 @@
     "status": "new",
     "variants_count": 1,
     "attributes": [
-      "color"
+      "flavor"
     ],
     "category": "Saleable"
   },
@@ -5341,18 +5855,14 @@
     "external_id": "template_vopo_-_voopoo_vinci_v2_pods3-pack",
     "status": "new",
     "variants_count": 2,
-    "attributes": [
-      "resistance_ohm"
-    ],
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "VOPO - Voopoo Vmate V2 (Pods)(2-Pack) 3mL": {
     "external_id": "template_vopo_-_voopoo_vmate_v2_pods2-pack_3ml",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm"
-    ],
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "VOPO - Voopoo Vrizz (Kit PS) 800mAh": {
@@ -5363,16 +5873,6 @@
       "color"
     ],
     "category": "Kit"
-  },
-  "Sour Summer Splash": {
-    "external_id": "template_sour_summer_splash",
-    "status": "new",
-    "variants_count": 2,
-    "attributes": [
-      "flavor",
-      "nicotine_mg"
-    ],
-    "category": "E-Juice"
   },
   "VRSO - Vaporesso (REPL. Glass)(1pc) iTank 2": {
     "external_id": "template_vrso_-_vaporesso_repl_glass1pc_itank_2",
@@ -5410,38 +5910,117 @@
     "external_id": "template_vrso_-_vaporesso_eco_nano_pods2-pack_6ml",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm",
-      "coil_type"
-    ],
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "VRSO - Vaporesso Eco Nano (Pods)(2-Pack) 6mL Lush Edt.": {
     "external_id": "template_vrso_-_vaporesso_eco_nano_pods2-pack_6ml_lush_edt",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm",
-      "coil_type"
-    ],
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "VRSO - Vaporesso Eco Nano (Pods)(2-Pack) 6mL Mesh": {
     "external_id": "template_vrso_-_vaporesso_eco_nano_pods2-pack_6ml_mesh",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm"
-    ],
+    "attributes": [],
     "category": "Coil"
+  },
+  "VRSO - Vaporesso Eco Nano CMF (Kit PS)": {
+    "external_id": "template_vrso_-_vaporesso_eco_nano_cmf_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VRSO - Vaporesso Gen Max (Mod)": {
+    "external_id": "template_vrso_-_vaporesso_gen_max_mod",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VRSO - Vaporesso Gen80 S (Mod)": {
+    "external_id": "template_vrso_-_vaporesso_gen80_s_mod",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VRSO - Vaporesso GenAir (Pods)(2-Pack)": {
+    "external_id": "template_vrso_-_vaporesso_genair_pods2-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "VRSO - Vaporesso GenAir 40 (Kit PS)": {
+    "external_id": "template_vrso_-_vaporesso_genair_40_kit_ps",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VRSO - Vaporesso GTi (Coils)(5-Pack)": {
+    "external_id": "template_vrso_-_vaporesso_gti_coils5-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "VRSO - Vaporesso GTX (Coils)(5-Pack)": {
+    "external_id": "template_vrso_-_vaporesso_gtx_coils5-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "VRSO - Vaporesso GTX GO 40 (Kit PS)": {
+    "external_id": "template_vrso_-_vaporesso_gtx_go_40_kit_ps",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VRSO - Vaporesso GTX GO 80 (Kit PS)": {
+    "external_id": "template_vrso_-_vaporesso_gtx_go_80_kit_ps",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VRSO - Vaporesso Luxe PM40 (Pods)(2-Pack)": {
+    "external_id": "template_vrso_-_vaporesso_luxe_pm40_pods2-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "VRSO - Vaporesso Luxe Q (Pods)(4-Pack) 2mL (All compatible version)": {
+    "external_id": "template_vrso_-_vaporesso_luxe_q_pods4-pack_2ml_all_compatible_version",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [],
+    "category": "Replacement Pod"
   },
   "VRSO - Vaporesso Luxe Q (Pods)(4-Pack) 3mL": {
     "external_id": "template_vrso_-_vaporesso_luxe_q_pods4-pack_3ml",
     "status": "new",
-    "variants_count": 1,
-    "attributes": [
-      "coil_type"
-    ],
+    "variants_count": 2,
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "VRSO - Vaporesso Luxe Q2 SE (Kit PS)": {
@@ -5466,9 +6045,7 @@
     "external_id": "template_vrso_-_vaporesso_qf_coils3-pack",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "coil_type"
-    ],
+    "attributes": [],
     "category": "Coil"
   },
   "VRSO - Vaporesso Veco Go (Pods)(2-Pack)": {
@@ -5491,18 +6068,14 @@
     "external_id": "template_vrso_-_vaporesso_vibe_pods2-pack_45ml",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "coil_type"
-    ],
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "VRSO - Vaporesso XROS (Pods)(4-Pack) 3mL": {
     "external_id": "template_vrso_-_vaporesso_xros_pods4-pack_3ml",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "coil_type"
-    ],
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "VRSO - Vaporesso XROS 2 (Kit PS)": {
@@ -5545,10 +6118,7 @@
     "external_id": "template_vrso_-_vaporesso_xros_corex_20_pods4-pack_3ml",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm",
-      "coil_type"
-    ],
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "VRSO - Vaporesso xTank (Pods)(2-Pack)": {
@@ -5564,19 +6134,14 @@
     "external_id": "template_vrso_-_vaporesso_xtra_unipod_pods2-pack",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm",
-      "coil_type"
-    ],
+    "attributes": [],
     "category": "Replacement Pod"
   },
   "VRSO - Vaporesso Zero S (Pods)(2-Pack) 2mL": {
     "external_id": "template_vrso_-_vaporesso_zero_s_pods2-pack_2ml",
     "status": "new",
     "variants_count": 1,
-    "attributes": [
-      "resistance_ohm"
-    ],
+    "attributes": [],
     "category": "Replacement Pod"
   }
 }

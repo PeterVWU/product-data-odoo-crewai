@@ -2,41 +2,41 @@
   "flavor": {
     "external_id": "__export__.product_attribute_38_3ff3f277",
     "display_type": "radio",
-    "value_count": 1319,
-    "total_usage": 2885,
+    "value_count": 1325,
+    "total_usage": 2900,
     "sources": [
-      "regex",
-      "llm"
+      "llm",
+      "regex"
     ],
     "status": "existing"
   },
   "nicotine_mg": {
     "external_id": "__export__.product_attribute_40_ba9aed44",
     "display_type": "radio",
-    "value_count": 18,
-    "total_usage": 2857,
+    "value_count": 19,
+    "total_usage": 2874,
     "sources": [
-      "regex",
-      "llm"
+      "llm",
+      "regex"
     ],
     "status": "existing"
   },
   "volume_ml": {
     "external_id": "__export__.product_attribute_44_5bfde801",
     "display_type": "radio",
-    "value_count": 24,
-    "total_usage": 2657,
+    "value_count": 26,
+    "total_usage": 2660,
     "sources": [
-      "regex",
-      "llm"
+      "llm",
+      "regex"
     ],
     "status": "existing"
   },
   "brand": {
     "external_id": "__export__.product_attribute_31_f9258654",
     "display_type": "radio",
-    "value_count": 35,
-    "total_usage": 371,
+    "value_count": 36,
+    "total_usage": 547,
     "sources": [
       "llm"
     ],
@@ -45,98 +45,38 @@
   "color": {
     "external_id": "__export__.product_attribute_34_af1a1fa4",
     "display_type": "radio",
-    "value_count": 105,
-    "total_usage": 161,
+    "value_count": 145,
+    "total_usage": 245,
     "sources": [
       "llm"
     ],
     "status": "existing"
   },
-  "shade": {
-    "external_id": "__export__.product_attribute_241_59c1ce28",
+  "battery_capacity": {
+    "external_id": "attr_battery_capacity",
     "display_type": "radio",
     "value_count": 1,
     "total_usage": 1,
     "sources": [
       "llm"
     ],
-    "status": "existing"
+    "status": "new"
   },
-  "battery_capacity_mAh": {
-    "external_id": "__export__.product_attribute_242_fec20a5d",
-    "display_type": "radio",
-    "value_count": 1,
-    "total_usage": 1,
-    "sources": [
-      "llm"
-    ],
-    "status": "existing"
-  },
-  "product_series": {
-    "external_id": "__export__.product_attribute_243_d743adc6",
-    "display_type": "radio",
-    "value_count": 1,
-    "total_usage": 7,
-    "sources": [
-      "llm"
-    ],
-    "status": "existing"
-  },
-  "discontinued": {
-    "external_id": "__export__.product_attribute_244_1e5b2782",
-    "display_type": "radio",
-    "value_count": 1,
-    "total_usage": 6,
-    "sources": [
-      "llm"
-    ],
-    "status": "existing"
-  },
-  "resistance_ohm": {
+  "resistance": {
     "external_id": "__export__.product_attribute_43_0704264c",
     "display_type": "radio",
-    "value_count": 20,
-    "total_usage": 96,
+    "value_count": 52,
+    "total_usage": 169,
     "sources": [
       "llm"
     ],
     "status": "existing"
   },
-  "coil_model": {
-    "external_id": "__export__.product_attribute_32_30580756",
-    "display_type": "radio",
-    "value_count": 14,
-    "total_usage": 14,
-    "sources": [
-      "llm"
-    ],
-    "status": "existing"
-  },
-  "model": {
-    "external_id": "__export__.product_attribute_245_4e53b781",
-    "display_type": "radio",
-    "value_count": 16,
-    "total_usage": 17,
-    "sources": [
-      "llm"
-    ],
-    "status": "existing"
-  },
-  "note": {
-    "external_id": "__export__.product_attribute_246_489219b6",
+  "type": {
+    "external_id": "__export__.product_attribute_47_ec306821",
     "display_type": "radio",
     "value_count": 1,
     "total_usage": 1,
-    "sources": [
-      "llm"
-    ],
-    "status": "existing"
-  },
-  "coil_type": {
-    "external_id": "__export__.product_attribute_32_30580756",
-    "display_type": "radio",
-    "value_count": 12,
-    "total_usage": 29,
     "sources": [
       "llm"
     ],
@@ -145,131 +85,41 @@
   "material": {
     "external_id": "__export__.product_attribute_247_eea7bc8d",
     "display_type": "radio",
+    "value_count": 1,
+    "total_usage": 1,
+    "sources": [
+      "llm"
+    ],
+    "status": "existing"
+  },
+  "model": {
+    "external_id": "__export__.product_attribute_245_4e53b781",
+    "display_type": "radio",
     "value_count": 6,
-    "total_usage": 11,
-    "sources": [
-      "llm"
-    ],
-    "status": "existing"
-  },
-  "vaping_style": {
-    "external_id": "__export__.product_attribute_248_2eb13a7a",
-    "display_type": "radio",
-    "value_count": 3,
-    "total_usage": 11,
-    "sources": [
-      "llm"
-    ],
-    "status": "existing"
-  },
-  "color_pattern": {
-    "external_id": "__export__.product_attribute_249_b68ab43a",
-    "display_type": "radio",
-    "value_count": 4,
-    "total_usage": 4,
-    "sources": [
-      "llm"
-    ],
-    "status": "existing"
-  },
-  "compatibility": {
-    "external_id": "__export__.product_attribute_250_eb05ca7f",
-    "display_type": "radio",
-    "value_count": 2,
-    "total_usage": 3,
-    "sources": [
-      "llm"
-    ],
-    "status": "existing"
-  },
-  "pattern": {
-    "external_id": "__export__.product_attribute_251_a7910ffa",
-    "display_type": "radio",
-    "value_count": 5,
-    "total_usage": 9,
-    "sources": [
-      "llm"
-    ],
-    "status": "existing"
-  },
-  "design": {
-    "external_id": "__export__.product_attribute_252_63a4c5ba",
-    "display_type": "radio",
-    "value_count": 1,
-    "total_usage": 1,
-    "sources": [
-      "llm"
-    ],
-    "status": "existing"
-  },
-  "pack_quantity": {
-    "external_id": "__export__.product_attribute_253_a8a13ff6",
-    "display_type": "radio",
-    "value_count": 1,
-    "total_usage": 1,
-    "sources": [
-      "llm"
-    ],
-    "status": "existing"
-  },
-  "status": {
-    "external_id": "__export__.product_attribute_254_74849b4a",
-    "display_type": "radio",
-    "value_count": 1,
-    "total_usage": 2,
-    "sources": [
-      "llm"
-    ],
-    "status": "existing"
-  },
-  "nicotine_mg_range": {
-    "external_id": "__export__.product_attribute_40_ba9aed44",
-    "display_type": "radio",
-    "value_count": 2,
     "total_usage": 6,
     "sources": [
       "llm"
     ],
     "status": "existing"
   },
-  "version": {
-    "external_id": "__export__.product_attribute_256_c2548327",
-    "display_type": "radio",
-    "value_count": 1,
-    "total_usage": 1,
-    "sources": [
-      "llm"
-    ],
-    "status": "existing"
-  },
-  "nicotine_mg_min": {
-    "external_id": "__export__.product_attribute_40_ba9aed44",
-    "display_type": "radio",
-    "value_count": 1,
-    "total_usage": 2,
-    "sources": [
-      "llm"
-    ],
-    "status": "existing"
-  },
-  "nicotine_mg_max": {
-    "external_id": "__export__.product_attribute_40_ba9aed44",
-    "display_type": "radio",
-    "value_count": 1,
-    "total_usage": 2,
-    "sources": [
-      "llm"
-    ],
-    "status": "existing"
-  },
-  "resistance": {
-    "external_id": "__export__.product_attribute_43_0704264c",
+  "role": {
+    "external_id": "attr_role",
     "display_type": "radio",
     "value_count": 4,
     "total_usage": 5,
     "sources": [
       "llm"
     ],
-    "status": "existing"
+    "status": "new"
+  },
+  "technical_spec": {
+    "external_id": "attr_technical_spec",
+    "display_type": "radio",
+    "value_count": 6,
+    "total_usage": 6,
+    "sources": [
+      "llm"
+    ],
+    "status": "new"
   }
 }

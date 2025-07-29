@@ -24,9 +24,11 @@ async def run_async():
     # Pipeline control flags
     SKIP_PARSING = True  # Set to False to run full pipeline
     ATTRIBUTE_IMPORT_COMPLETED = True  # Set to True after completing Odoo attribute import
+    VARIANT_IMPORT_COMPLETED = True  # Set to True after exporting Odoo variants
+    SKIP_VARIANT_PARSING = True  # Set to True to skip directly to variant building
     # Define standardized base paths
-    # base_dir = Path("/home/vwu/development/csv-clean-up/product-data-odoo-crewai")
-    base_dir = Path("/root/development/data-cleaning/product_data_odoo")
+    base_dir = Path("/home/vwu/development/csv-clean-up/product-data-odoo-crewai")
+    # base_dir = Path("/root/development/data-cleaning/product_data_odoo")
     csv_path = str((base_dir / "src/product_data_odoo/VWU_Product_List.csv").resolve())
     
     # Define all output directories and file paths
@@ -44,8 +46,11 @@ async def run_async():
         
         # Checkpoint control
         "attribute_import_completed": ATTRIBUTE_IMPORT_COMPLETED,
+        "variant_import_completed": VARIANT_IMPORT_COMPLETED,
+        "skip_variant_parsing": SKIP_VARIANT_PARSING,
         "updated_odoo_attributes_file": str((base_dir / "src/product_data_odoo/updated_odoo_attributes.csv").resolve()),
         "existing_product_templates_file": str((base_dir / "src/product_data_odoo/existing_product_templates.csv").resolve()),
+        "odoo_product_template_file": str((base_dir / "src/product_data_odoo/odoo_product_template.csv").resolve()),
         
         # Output directories
         "cleaned_dir": str(cleaned_dir),
@@ -165,11 +170,13 @@ async def run_async():
                                             break
                                     
                                     if full_product:
-                                        # Merge attributes with product name and brand
+                                        # Merge attributes with product name, brand, SKU, and price
                                         merged_result = {
                                             "index": index,
                                             "brand": full_product["brand"],
-                                            "product_name": full_product["product_name"]
+                                            "product_name": full_product["product_name"],
+                                            "sku": full_product["sku"],
+                                            "price": full_product["price"]
                                         }
                                         
                                         # Add all discovered attributes
@@ -194,7 +201,9 @@ async def run_async():
                                         all_parsed_results.append({
                                             "index": minimal_product["index"],
                                             "brand": full_product["brand"],
-                                            "product_name": full_product["product_name"]
+                                            "product_name": full_product["product_name"],
+                                            "sku": full_product["sku"],
+                                            "price": full_product["price"]
                                         })
                             
                             # Progressive save after each batch
@@ -207,13 +216,24 @@ async def run_async():
                             print(f"❌ Error processing batch {batch_num + 1}: {batch_error}")
                             # Add fallback results for all products in batch
                             for product in batch:
-                                all_parsed_results.append({
-                                    "index": product["index"],
-                                    "product_name": product["product_name"],
-                                    "flavor": None,
-                                    "nicotine_mg": None,
-                                    "volume_ml": None
-                                })
+                                # Find the full product by index
+                                full_product = None
+                                for p in processed_products:
+                                    if p["index"] == product["index"]:
+                                        full_product = p["_full_product"]
+                                        break
+                                
+                                if full_product:
+                                    all_parsed_results.append({
+                                        "index": product["index"],
+                                        "brand": full_product["brand"],
+                                        "product_name": full_product["product_name"],
+                                        "sku": full_product["sku"],
+                                        "price": full_product["price"],
+                                        "flavor": None,
+                                        "nicotine_mg": None,
+                                        "volume_ml": None
+                                    })
                             continue
                     
                     # Save merged results
@@ -244,56 +264,154 @@ async def run_async():
             else:
                 print("✅ Found existing parsed data files")
         
-        # Step 3: Run category mapping
-        print("🏷️ Running category mapping...")
-        category_crew = Crew(
-            agents=[crew_instance.orchestrator()],
-            tasks=[crew_instance.category_mapping_task()],
-            verbose=True
-        )
-        
-        category_result = category_crew.kickoff(inputs=inputs)
-        print("✅ Category mapping completed!")
-        
-        # Step 4: Run attribute building
-        print("🏗️ Running attribute building...")
-        attribute_crew = Crew(
-            agents=[crew_instance.orchestrator()],
-            tasks=[crew_instance.attribute_building_task()],
-            verbose=True
-        )
-        
-        attribute_result = attribute_crew.kickoff(inputs=inputs)
-        print("✅ Attribute building completed!")
-        
-        # Step 5: Human checkpoint for Odoo attribute import
-        print("🔄 Running human checkpoint...")
-        checkpoint_crew = Crew(
-            agents=[crew_instance.orchestrator()],
-            tasks=[crew_instance.human_checkpoint_task()],
-            verbose=True
-        )
-        
-        checkpoint_result = checkpoint_crew.kickoff(inputs=inputs)
-        
-        # Check if we need to pause for human action
-        if not ATTRIBUTE_IMPORT_COMPLETED:
-            print("🛑 Pipeline paused for human Odoo import/export.")
-            print("📋 Follow the instructions above, then set ATTRIBUTE_IMPORT_COMPLETED = True and re-run.")
+        # Check if we should skip to variant building only
+        if SKIP_VARIANT_PARSING:
+            print("⏭️ Skipping all pipeline steps, jumping directly to variant building (SKIP_VARIANT_PARSING=True)")
+            # Verify that required files exist for variant building
+            required_files = [
+                inputs["clear_products_file"],
+                inputs["llm_parsed_results_file"],
+                inputs["odoo_product_template_file"]
+            ]
+            missing_files = []
+            for file_path in required_files:
+                if not Path(file_path).exists():
+                    missing_files.append(file_path)
+            
+            if missing_files:
+                print(f"❌ Missing required files for variant building:")
+                for file_path in missing_files:
+                    print(f"   - {file_path}")
+                print("🔄 Run full pipeline first or ensure all required files exist.")
+                return
+            else:
+                print("✅ Found all required files for variant building")
+                
+            # Jump directly to variant building
+            print("🏗️ Running variant building...")
+            variant_crew = Crew(
+                agents=[crew_instance.orchestrator()],
+                tasks=[crew_instance.variant_building_task()],
+                verbose=True
+            )
+            
+            variant_result = variant_crew.kickoff(inputs=inputs)
+            print("✅ Variant building completed!")
+            print("🎉 Variant-only pipeline completed successfully!")
             return
         
-        print("✅ Human checkpoint completed! Continuing pipeline...")
+        # Check if we should skip to variant building only
+        if not SKIP_VARIANT_PARSING:
+            # Step 3: Run category mapping
+            print("🏷️ Running category mapping...")
+            category_crew = Crew(
+                agents=[crew_instance.orchestrator()],
+                tasks=[crew_instance.category_mapping_task()],
+                verbose=True
+            )
+            
+            category_result = category_crew.kickoff(inputs=inputs)
+            print("✅ Category mapping completed!")
+            
+            # Step 4: Run attribute building
+            print("🏗️ Running attribute building...")
+            attribute_crew = Crew(
+                agents=[crew_instance.orchestrator()],
+                tasks=[crew_instance.attribute_building_task()],
+                verbose=True
+            )
+            
+            attribute_result = attribute_crew.kickoff(inputs=inputs)
+            print("✅ Attribute building completed!")
+            
+            # Step 5: Human checkpoint for Odoo attribute import
+            print("🔄 Running human checkpoint...")
+            checkpoint_crew = Crew(
+                agents=[crew_instance.orchestrator()],
+                tasks=[crew_instance.human_checkpoint_task()],
+                verbose=True
+            )
+            
+            checkpoint_result = checkpoint_crew.kickoff(inputs=inputs)
+            
+            # Check if we need to pause for human action
+            if not ATTRIBUTE_IMPORT_COMPLETED:
+                print("🛑 Pipeline paused for human Odoo import/export.")
+                print("📋 Follow the instructions above, then set ATTRIBUTE_IMPORT_COMPLETED = True and re-run.")
+                return
+            
+            print("✅ Human checkpoint completed! Continuing pipeline...")
+            
+            # Step 6: Run template building
+            print("🏗️ Running template building...")
+            template_crew = Crew(
+                agents=[crew_instance.orchestrator()],
+                tasks=[crew_instance.template_building_task()],
+                verbose=True
+            )
+            
+            template_result = template_crew.kickoff(inputs=inputs)
+            print("✅ Template building completed!")
+        else:
+            print("⏭️ Skipping category mapping, attribute building, checkpoint, and template building (SKIP_VARIANT_PARSING=True)")
+            # Verify that required files exist
+            required_files = [
+                inputs["clear_products_file"],
+                inputs["llm_parsed_results_file"]
+            ]
+            missing_files = []
+            for file_path in required_files:
+                if not Path(file_path).exists():
+                    missing_files.append(file_path)
+            
+            if missing_files:
+                print(f"❌ Missing required files when skipping to variant building:")
+                for file_path in missing_files:
+                    print(f"   - {file_path}")
+                print("🔄 Set SKIP_VARIANT_PARSING=False first to generate these files.")
+                return
+            else:
+                print("✅ Found existing parsed data files for variant building")
         
-        # Step 6: Run template building
-        print("🏗️ Running template building...")
-        template_crew = Crew(
+        # Check if we should skip variant parsing (for development)
+        if not SKIP_VARIANT_PARSING:
+            # Step 7: Variant checkpoint for Odoo template import/variant export
+            print("🔄 Running variant checkpoint...")
+            variant_checkpoint_crew = Crew(
+                agents=[crew_instance.orchestrator()],
+                tasks=[crew_instance.variant_checkpoint_task()],
+                verbose=True
+            )
+            
+            variant_checkpoint_result = variant_checkpoint_crew.kickoff(inputs=inputs)
+            
+            # Check if we need to pause for human action
+            if not VARIANT_IMPORT_COMPLETED:
+                print("🛑 Pipeline paused for human Odoo template import/variant export.")
+                print("📋 Follow the instructions above, then set VARIANT_IMPORT_COMPLETED = True and re-run.")
+                return
+            
+            print("✅ Variant checkpoint completed! Continuing to variant building...")
+        else:
+            print("⏭️ Skipping variant checkpoint (SKIP_VARIANT_PARSING=True)")
+            # Verify that required file exists
+            if not Path(inputs["odoo_product_template_file"]).exists():
+                print(f"❌ Missing required file: {inputs['odoo_product_template_file']}")
+                print("🔄 Set SKIP_VARIANT_PARSING=False first or ensure odoo_product_template.csv exists.")
+                return
+            else:
+                print("✅ Found existing odoo_product_template.csv file")
+        
+        # Step 8: Run variant building
+        print("🏗️ Running variant building...")
+        variant_crew = Crew(
             agents=[crew_instance.orchestrator()],
-            tasks=[crew_instance.template_building_task()],
+            tasks=[crew_instance.variant_building_task()],
             verbose=True
         )
         
-        template_result = template_crew.kickoff(inputs=inputs)
-        print("✅ Template building completed!")
+        variant_result = variant_crew.kickoff(inputs=inputs)
+        print("✅ Variant building completed!")
         print("🎉 Pipeline completed successfully!")
         
     except Exception as e:
@@ -336,7 +454,9 @@ def _split_product_name_attributes(product: dict) -> dict:
         "brand": brand,
         "product_name": product_name,
         "attributes_text": attributes_text,
-        "regex_result": product["regex_result"]
+        "regex_result": product["regex_result"],
+        "sku": product.get("sku", ""),  # Preserve SKU data
+        "price": product.get("price", 0.0)  # Preserve price data
     }
 
 def _extract_attribute_results(result_text: str) -> list:
