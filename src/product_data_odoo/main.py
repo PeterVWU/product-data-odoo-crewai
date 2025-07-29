@@ -25,7 +25,8 @@ async def run_async():
     SKIP_PARSING = True  # Set to False to run full pipeline
     ATTRIBUTE_IMPORT_COMPLETED = True  # Set to True after completing Odoo attribute import
     # Define standardized base paths
-    base_dir = Path("/home/vwu/development/csv-clean-up/product-data-odoo-crewai")
+    # base_dir = Path("/home/vwu/development/csv-clean-up/product-data-odoo-crewai")
+    base_dir = Path("/root/development/data-cleaning/product_data_odoo")
     csv_path = str((base_dir / "src/product_data_odoo/VWU_Product_List.csv").resolve())
     
     # Define all output directories and file paths
