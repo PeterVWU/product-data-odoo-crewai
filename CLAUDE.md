@@ -316,16 +316,23 @@ The Orchestrator agent requests approval at key stages:
 - **Statistics**: 12 existing attributes reused, 15 new attributes created
 - **Human-in-the-Loop**: Supports checkpoint system for attribute import approval
 
-#### 5. Template Builder Tool (IMPLEMENTED)
-**Purpose**: Create product template records with correct attribute-value mapping
+#### 5. Template Builder Tool (IMPLEMENTED & ENHANCED)
+**Purpose**: Create product template records with correct attribute-value mapping and variant management
 **Implementation**:
 - Groups variants by product_name (brand + name combination)
 - Uses attribute-specific value mappings to prevent cross-contamination
 - Calculates average pricing and attribute line configurations
-- **Fixed Issue**: Resolved attribute-value mixup where nicotine values were assigned to flavor attributes
-- **Output**: `new_templates.csv` with proper External ID references
-- **Format**: Multiple rows per template (one for each attribute)
-- **Statistics**: Generates templates for product lines with multiple attribute rows per template
+- **Variant Control**: Limits to 2 attributes max to prevent "too many variants" errors
+- **Attribute Priority System**: flavor > nicotine_mg > resistance_ohm > coil_type > color
+- **SKU Management**: Adds `default_code` field with SKU for simple products (no attributes)
+- **Template Types**: Handles both variant templates (with attributes) and simple templates (no attributes)
+- **Fixed Issues**: 
+  - Resolved attribute-value mixup using `'|' not in current_attr_name` filtering
+  - Fixed missing products by creating simple templates for 0-attribute products
+  - Added SKU lookup system from original cleaned data
+- **Output**: `new_templates.csv` with proper External ID references and SKU management
+- **Format**: Multiple rows per template (one for each attribute) or single row for simple products
+- **Statistics**: Successfully processes all product types including hardware without attributes
 
 #### 6. Advanced Processing Features
 - **File Path Standardization**: All paths managed through crew inputs
@@ -365,6 +372,6 @@ The Orchestrator agent requests approval at key stages:
 - ✅ Standardized file path management
 - ✅ Category mapping (3,725 products → 8 Odoo categories)
 - ✅ Attribute separation (1,313 existing values + 45 new attributes)
-- ✅ Template generation with correct attribute-value mapping
+- ✅ Template generation with attribute-value mapping, variant limiting, and SKU support
 - ✅ External ID management for Odoo import compatibility
 - ✅ Human-in-the-loop checkpoint system for attribute imports

@@ -46,6 +46,20 @@ def template_builder_tool(
     with open(category_mappings_file, 'r') as f:
         category_mappings = json.load(f)
     
+    # Create index-to-SKU mapping from original cleaned data
+    # This allows us to get SKUs for products that lost them during parsing
+    index_to_sku = {}
+    try:
+        import pandas as pd
+        cleaned_df = pd.read_csv(str(output_dir) + '/cleaned_products.csv')
+        for _, row in cleaned_df.iterrows():
+            if pd.notna(row['sku']) and pd.notna(row['name']):
+                # Create mapping by both index (if available) and name for flexible lookup
+                index_to_sku[row['name']] = row['sku']
+    except Exception as e:
+        print(f"Warning: Could not load SKU mapping: {e}")
+        index_to_sku = {}
+    
     # Load existing templates and attributes
     existing_templates = _load_existing_templates(existing_product_templates_file)
     attribute_mappings, value_mappings = _load_attribute_mappings(updated_odoo_attributes_file)
@@ -87,7 +101,7 @@ def template_builder_tool(
         else:
             # Create new template
             new_template_rows = _generate_new_template(
-                template_name, template_ext_id, template_data, attribute_mappings, value_mappings, category_external_ids
+                template_name, template_ext_id, template_data, attribute_mappings, value_mappings, category_external_ids, index_to_sku
             )
             new_templates.extend(new_template_rows)  # Use extend to add all rows
             
@@ -118,7 +132,7 @@ def template_builder_tool(
         with open(new_templates_file, 'w', newline='', encoding='utf-8') as f:
             fieldnames = [
                 'id', 'name', 'categ_id/id', 'type', 'sale_ok',
-                'list_price', 'attribute_line_ids/attribute_id/id', 
+                'list_price', 'default_code', 'attribute_line_ids/attribute_id/id', 
                 'attribute_line_ids/value_ids/id'
             ]
             writer = csv.DictWriter(f, fieldnames=fieldnames)
@@ -220,12 +234,14 @@ def _load_attribute_mappings(attributes_file: str) -> tuple[Dict[str, str], Dict
                 elif current_attr_name == 'resistance':
                     current_attr_key = 'resistance_ohm'
                     attribute_mappings['resistance_ohm'] = attr_id
-                elif 'coil' in current_attr_name and 'model' in current_attr_name:
+                elif 'coil' in current_attr_name and 'model' in current_attr_name and '|' not in current_attr_name:
                     current_attr_key = 'coil_model'
                     attribute_mappings['coil_model'] = attr_id
-                elif 'coil' in current_attr_name and 'type' in current_attr_name:
+                    # Also map 'model' to this same attribute for LLM parsed results
+                    attribute_mappings['model'] = attr_id
+                elif 'coil' in current_attr_name and 'type' in current_attr_name and '|' not in current_attr_name:
                     current_attr_key = 'coil_type'
-                    attribute_mappings['coil_type'] = attr_id
+                    attribute_mappings['coil_type'] = attr_id  
                 else:
                     current_attr_key = current_attr_name
                 
@@ -238,9 +254,16 @@ def _load_attribute_mappings(attributes_file: str) -> tuple[Dict[str, str], Dict
                 # Store the mapping from value name to external ID for this specific attribute
                 value_key = value_name.lower().strip()
                 value_mappings[current_attr_key][value_key] = value_id
+                
+                # If this is coil_model, also add the values to 'model' mapping for LLM compatibility
+                if current_attr_key == 'coil_model':
+                    if 'model' not in value_mappings:
+                        value_mappings['model'] = {}
+                    value_mappings['model'][value_key] = value_id
                     
     except Exception as e:
         print(f"Warning: Could not load attribute mappings: {e}")
+    
         
     return attribute_mappings, value_mappings
 
@@ -308,8 +331,21 @@ def _group_products_by_template(products: List[Dict], category_mappings: Dict) -
 def _collect_template_attributes(product: Dict, template_attributes: Dict[str, Set]):
     """Collect all unique attributes and their values for a template."""
     
-    # Standard attribute fields
-    standard_attrs = ['flavor', 'nicotine_mg', 'volume_ml', 'brand', 'color', 'resistance_ohm', 'coil_model', 'coil_type']
+    # Define allowed attributes with priority order (higher priority = more important)
+    # Skip volume_ml and brand as they're already in product names
+    # Skip weird LLM attributes that create too many variants
+    allowed_attributes = {
+        'flavor': 10,           # Highest priority - customer choice
+        'nicotine_mg': 9,       # High priority - customer choice  
+        'resistance_ohm': 8,    # Hardware spec - customer choice
+        'coil_type': 7,         # Hardware spec - customer choice
+        'color': 6,             # Visual choice
+        'model': 5,             # Hardware model (for coils)
+        'coil_model': 5,        # Hardware model (alternative)
+    }
+    
+    # Standard attribute fields (only process allowed ones)
+    standard_attrs = list(allowed_attributes.keys())
     
     for attr_name in standard_attrs:
         if attr_name in product and product[attr_name] is not None:
@@ -317,13 +353,43 @@ def _collect_template_attributes(product: Dict, template_attributes: Dict[str, S
             if value:
                 template_attributes[attr_name].add(value)
     
-    # Check for nested attributes (from LLM parsing)
+    # Check for nested attributes (from LLM parsing) - only allowed ones
     if 'attributes' in product and isinstance(product['attributes'], dict):
         for attr_name, value in product['attributes'].items():
-            if value is not None:
+            # Only process allowed attributes to avoid weird LLM attributes
+            if attr_name in allowed_attributes and value is not None:
                 value_str = str(value).strip()
                 if value_str:
                     template_attributes[attr_name].add(value_str)
+
+
+def _get_top_attributes(template_attributes: Dict[str, Set], max_attributes: int = 2) -> List[str]:
+    """Get the top N attributes based on priority, limiting variant explosion."""
+    
+    # Attribute priorities (higher = more important)
+    attribute_priorities = {
+        'flavor': 10,           # Highest priority - customer choice
+        'nicotine_mg': 9,       # High priority - customer choice  
+        'resistance_ohm': 8,    # Hardware spec - customer choice
+        'coil_type': 7,         # Hardware spec - customer choice
+        'color': 6,             # Visual choice
+        'model': 5,             # Hardware model (for coils)
+        'coil_model': 5,        # Hardware model (alternative)
+    }
+    
+    # Filter to only attributes that exist in the template
+    available_attributes = []
+    for attr_name, values in template_attributes.items():
+        if values and attr_name in attribute_priorities:  # Only include if has values and is allowed
+            priority = attribute_priorities[attr_name]
+            value_count = len(values)
+            available_attributes.append((attr_name, priority, value_count))
+    
+    # Sort by priority (descending), then by value count (ascending to avoid too many variants)
+    available_attributes.sort(key=lambda x: (-x[1], x[2]))
+    
+    # Return top N attribute names
+    return [attr[0] for attr in available_attributes[:max_attributes]]
 
 
 def _find_existing_template(template_name: str, existing_templates: Dict) -> Dict:
@@ -395,8 +461,18 @@ def _generate_existing_template_update(
     updates = []
     existing_attrs = existing_template.get('attributes', set())
     
-    # Check each attribute in the template data
-    for attr_name, attr_values in template_data['attributes'].items():
+    # Get top 2 attributes to limit variant explosion
+    top_attributes = _get_top_attributes(template_data['attributes'], max_attributes=2)
+    
+    # If no attributes, no updates needed (simple product template)
+    if not top_attributes:
+        return updates
+    
+    # Check each top attribute in the template data
+    for attr_name in top_attributes:
+        if attr_name not in template_data['attributes']:
+            continue
+        attr_values = template_data['attributes'][attr_name]
         # Get the attribute external ID
         attr_external_id = attribute_mappings.get(attr_name.lower())
         if not attr_external_id:
@@ -424,7 +500,8 @@ def _generate_new_template(
     template_data: Dict,
     attribute_mappings: Dict,
     value_mappings: Dict,
-    category_external_ids: Dict
+    category_external_ids: Dict,
+    index_to_sku: Dict
 ) -> List[Dict]:
     """Generate CSV rows for new template with all attributes."""
     
@@ -435,47 +512,76 @@ def _generate_new_template(
     # Get category external ID
     category_ext_id = _map_category_to_external_id(template_data['category'], category_external_ids)
     
-    # Generate multiple rows - one for each attribute
+    # For simple products (no attributes), get the SKU from the single product
+    template_sku = ""
+    if not template_data['attributes']:
+        # Single product template - use the product's SKU
+        products = template_data['products']
+        if len(products) == 1:
+            product = products[0]
+            # Try multiple ways to get the SKU
+            if 'sku' in product:
+                template_sku = product['sku']
+            elif template_name in index_to_sku:
+                template_sku = index_to_sku[template_name]
+    
+    # Generate multiple rows - one for each attribute (limit to top 2)
     template_rows = []
     
-    # Prioritize attributes in order: flavor, nicotine_mg, volume_ml, then others
-    attribute_priority = ['flavor', 'nicotine_mg', 'volume_ml']
-    other_attributes = [attr for attr in template_data['attributes'].keys() if attr not in attribute_priority]
-    all_attributes = attribute_priority + other_attributes
+    # Get top 2 attributes based on priority to limit variant explosion
+    top_attributes = _get_top_attributes(template_data['attributes'], max_attributes=2)
     
-    first_row = True
-    for attr_name in all_attributes:
-        if attr_name in template_data['attributes']:
-            attr_external_id = attribute_mappings.get(attr_name)
-            if attr_external_id:
-                values = template_data['attributes'][attr_name]
-                value_external_ids = _get_value_external_ids(values, attr_name, value_mappings)
-                
-                if first_row:
-                    # First row: Full template info + first attribute
-                    template_rows.append({
-                        'id': template_ext_id,
-                        'name': template_name,
-                        'categ_id/id': category_ext_id,
-                        'type': 'consu',
-                        'sale_ok': 'True',
-                        'list_price': f"{avg_price:.2f}",
-                        'attribute_line_ids/attribute_id/id': attr_external_id,
-                        'attribute_line_ids/value_ids/id': value_external_ids
-                    })
-                    first_row = False
-                else:
-                    # Additional rows: Empty template fields + additional attributes
-                    template_rows.append({
-                        'id': '',
-                        'name': '',
-                        'categ_id/id': '',
-                        'type': '',
-                        'sale_ok': '',
-                        'list_price': '',
-                        'attribute_line_ids/attribute_id/id': attr_external_id,
-                        'attribute_line_ids/value_ids/id': value_external_ids
-                    })
+    # Handle products with no attributes - create simple template
+    if not top_attributes:
+        # Simple template with just basic product info, no attributes, includes SKU
+        template_rows.append({
+            'id': template_ext_id,
+            'name': template_name,
+            'categ_id/id': category_ext_id,
+            'type': 'consu',
+            'sale_ok': 'True',
+            'list_price': f"{avg_price:.2f}",
+            'default_code': template_sku,
+            'attribute_line_ids/attribute_id/id': '',
+            'attribute_line_ids/value_ids/id': ''
+        })
+    else:
+        # Standard template with attributes
+        first_row = True
+        for attr_name in top_attributes:
+            if attr_name in template_data['attributes']:
+                attr_external_id = attribute_mappings.get(attr_name)
+                if attr_external_id:
+                    values = template_data['attributes'][attr_name]
+                    value_external_ids = _get_value_external_ids(values, attr_name, value_mappings)
+                    
+                    if first_row:
+                        # First row: Full template info + first attribute (no SKU for variant templates)
+                        template_rows.append({
+                            'id': template_ext_id,
+                            'name': template_name,
+                            'categ_id/id': category_ext_id,
+                            'type': 'consu',
+                            'sale_ok': 'True',
+                            'list_price': f"{avg_price:.2f}",
+                            'default_code': '',
+                            'attribute_line_ids/attribute_id/id': attr_external_id,
+                            'attribute_line_ids/value_ids/id': value_external_ids
+                        })
+                        first_row = False
+                    else:
+                        # Additional rows: Empty template fields + additional attributes
+                        template_rows.append({
+                            'id': '',
+                            'name': '',
+                            'categ_id/id': '',
+                            'type': '',
+                            'sale_ok': '',
+                            'list_price': '',
+                            'default_code': '',
+                            'attribute_line_ids/attribute_id/id': attr_external_id,
+                            'attribute_line_ids/value_ids/id': value_external_ids
+                        })
     
     return template_rows
 

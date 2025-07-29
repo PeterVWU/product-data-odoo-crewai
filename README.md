@@ -67,7 +67,12 @@ This pipeline processes raw vendor product data and generates clean, structured 
 #### Template Builder Tool
 - **Function**: Creates product template records with proper attribute-value mapping
 - **Processing**: Groups variants by product line, uses attribute-specific value lookups
-- **Output**: `new_templates.csv` with correct External ID references for attributes and values
+- **Features**: 
+  - Limits to 2 attributes per template to prevent variant explosion
+  - Priority system: flavor > nicotine_mg > resistance_ohm > coil_type > color
+  - SKU support for simple products without attributes
+  - Handles both variant templates and simple products
+- **Output**: `new_templates.csv` with correct External ID references and SKU management
 
 #### Variant Builder Tool
 - **Function**: Generates product variant records
@@ -189,7 +194,7 @@ uv run test
 - **Product Parser Tool**: Hybrid regex + AI approach operational
 - **Category Mapper Tool**: Maps 3,725 products to existing Odoo categories
 - **Attribute Builder Tool**: Generates attribute CSVs with existing/new attribute separation
-- **Template Builder Tool**: Creates product templates with correct attribute-value mapping
+- **Template Builder Tool**: Creates product templates with attribute-value mapping, variant limiting, and SKU support
 - **Concurrent Processing**: `kickoff_for_each_async` implementation for scaling
 - **File Path Management**: Standardized paths passed through crew inputs
 - **Quality Assurance**: 85.5% completion rate on 551 complex products
