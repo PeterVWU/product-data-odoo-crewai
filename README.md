@@ -74,10 +74,15 @@ This pipeline processes raw vendor product data and generates clean, structured 
   - Handles both variant templates and simple products
 - **Output**: `new_templates.csv` with correct External ID references and SKU management
 
-#### Variant Builder Tool
-- **Function**: Generates product variant records
-- **Processing**: Links variants to templates, assigns External IDs
-- **Output**: `product_variants.csv` with SKU mappings
+#### Variant Builder Tool (✅ COMPLETED)
+- **Function**: Generates product variant import CSV using existing variant IDs from Odoo exports
+- **Processing**: 
+  - Uses stored-attribute-driven matching for maximum compatibility
+  - Handles simple products (no attributes) and complex multi-attribute variants
+  - Maps products to existing Odoo variants using flexible attribute matching
+  - Supports partial attribute matching for evolved templates
+- **Performance**: **95.8% success rate** (3,209 out of 3,350 products matched)
+- **Output**: `product_variant_import.csv` with format: `id,name,product_template_variant_value_ids/id,default_code,standard_price`
 
 #### Inventory Builder Tool
 - **Function**: Creates inventory adjustment records
@@ -161,13 +166,16 @@ variant_ext_id, location_ext_id, quantity
 ## Key Features
 
 - **Hybrid Intelligence**: Fast regex processing (85%) + AI for complex cases (15%)
-- **Token Efficient**: Only 551/3,725 products use LLM processing
+- **Token Efficient**: Only 467/3,817 products use LLM processing
 - **External ID Strategy**: Uses existing Odoo external IDs to prevent duplicates
 - **Quality Gates**: Built-in validation and human approval checkpoints
 - **Existing Data Integration**: Loads and reuses existing Odoo categories and attributes
 - **Vendor Agnostic**: Adaptable to different CSV formats and naming conventions
 - **Offline Processing**: No Odoo API dependency, pure CSV generation
 - **Skip Parsing Mode**: Development flag to skip expensive LLM processing
+- **Advanced Variant Matching**: Stored-attribute-driven matching achieving 95.8% success rate
+- **Template Evolution Support**: Handles templates where attributes were added/removed over time
+- **Single-Value Attribute Handling**: Correctly processes templates with non-variant attributes
 
 ## Usage
 
@@ -192,18 +200,19 @@ uv run test
 - **Smart Parser Agent**: Implemented with three-part parsing and LLM integration
 - **CSV Processor Tool**: Working with standardized file paths
 - **Product Parser Tool**: Hybrid regex + AI approach operational
-- **Category Mapper Tool**: Maps 3,725 products to existing Odoo categories
+- **Category Mapper Tool**: Maps 3,817 products to existing Odoo categories
 - **Attribute Builder Tool**: Generates attribute CSVs with existing/new attribute separation
 - **Template Builder Tool**: Creates product templates with attribute-value mapping, variant limiting, and SKU support
+- **Variant Builder Tool**: **COMPLETED** with stored-attribute-driven matching achieving 95.8% success rate
 - **Concurrent Processing**: `kickoff_for_each_async` implementation for scaling
 - **File Path Management**: Standardized paths passed through crew inputs
 - **Quality Assurance**: 85.5% completion rate on 551 complex products
 - **External ID Management**: Prevents duplicates in Odoo imports
 - **Human-in-the-Loop**: Checkpoint system for attribute import approval
+- **Advanced Variant Matching**: Handles simple products, single-value attributes, and template evolution
 
 ### 🚧 Pending Components
-- **Variant Builder Tool**: For product variant records
-- **Inventory Builder Tool**: For inventory adjustment records
+- **Inventory Builder Tool**: For inventory adjustment records (low priority)
 
 ## Output
 

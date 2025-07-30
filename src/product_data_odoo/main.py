@@ -25,10 +25,10 @@ async def run_async():
     SKIP_PARSING = True  # Set to False to run full pipeline
     ATTRIBUTE_IMPORT_COMPLETED = True  # Set to True after completing Odoo attribute import
     VARIANT_IMPORT_COMPLETED = True  # Set to True after exporting Odoo variants
-    SKIP_VARIANT_PARSING = True  # Set to True to skip directly to variant building
+    SKIP_VARIANT_PARSING = False  # Set to True to skip directly to variant building
     # Define standardized base paths
-    base_dir = Path("/home/vwu/development/csv-clean-up/product-data-odoo-crewai")
-    # base_dir = Path("/root/development/data-cleaning/product_data_odoo")
+    # base_dir = Path("/home/vwu/development/csv-clean-up/product-data-odoo-crewai")
+    base_dir = Path("/root/development/data-cleaning/product_data_odoo")
     csv_path = str((base_dir / "src/product_data_odoo/VWU_Product_List.csv").resolve())
     
     # Define all output directories and file paths
@@ -51,7 +51,8 @@ async def run_async():
         "updated_odoo_attributes_file": str((base_dir / "src/product_data_odoo/updated_odoo_attributes.csv").resolve()),
         "existing_product_templates_file": str((base_dir / "src/product_data_odoo/existing_product_templates.csv").resolve()),
         "odoo_product_template_file": str((base_dir / "src/product_data_odoo/odoo_product_template.csv").resolve()),
-        
+        "odoo_product_variant_file": str((base_dir / "src/product_data_odoo/odoo_product_variant.csv").resolve()),
+
         # Output directories
         "cleaned_dir": str(cleaned_dir),
         "parsed_dir": str(parsed_dir),

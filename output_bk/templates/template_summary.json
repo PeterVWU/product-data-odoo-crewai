@@ -1,0 +1,6147 @@
+{
+  "7DZE - 7Daze (LIQ FB)(100mL) Fusion TFN": {
+    "external_id": "template_7dze_-_7daze_liq_fb100ml_fusion_tfn",
+    "status": "new",
+    "variants_count": 42,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "7DZE - 7Daze (LIQ FB)(100mL) Reds": {
+    "external_id": "template_7dze_-_7daze_liq_fb100ml_reds",
+    "status": "new",
+    "variants_count": 40,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "7DZE - 7Daze (LIQ FB)(100mL) Reds/Keep It 100": {
+    "external_id": "template_7dze_-_7daze_liq_fb100ml_redskeep_it_100",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "7DZE - 7Daze (LIQ FB)(100mL) TF-Nic": {
+    "external_id": "template_7dze_-_7daze_liq_fb100ml_tf-nic",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "7DZE - 7Daze (LIQ FB)(60mL) Reds": {
+    "external_id": "template_7dze_-_7daze_liq_fb60ml_reds",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "7DZE - 7Daze (LIQ FB)(60mL) TF-Nic": {
+    "external_id": "template_7dze_-_7daze_liq_fb60ml_tf-nic",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "7DZE - 7Daze (LIQ Salt)(30mL) Fusion TFN": {
+    "external_id": "template_7dze_-_7daze_liq_salt30ml_fusion_tfn",
+    "status": "new",
+    "variants_count": 26,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "7DZE - 7Daze (LIQ Salt)(30mL) LIQmate": {
+    "external_id": "template_7dze_-_7daze_liq_salt30ml_liqmate",
+    "status": "new",
+    "variants_count": 19,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "7DZE - 7Daze (LIQ Salt)(30mL) Reds": {
+    "external_id": "template_7dze_-_7daze_liq_salt30ml_reds",
+    "status": "new",
+    "variants_count": 22,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "7DZE - 7Daze (LIQ Salt)(30mL) Reds/Keep It 100": {
+    "external_id": "template_7dze_-_7daze_liq_salt30ml_redskeep_it_100",
+    "status": "new",
+    "variants_count": 6,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "7DZE - 7Daze (LIQ Salt)(30mL) TF-Nic": {
+    "external_id": "template_7dze_-_7daze_liq_salt30ml_tf-nic",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "7DZE - 7Daze Clickmate 2% Starter Kit (Dispo) (15000Puff)(18mL)": {
+    "external_id": "template_7dze_-_7daze_clickmate_2_starter_kit_dispo_15000puff18ml",
+    "status": "new",
+    "variants_count": 16,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "7DZE - 7Daze Clickmate 5% Starter Kit (Dispo) (15000Puff)(18mL)": {
+    "external_id": "template_7dze_-_7daze_clickmate_5_starter_kit_dispo_15000puff18ml",
+    "status": "new",
+    "variants_count": 9,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "7DZE - 7Daze Clickmates 2% Prefilled Mates MAX (2-Pack)": {
+    "external_id": "template_7dze_-_7daze_clickmates_2_prefilled_mates_max_2-pack",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "7DZE - 7Daze Clickmates 5% Prefilled Mates MAX (2-Pack)": {
+    "external_id": "template_7dze_-_7daze_clickmates_5_prefilled_mates_max_2-pack",
+    "status": "new",
+    "variants_count": 23,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "7DZE - 7Daze Egge (Dispo) (3000Puff)(7mL)": {
+    "external_id": "template_7dze_-_7daze_egge_dispo_3000puff7ml",
+    "status": "new",
+    "variants_count": 12,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "7DZE - PouchMates (DSPLY 5pc)(Nic Pouch)(20ct Can)(SAS)": {
+    "external_id": "template_7dze_-_pouchmates_dsply_5pcnic_pouch20ct_cansas",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "AIRO - Elf Bar Airo Max (Dispo) (5000Puff)(13mL)": {
+    "external_id": "template_airo_-_elf_bar_airo_max_dispo_5000puff13ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "ALTZ - Alt Zero (LIQ FB)(100mL)": {
+    "external_id": "template_altz_-_alt_zero_liq_fb100ml",
+    "status": "new",
+    "variants_count": 8,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "ALTZ - Alt Zero (LIQ Salt)(30mL) Excision": {
+    "external_id": "template_altz_-_alt_zero_liq_salt30ml_excision",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "ALTZ - Alt Zero (LIQ Salt)(30mL) TFN": {
+    "external_id": "template_altz_-_alt_zero_liq_salt30ml_tfn",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "ALTZ - Excision (LIQ FB)(60mL)": {
+    "external_id": "template_altz_-_excision_liq_fb60ml",
+    "status": "new",
+    "variants_count": 11,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "AMVH - One Hit Wonder (LIQ FB)(100mL) TF-Nic": {
+    "external_id": "template_amvh_-_one_hit_wonder_liq_fb100ml_tf-nic",
+    "status": "new",
+    "variants_count": 16,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "AMVH - One Hit Wonder (LIQ Salt)(30mL) TF-Nic": {
+    "external_id": "template_amvh_-_one_hit_wonder_liq_salt30ml_tf-nic",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "ARFY - Air Factory (LIQ FB)(60mL)": {
+    "external_id": "template_arfy_-_air_factory_liq_fb60ml",
+    "status": "new",
+    "variants_count": 14,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "ARFY - Air Factory (LIQ Salt)(30mL)": {
+    "external_id": "template_arfy_-_air_factory_liq_salt30ml",
+    "status": "new",
+    "variants_count": 18,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "AXIO - Thursday (Dispo) (30000Puff)(22mL)": {
+    "external_id": "template_axio_-_thursday_dispo_30000puff22ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "AXIO - Yogi (LIQ FB)(60mL)": {
+    "external_id": "template_axio_-_yogi_liq_fb60ml",
+    "status": "new",
+    "variants_count": 22,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "AXIO - Yogi (LIQ Salt)(30mL)": {
+    "external_id": "template_axio_-_yogi_liq_salt30ml",
+    "status": "new",
+    "variants_count": 13,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "BDLB - Bad Drip (LIQ FB)(60mL)": {
+    "external_id": "template_bdlb_-_bad_drip_liq_fb60ml",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "BDVC - Beard (LIQ FB)(100mL) The One": {
+    "external_id": "template_bdvc_-_beard_liq_fb100ml_the_one",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "BDVC - Beard (LIQ FB)(120mL)": {
+    "external_id": "template_bdvc_-_beard_liq_fb120ml",
+    "status": "new",
+    "variants_count": 17,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "BDVC - Beard (LIQ FB)(60mL)": {
+    "external_id": "template_bdvc_-_beard_liq_fb60ml",
+    "status": "new",
+    "variants_count": 11,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "BDVC - Beard (LIQ Salt)(30mL)": {
+    "external_id": "template_bdvc_-_beard_liq_salt30ml",
+    "status": "new",
+    "variants_count": 11,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "BDVC - Beard (LIQ Salt)(30mL) The Salty One": {
+    "external_id": "template_bdvc_-_beard_liq_salt30ml_the_salty_one",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "BDVC - Fifty Bar 20K (Dispo) (20000Puff)(18mL) Hidden Hills Edt": {
+    "external_id": "template_bdvc_-_fifty_bar_20k_dispo_20000puff18ml_hidden_hills_edt",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "BDVC - Fifty Bar V2 (Dispo) (20000Puff)(18mL) White Series": {
+    "external_id": "template_bdvc_-_fifty_bar_v2_dispo_20000puff18ml_white_series",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "BLIS - Bliss Bar (Dispo) (6000Puff)(14mL)": {
+    "external_id": "template_blis_-_bliss_bar_dispo_6000puff14ml",
+    "status": "new",
+    "variants_count": 17,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "BLLD - Lucid Boost (Dispo) (20,123Puff)(18mL)": {
+    "external_id": "template_blld_-_lucid_boost_dispo_20123puff18ml",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "BLLD - Lucid Boost/Yogi (Dispo) (20,123Puff)(18mL)": {
+    "external_id": "template_blld_-_lucid_boostyogi_dispo_20123puff18ml",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "BLVK - BLVK (LIQ FB)(100mL) TF-Nic": {
+    "external_id": "template_blvk_-_blvk_liq_fb100ml_tf-nic",
+    "status": "new",
+    "variants_count": 6,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "BLVK - BLVK (LIQ FB)(100mL) ZERO": {
+    "external_id": "template_blvk_-_blvk_liq_fb100ml_zero",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "BLVK - BLVK (LIQ FB)(60mL)": {
+    "external_id": "template_blvk_-_blvk_liq_fb60ml",
+    "status": "new",
+    "variants_count": 23,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "BLVK - BLVK (LIQ Salt)(30mL)": {
+    "external_id": "template_blvk_-_blvk_liq_salt30ml",
+    "status": "new",
+    "variants_count": 6,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "BLVK - BLVK (LIQ Salt)(30mL) Aloe TF-Nic": {
+    "external_id": "template_blvk_-_blvk_liq_salt30ml_aloe_tf-nic",
+    "status": "new",
+    "variants_count": 6,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "BLVK - BLVK (LIQ Salt)(30mL) Frost": {
+    "external_id": "template_blvk_-_blvk_liq_salt30ml_frost",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "BLVK - BLVK (LIQ Salt)(30mL) Fuji": {
+    "external_id": "template_blvk_-_blvk_liq_salt30ml_fuji",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "BLVK - BLVK (LIQ Salt)(30mL) Fusion": {
+    "external_id": "template_blvk_-_blvk_liq_salt30ml_fusion",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "BLVK - BLVK (LIQ Salt)(30mL) Melon (Fruit Iced)": {
+    "external_id": "template_blvk_-_blvk_liq_salt30ml_melon_fruit_iced",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "BLVK - BLVK (LIQ Salt)(30mL) N' Yellow": {
+    "external_id": "template_blvk_-_blvk_liq_salt30ml_n_yellow",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "BLVK - BLVK (LIQ Salt)(30mL) Pink": {
+    "external_id": "template_blvk_-_blvk_liq_salt30ml_pink",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "BLVK - BLVK (LIQ Salt)(30mL) Plus": {
+    "external_id": "template_blvk_-_blvk_liq_salt30ml_plus",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "BLVK - BLVK (LIQ SALT)(30mL) ZERO": {
+    "external_id": "template_blvk_-_blvk_liq_salt30ml_zero",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "BLVK - BLVK Bar (Dispo) (20000Puff)(22mL)": {
+    "external_id": "template_blvk_-_blvk_bar_dispo_20000puff22ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "CACQ - Foger Switch Pro 30K Pod (19mL)(1-Pack)": {
+    "external_id": "template_cacq_-_foger_switch_pro_30k_pod_19ml1-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "CACQ - Foger Switch Pro Starter Kit (Dispo) (30000Puff)(19mL)": {
+    "external_id": "template_cacq_-_foger_switch_pro_starter_kit_dispo_30000puff19ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "CHNV - Chain Vapez (LIQ FB)(120mL; 60mL x2)": {
+    "external_id": "template_chnv_-_chain_vapez_liq_fb120ml_60ml_x2",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "CHRL - Pachamama (Dispo) (4500Puff)(12mL) TFN": {
+    "external_id": "template_chrl_-_pachamama_dispo_4500puff12ml_tfn",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "CHRL - Pachamama (LIQ FB)(60mL)": {
+    "external_id": "template_chrl_-_pachamama_liq_fb60ml",
+    "status": "new",
+    "variants_count": 19,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "CHRL - Pachamama (LIQ Salt)(30mL)": {
+    "external_id": "template_chrl_-_pachamama_liq_salt30ml",
+    "status": "new",
+    "variants_count": 32,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "CHRL - Pachamama Plus Metatine (LIQ Salt)(30mL)": {
+    "external_id": "template_chrl_-_pachamama_plus_metatine_liq_salt30ml",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "CSTL - Coastal Clouds (LIQ FB)(100mL)": {
+    "external_id": "template_cstl_-_coastal_clouds_liq_fb100ml",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "CSTL - Coastal Clouds (LIQ FB)(60mL)": {
+    "external_id": "template_cstl_-_coastal_clouds_liq_fb60ml",
+    "status": "new",
+    "variants_count": 37,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "CSTL - Coastal Clouds (LIQ FB)(60mL) TFN": {
+    "external_id": "template_cstl_-_coastal_clouds_liq_fb60ml_tfn",
+    "status": "new",
+    "variants_count": 15,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "CSTL - Coastal Clouds (LIQ Salt)(30mL)": {
+    "external_id": "template_cstl_-_coastal_clouds_liq_salt30ml",
+    "status": "new",
+    "variants_count": 22,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "CSTL - Coastal Clouds (LIQ Salt)(30mL) TFN": {
+    "external_id": "template_cstl_-_coastal_clouds_liq_salt30ml_tfn",
+    "status": "new",
+    "variants_count": 7,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "CTPT - Goat Bar (Dispo) (25000Puff)(18mL)": {
+    "external_id": "template_ctpt_-_goat_bar_dispo_25000puff18ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "CTTG - ORGNX (LIQ FB)(60mL)": {
+    "external_id": "template_cttg_-_orgnx_liq_fb60ml",
+    "status": "new",
+    "variants_count": 22,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "CTTG - ORGNX (LIQ Salt)(30mL)": {
+    "external_id": "template_cttg_-_orgnx_liq_salt30ml",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "CTWD - Cuttwood (LIQ FB)(120mL)": {
+    "external_id": "template_ctwd_-_cuttwood_liq_fb120ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "CTWD - Cuttwood (LIQ FB)(60mL)": {
+    "external_id": "template_ctwd_-_cuttwood_liq_fb60ml",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "CTWD - Cuttwood (LIQ Salt)(30mL)": {
+    "external_id": "template_ctwd_-_cuttwood_liq_salt30ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Badger Hill Reserve (LIQ FB)(120mL; 60mL x2)": {
+    "external_id": "template_ddys_-_badger_hill_reserve_liq_fb120ml_60ml_x2",
+    "status": "new",
+    "variants_count": 9,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Badger Hill Reserve (LIQ Salt)(30mL)": {
+    "external_id": "template_ddys_-_badger_hill_reserve_liq_salt30ml",
+    "status": "new",
+    "variants_count": 6,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Cloud Nurdz (Dispo) (3500Puff) 2.5% (10mL)": {
+    "external_id": "template_ddys_-_cloud_nurdz_dispo_3500puff_25_10ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Cloud Nurdz (Dispo) (3500Puff) 5% (10mL)": {
+    "external_id": "template_ddys_-_cloud_nurdz_dispo_3500puff_5_10ml",
+    "status": "new",
+    "variants_count": 13,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Cloud Nurdz (Dispo) (4500Puff) 0% (12mL)": {
+    "external_id": "template_ddys_-_cloud_nurdz_dispo_4500puff_0_12ml",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Cloud Nurdz (Dispo) (4500Puff) 5% (12mL)": {
+    "external_id": "template_ddys_-_cloud_nurdz_dispo_4500puff_5_12ml",
+    "status": "new",
+    "variants_count": 15,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Cloud Nurdz (LIQ FB)(100mL) TF-Nic": {
+    "external_id": "template_ddys_-_cloud_nurdz_liq_fb100ml_tf-nic",
+    "status": "new",
+    "variants_count": 78,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Cloud Nurdz (LIQ Salt)(30mL) TF-Nic": {
+    "external_id": "template_ddys_-_cloud_nurdz_liq_salt30ml_tf-nic",
+    "status": "new",
+    "variants_count": 52,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - French Dude (LIQ FB)(100mL)": {
+    "external_id": "template_ddys_-_french_dude_liq_fb100ml",
+    "status": "new",
+    "variants_count": 6,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - French Dude (LIQ Salt)(30mL)": {
+    "external_id": "template_ddys_-_french_dude_liq_salt30ml",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - FRYD (LIQ FB)(120mL; 60mL x2)": {
+    "external_id": "template_ddys_-_fryd_liq_fb120ml_60ml_x2",
+    "status": "new",
+    "variants_count": 8,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Fumi (Dispo) (24000Puff)(18mL)": {
+    "external_id": "template_ddys_-_fumi_dispo_24000puff18ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - I Love Salts (LIQ Salt)(30mL)": {
+    "external_id": "template_ddys_-_i_love_salts_liq_salt30ml",
+    "status": "new",
+    "variants_count": 30,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Lost Art (LIQ FB)(100mL) TFN": {
+    "external_id": "template_ddys_-_lost_art_liq_fb100ml_tfn",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Mad Hatter (LIQ FB)(60mL)": {
+    "external_id": "template_ddys_-_mad_hatter_liq_fb60ml",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Mega (LIQ FB)(120mL; 60mL x2)": {
+    "external_id": "template_ddys_-_mega_liq_fb120ml_60ml_x2",
+    "status": "new",
+    "variants_count": 11,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Mega (LIQ Salt)(30mL)": {
+    "external_id": "template_ddys_-_mega_liq_salt30ml",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Mints (Dispo) (3500Puff)(8mL)": {
+    "external_id": "template_ddys_-_mints_dispo_3500puff8ml",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Mints (LIQ FB)(120mL; 60mL x2)": {
+    "external_id": "template_ddys_-_mints_liq_fb120ml_60ml_x2",
+    "status": "new",
+    "variants_count": 15,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Mints (LIQ Salt)(30mL)": {
+    "external_id": "template_ddys_-_mints_liq_salt30ml",
+    "status": "new",
+    "variants_count": 15,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - MRKT PLCE (LIQ FB)(100mL)": {
+    "external_id": "template_ddys_-_mrkt_plce_liq_fb100ml",
+    "status": "new",
+    "variants_count": 22,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - MRKT PLCE (LIQ Salt)(30mL)": {
+    "external_id": "template_ddys_-_mrkt_plce_liq_salt30ml",
+    "status": "new",
+    "variants_count": 11,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - No Hype (LIQ FB)(100mL)": {
+    "external_id": "template_ddys_-_no_hype_liq_fb100ml",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - No Hype (LIQ Salt)(30mL)": {
+    "external_id": "template_ddys_-_no_hype_liq_salt30ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Pancake Man (LIQ FB)(100mL)": {
+    "external_id": "template_ddys_-_pancake_man_liq_fb100ml",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Pancake Man (LIQ Salt)(30mL)": {
+    "external_id": "template_ddys_-_pancake_man_liq_salt30ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Pop Salts (LIQ Salt)(30mL)": {
+    "external_id": "template_ddys_-_pop_salts_liq_salt30ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Pyro Boost (Dispo) (25000Puff)(20mL)": {
+    "external_id": "template_ddys_-_pyro_boost_dispo_25000puff20ml",
+    "status": "new",
+    "variants_count": 6,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Pyro Duo (Dispo) (30000Puff)(24mL)": {
+    "external_id": "template_ddys_-_pyro_duo_dispo_30000puff24ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Sadboy (LIQ FB)(100mL)": {
+    "external_id": "template_ddys_-_sadboy_liq_fb100ml",
+    "status": "new",
+    "variants_count": 18,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Sadboy (LIQ Salt)(30mL)": {
+    "external_id": "template_ddys_-_sadboy_liq_salt30ml",
+    "status": "new",
+    "variants_count": 38,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Twist (LIQ FB)(120mL; 60mL x2)": {
+    "external_id": "template_ddys_-_twist_liq_fb120ml_60ml_x2",
+    "status": "new",
+    "variants_count": 28,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Twist (LIQ Salt)(60mL; 30mL x2)": {
+    "external_id": "template_ddys_-_twist_liq_salt60ml_30ml_x2",
+    "status": "new",
+    "variants_count": 27,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Uwell (Collab Bundle) V6 (Kit PS) + Mints (LIQ Salt)(30mL) - Color: Cyan": {
+    "external_id": "template_ddys_-_uwell_collab_bundle_v6_kit_ps_mints_liq_salt30ml_-_color_cyan",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Uwell (Collab Bundle) V6 (Kit PS) + Twist (LIQ Salt)(30mL) - Color: Yellow": {
+    "external_id": "template_ddys_-_uwell_collab_bundle_v6_kit_ps_twist_liq_salt30ml_-_color_yellow",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Verdict (LIQ FB)(120mL; 60mL x2)": {
+    "external_id": "template_ddys_-_verdict_liq_fb120ml_60ml_x2",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Verdict (LIQ Salt)(30mL)": {
+    "external_id": "template_ddys_-_verdict_liq_salt30ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Zen Haus (LIQ FB)(120mL; 60mL x2)": {
+    "external_id": "template_ddys_-_zen_haus_liq_fb120ml_60ml_x2",
+    "status": "new",
+    "variants_count": 9,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DDYS - Zen Haus (LIQ Salt)(30mL)": {
+    "external_id": "template_ddys_-_zen_haus_liq_salt30ml",
+    "status": "new",
+    "variants_count": 7,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DMVW - Geek Bar Pulse (Dispo) (15000Puff)(16mL)": {
+    "external_id": "template_dmvw_-_geek_bar_pulse_dispo_15000puff16ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DMVW - Hyde Edge Rave (Dispo) (4000Puff)(10mL)": {
+    "external_id": "template_dmvw_-_hyde_edge_rave_dispo_4000puff10ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DMVW - Hyde Edge Recharge (Dispo) (3300Puff)(10mL)": {
+    "external_id": "template_dmvw_-_hyde_edge_recharge_dispo_3300puff10ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DMVW - Hyde Mag (Dispo) (4500Puff)(10mL)": {
+    "external_id": "template_dmvw_-_hyde_mag_dispo_4500puff10ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DMVW - RAZ LTX25000 (Dispo) (25000Puff)(16mL)": {
+    "external_id": "template_dmvw_-_raz_ltx25000_dispo_25000puff16ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DMVW - RAZ LTX25000 Zero (Dispo) (25000Puff)(16mL)": {
+    "external_id": "template_dmvw_-_raz_ltx25000_zero_dispo_25000puff16ml",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DMVW - RYL (Dispo)(35000Puff)(16.5mL) Spring Collection": {
+    "external_id": "template_dmvw_-_ryl_dispo35000puff165ml_spring_collection",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DMVW - RYL Classic (Dispo) (35000Puff)(16.5mL)": {
+    "external_id": "template_dmvw_-_ryl_classic_dispo_35000puff165ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DMVW - Viho Super Charge Pro (Dispo) (20000Puff)(21mL)": {
+    "external_id": "template_dmvw_-_viho_super_charge_pro_dispo_20000puff21ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DMVW - Viho Turbo (Dispo) (10000Puff)(17mL)": {
+    "external_id": "template_dmvw_-_viho_turbo_dispo_10000puff17ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DMVW - Viho Turbo (Dispo) (10000Puff)(17mL) Chrome Edt.": {
+    "external_id": "template_dmvw_-_viho_turbo_dispo_10000puff17ml_chrome_edt",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DMVW - Viho Turbo (Dispo) (10000Puff)(17mL) Galaxy Edt.": {
+    "external_id": "template_dmvw_-_viho_turbo_dispo_10000puff17ml_galaxy_edt",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DMVW - Viho Turbo (Dispo) (10000Puff)(17mL) Satin Edt.": {
+    "external_id": "template_dmvw_-_viho_turbo_dispo_10000puff17ml_satin_edt",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DRLY - Dinner Lady (LIQ FB)(100mL) TF-Nic": {
+    "external_id": "template_drly_-_dinner_lady_liq_fb100ml_tf-nic",
+    "status": "new",
+    "variants_count": 12,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DRLY - Dinner Lady (LIQ Salt)(30mL) TF-Nic": {
+    "external_id": "template_drly_-_dinner_lady_liq_salt30ml_tf-nic",
+    "status": "new",
+    "variants_count": 7,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DRLY - Fuyl (LIQ FB)(100mL)": {
+    "external_id": "template_drly_-_fuyl_liq_fb100ml",
+    "status": "new",
+    "variants_count": 10,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DRLY - Fuyl (LIQ Salt)(30mL)": {
+    "external_id": "template_drly_-_fuyl_liq_salt30ml",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DRPM - Candy King (LIQ FB)(100mL)": {
+    "external_id": "template_drpm_-_candy_king_liq_fb100ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DRPM - Candy King (LIQ FB)(100mL) Cookie King": {
+    "external_id": "template_drpm_-_candy_king_liq_fb100ml_cookie_king",
+    "status": "new",
+    "variants_count": 7,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DRPM - Candy King (LIQ Salt)(30mL)": {
+    "external_id": "template_drpm_-_candy_king_liq_salt30ml",
+    "status": "new",
+    "variants_count": 9,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DTRW - Death Row Vapes (Dispo) (5000Puff)(10.5mL)": {
+    "external_id": "template_dtrw_-_death_row_vapes_dispo_5000puff105ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DVDT - All Star Vape Disposable (30000Puff)(19mL)": {
+    "external_id": "template_dvdt_-_all_star_vape_disposable_30000puff19ml",
+    "status": "new",
+    "variants_count": 8,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "EJDP - Food Fighter (LIQ FB)(120mL)": {
+    "external_id": "template_ejdp_-_food_fighter_liq_fb120ml",
+    "status": "new",
+    "variants_count": 9,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "EJDP - Nitro Cold Brew (LIQ FB)(100mL) Coffee": {
+    "external_id": "template_ejdp_-_nitro_cold_brew_liq_fb100ml_coffee",
+    "status": "new",
+    "variants_count": 14,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "EJDP - Nitro Cold Brew (LIQ FB)(100mL) Shakes": {
+    "external_id": "template_ejdp_-_nitro_cold_brew_liq_fb100ml_shakes",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "EJDP - Nitro Cold Brew (LIQ Salt)(30mL)": {
+    "external_id": "template_ejdp_-_nitro_cold_brew_liq_salt30ml",
+    "status": "new",
+    "variants_count": 8,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "EJEP - Killa Fruits (LIQ FB)(100mL) Signature TFN": {
+    "external_id": "template_ejep_-_killa_fruits_liq_fb100ml_signature_tfn",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "EJEP - Killa Fruits (LIQ Salt)(30mL)": {
+    "external_id": "template_ejep_-_killa_fruits_liq_salt30ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "EJEP - Ryse (Dispo) (12000Puff)(18mL)": {
+    "external_id": "template_ejep_-_ryse_dispo_12000puff18ml",
+    "status": "new",
+    "variants_count": 9,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "ENVI - Bodega Bar (Dispo) (8000Puff)(17mL)": {
+    "external_id": "template_envi_-_bodega_bar_dispo_8000puff17ml",
+    "status": "new",
+    "variants_count": 10,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "ESTL - Nic Fill (Conc. 70mL) Nicotine Concentrate": {
+    "external_id": "template_estl_-_nic_fill_conc_70ml_nicotine_concentrate",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "EXTC - EVO Bar ET/BC5000 (Dispo) (5000Puff)(13mL) Slushie Edt.": {
+    "external_id": "template_extc_-_evo_bar_etbc5000_dispo_5000puff13ml_slushie_edt",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "FLUM - Flum Float (Dispo) (3000Puff)(8mL)": {
+    "external_id": "template_flum_-_flum_float_dispo_3000puff8ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "FLUM - Flum Pebble (Dispo) (6000Puff)(14mL)": {
+    "external_id": "template_flum_-_flum_pebble_dispo_6000puff14ml",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "FLVR - Esco Bars/Kilo Mesh Max (Dispo) (4000Puff)(9mL)": {
+    "external_id": "template_flvr_-_esco_barskilo_mesh_max_dispo_4000puff9ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "FLVR - Frusion Juice (LIQ Salt)(30mL)": {
+    "external_id": "template_flvr_-_frusion_juice_liq_salt30ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "FLVR - Kilo (LIQ FB)(100mL) Moo": {
+    "external_id": "template_flvr_-_kilo_liq_fb100ml_moo",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "FLVR - Kilo (LIQ FB)(100mL) Revival": {
+    "external_id": "template_flvr_-_kilo_liq_fb100ml_revival",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "FLVR - Kilo OMG WTF (LIQ FB)(100mL) TFN": {
+    "external_id": "template_flvr_-_kilo_omg_wtf_liq_fb100ml_tfn",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "FLVR - Kilo OMG WTF (LIQ Salt)(30mL) TFN": {
+    "external_id": "template_flvr_-_kilo_omg_wtf_liq_salt30ml_tfn",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "FLVR - Mighty Vapors (LIQ FB)(100mL)": {
+    "external_id": "template_flvr_-_mighty_vapors_liq_fb100ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "FLVR - Mighty Vapors (LIQ FB)(100mL) Hulk Tears": {
+    "external_id": "template_flvr_-_mighty_vapors_liq_fb100ml_hulk_tears",
+    "status": "new",
+    "variants_count": 8,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "FLVR - Mighty Vapors (LIQ Salt)(30mL) Hulk Tears": {
+    "external_id": "template_flvr_-_mighty_vapors_liq_salt30ml_hulk_tears",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "FNST - Finest (LIQ FB)(100mL) Dessert Edt.": {
+    "external_id": "template_fnst_-_finest_liq_fb100ml_dessert_edt",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "FNST - Finest (LIQ Salt)(30mL) Candy Edt.": {
+    "external_id": "template_fnst_-_finest_liq_salt30ml_candy_edt",
+    "status": "new",
+    "variants_count": 12,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "FNST - Finest (LIQ Salt)(30mL) Dessert Edt.": {
+    "external_id": "template_fnst_-_finest_liq_salt30ml_dessert_edt",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "FNST - Finest (LIQ Salt)(30mL) Mint Edt.": {
+    "external_id": "template_fnst_-_finest_liq_salt30ml_mint_edt",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "FNST - SWFT Meta (Dispo) (30000Puff)(24mL)": {
+    "external_id": "template_fnst_-_swft_meta_dispo_30000puff24ml",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "FNST - SWFT Mod (Dispo) (5000Puff)(15mL)": {
+    "external_id": "template_fnst_-_swft_mod_dispo_5000puff15ml",
+    "status": "new",
+    "variants_count": 6,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "FRFM - Esco Bar/Fruitia (Dispo) (6000Puff)(15mL)": {
+    "external_id": "template_frfm_-_esco_barfruitia_dispo_6000puff15ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "FRFM": {
+    "external_id": "template_frfm",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "FRFM - Fifty Bar/Fruitia  (Dispo) (20000Puff)(18mL)": {
+    "external_id": "template_frfm_-_fifty_barfruitia_dispo_20000puff18ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "FRFM - Fruitia (LIQ FB)(100mL) Extra Ice": {
+    "external_id": "template_frfm_-_fruitia_liq_fb100ml_extra_ice",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "FRFM - Fruitia (LIQ FB)(60mL)": {
+    "external_id": "template_frfm_-_fruitia_liq_fb60ml",
+    "status": "new",
+    "variants_count": 11,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "FRFM - Fruitia (LIQ Salt)(30mL)": {
+    "external_id": "template_frfm_-_fruitia_liq_salt30ml",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "FRFM - Fruitia (LIQ Salt)(30mL) Extra Ice": {
+    "external_id": "template_frfm_-_fruitia_liq_salt30ml_extra_ice",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "FRYD - FRYD (Dispo) (12000Puff)(17mL)": {
+    "external_id": "template_fryd_-_fryd_dispo_12000puff17ml",
+    "status": "new",
+    "variants_count": 9,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "GLAS - Basix (LIQ FB)(60mL)": {
+    "external_id": "template_glas_-_basix_liq_fb60ml",
+    "status": "new",
+    "variants_count": 10,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "GLAS - Basix (LIQ Salt)(30mL)": {
+    "external_id": "template_glas_-_basix_liq_salt30ml",
+    "status": "new",
+    "variants_count": 23,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "GOST - Bar Juice (LIQ FB)(100mL) BJ30000": {
+    "external_id": "template_gost_-_bar_juice_liq_fb100ml_bj30000",
+    "status": "new",
+    "variants_count": 9,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "GOST - Bar Juice (LIQ Salt)(30mL) BJ15000": {
+    "external_id": "template_gost_-_bar_juice_liq_salt30ml_bj15000",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "GOST - Fruit House (LIQ FB)(100mL) TFN": {
+    "external_id": "template_gost_-_fruit_house_liq_fb100ml_tfn",
+    "status": "new",
+    "variants_count": 7,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "GOST - Pancake House (LIQ FB)(100mL)": {
+    "external_id": "template_gost_-_pancake_house_liq_fb100ml",
+    "status": "new",
+    "variants_count": 12,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "GOST - Pancake House (LIQ Salt)(30mL)": {
+    "external_id": "template_gost_-_pancake_house_liq_salt30ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "HITT - Hitt Infinite (Dispo) (8000Puff)(20mL)": {
+    "external_id": "template_hitt_-_hitt_infinite_dispo_8000puff20ml",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "HMBL - Humble (LIQ FB)(100mL) TFN": {
+    "external_id": "template_hmbl_-_humble_liq_fb100ml_tfn",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "HMBL - Humble (LIQ FB)(120mL) TFN": {
+    "external_id": "template_hmbl_-_humble_liq_fb120ml_tfn",
+    "status": "new",
+    "variants_count": 23,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "HMBL - Humble (LIQ Salt)(30mL) TFN": {
+    "external_id": "template_hmbl_-_humble_liq_salt30ml_tfn",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "HPPY - G Pulse (DSPLY 5pc)(Nic Pouch) (20ct Can)(SAS)": {
+    "external_id": "template_hppy_-_g_pulse_dsply_5pcnic_pouch_20ct_cansas",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "HRDM - Hero (LIQ Salt)(30mL)": {
+    "external_id": "template_hrdm_-_hero_liq_salt30ml",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "HRZN - Horizon BC SE6000 (Dispo) (6000Puff)(12mL)": {
+    "external_id": "template_hrzn_-_horizon_bc_se6000_dispo_6000puff12ml",
+    "status": "new",
+    "variants_count": 7,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "HRZN - Horizon BC TH6000 (Dispo) (6000Puff)(12mL)": {
+    "external_id": "template_hrzn_-_horizon_bc_th6000_dispo_6000puff12ml",
+    "status": "new",
+    "variants_count": 7,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "HYBR - Hyper Bar PX20000 (Dispo) (20000Puff)(20mL)": {
+    "external_id": "template_hybr_-_hyper_bar_px20000_dispo_20000puff20ml",
+    "status": "new",
+    "variants_count": 7,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "HYPP - Hyppe Max Air (Dispo) (5000Puff)(13mL)": {
+    "external_id": "template_hypp_-_hyppe_max_air_dispo_5000puff13ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "IKDI - Dummy Vapes (Dispo) (8000Puff)(18mL)": {
+    "external_id": "template_ikdi_-_dummy_vapes_dispo_8000puff18ml",
+    "status": "new",
+    "variants_count": 8,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "INNE - Innevape (LIQ FB)(100mL)": {
+    "external_id": "template_inne_-_innevape_liq_fb100ml",
+    "status": "new",
+    "variants_count": 21,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "INNE - Innevape (LIQ Salt)(30mL)": {
+    "external_id": "template_inne_-_innevape_liq_salt30ml",
+    "status": "new",
+    "variants_count": 11,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "JCMN - Juice Man (LIQ Salt)(30mL)": {
+    "external_id": "template_jcmn_-_juice_man_liq_salt30ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "JRUD - Juice Roll Upz (LIQ FB)(100mL) Licks TF-Nic": {
+    "external_id": "template_jrud_-_juice_roll_upz_liq_fb100ml_licks_tf-nic",
+    "status": "new",
+    "variants_count": 11,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "JRUD - Juice Roll Upz (LIQ FB)(100mL) TF-Nic": {
+    "external_id": "template_jrud_-_juice_roll_upz_liq_fb100ml_tf-nic",
+    "status": "new",
+    "variants_count": 26,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "JRUD - Juice Roll Upz (LIQ Salt)(30mL) TF-Nic": {
+    "external_id": "template_jrud_-_juice_roll_upz_liq_salt30ml_tf-nic",
+    "status": "new",
+    "variants_count": 13,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "JRUD - Juice Roll Upz Dessertz (LIQ FB)(100mL)": {
+    "external_id": "template_jrud_-_juice_roll_upz_dessertz_liq_fb100ml",
+    "status": "new",
+    "variants_count": 8,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "JRUD - Juice Roll Upz Dessertz (LIQ Salts)(30mL)": {
+    "external_id": "template_jrud_-_juice_roll_upz_dessertz_liq_salts30ml",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "LAVP - Lucy Nicotine Gum 10pc": {
+    "external_id": "template_lavp_-_lucy_nicotine_gum_10pc",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "LIQL - Keep It 100 (LIQ FB)(100mL) TF-Nic": {
+    "external_id": "template_liql_-_keep_it_100_liq_fb100ml_tf-nic",
+    "status": "new",
+    "variants_count": 17,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "LTUS - Esco Bar/Noms (Dispo) (4000Puff)(9mL)": {
+    "external_id": "template_ltus_-_esco_barnoms_dispo_4000puff9ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "LTUS - Freenoms (LIQ FB)(120mL)": {
+    "external_id": "template_ltus_-_freenoms_liq_fb120ml",
+    "status": "new",
+    "variants_count": 10,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "LTUS - Nomenon (LIQ FB)(120mL) X2 Series": {
+    "external_id": "template_ltus_-_nomenon_liq_fb120ml_x2_series",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "LTUS - Nomenon (LIQ Salt)(30mL)": {
+    "external_id": "template_ltus_-_nomenon_liq_salt30ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "LTUS - Nomenon Noms (LIQ Salt)(30mL) 2X Series": {
+    "external_id": "template_ltus_-_nomenon_noms_liq_salt30ml_2x_series",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "LTUS - Noms 100 (LIQ FB)(100mL)": {
+    "external_id": "template_ltus_-_noms_100_liq_fb100ml",
+    "status": "new",
+    "variants_count": 6,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "LUSH - Lush Alien (Dispo) (6000Puff)(15mL)": {
+    "external_id": "template_lush_-_lush_alien_dispo_6000puff15ml",
+    "status": "new",
+    "variants_count": 7,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MALQ - Anarchist (LIQ Salt)(30mL) TFN": {
+    "external_id": "template_malq_-_anarchist_liq_salt30ml_tfn",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MFWS - Chubby Bubble Vapes (LIQ FB)(100mL)": {
+    "external_id": "template_mfws_-_chubby_bubble_vapes_liq_fb100ml",
+    "status": "new",
+    "variants_count": 10,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MIPD - Fasta Burrst 35000 (Dispo) (35000Puff)(25mL) Sour Edt.": {
+    "external_id": "template_mipd_-_fasta_burrst_35000_dispo_35000puff25ml_sour_edt",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MIPD - FLONQ Max Pro (Dispo) (20000Puff) 2% (18mL)": {
+    "external_id": "template_mipd_-_flonq_max_pro_dispo_20000puff_2_18ml",
+    "status": "new",
+    "variants_count": 7,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MIPD - FLONQ Max Pro (Dispo) (20000Puff) 5% (18mL)": {
+    "external_id": "template_mipd_-_flonq_max_pro_dispo_20000puff_5_18ml",
+    "status": "new",
+    "variants_count": 9,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MIPD - FLONQ Max Pro ZERO (Dispo) (20000Puffs)(18mL)": {
+    "external_id": "template_mipd_-_flonq_max_pro_zero_dispo_20000puffs18ml",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MIPD - FLONQ Max Smart (Dispo) (10000Puff) 2% (14mL)": {
+    "external_id": "template_mipd_-_flonq_max_smart_dispo_10000puff_2_14ml",
+    "status": "new",
+    "variants_count": 10,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MIPD - FLONQ Max Smart (Dispo) (10000Puff) 5% (14mL)": {
+    "external_id": "template_mipd_-_flonq_max_smart_dispo_10000puff_5_14ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MIPD - FLONQ Max Smart ZERO (Dispo) (10000Puff)(14mL)": {
+    "external_id": "template_mipd_-_flonq_max_smart_zero_dispo_10000puff14ml",
+    "status": "new",
+    "variants_count": 7,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MIPD - X-Posed (Dispo only)(35000Puff)(16mL) Dispo POD": {
+    "external_id": "template_mipd_-_x-posed_dispo_only35000puff16ml_dispo_pod",
+    "status": "new",
+    "variants_count": 8,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MNST - Jam Monster (LIQ FB)(100mL) Custard": {
+    "external_id": "template_mnst_-_jam_monster_liq_fb100ml_custard",
+    "status": "new",
+    "variants_count": 12,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MNST - Jam Monster (LIQ FB)(100mL) Custard Swirl Edt.": {
+    "external_id": "template_mnst_-_jam_monster_liq_fb100ml_custard_swirl_edt",
+    "status": "new",
+    "variants_count": 6,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MNST - Jam Monster (LIQ FB)(100mL) Frozen": {
+    "external_id": "template_mnst_-_jam_monster_liq_fb100ml_frozen",
+    "status": "new",
+    "variants_count": 6,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MNST - Jam Monster (LIQ FB)(100mL) Fruit": {
+    "external_id": "template_mnst_-_jam_monster_liq_fb100ml_fruit",
+    "status": "new",
+    "variants_count": 6,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MNST - Jam Monster (LIQ FB)(100mL) Ice": {
+    "external_id": "template_mnst_-_jam_monster_liq_fb100ml_ice",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MNST - Jam Monster (LIQ FB)(100mL) Juice": {
+    "external_id": "template_mnst_-_jam_monster_liq_fb100ml_juice",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MNST - Jam Monster (LIQ FB)(100mL) Lemonade": {
+    "external_id": "template_mnst_-_jam_monster_liq_fb100ml_lemonade",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MNST - Jam Monster (LIQ FB)(100mL) Milk": {
+    "external_id": "template_mnst_-_jam_monster_liq_fb100ml_milk",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MNST - Jam Monster (LIQ FB)(100mL) Tobacco": {
+    "external_id": "template_mnst_-_jam_monster_liq_fb100ml_tobacco",
+    "status": "new",
+    "variants_count": 8,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MNST - Jam Monster (LIQ Salt)(30mL) Custard": {
+    "external_id": "template_mnst_-_jam_monster_liq_salt30ml_custard",
+    "status": "new",
+    "variants_count": 6,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MNST - Jam Monster (LIQ Salt)(30mL) Frozen": {
+    "external_id": "template_mnst_-_jam_monster_liq_salt30ml_frozen",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MNST - Jam Monster (LIQ Salt)(30mL) Fruit": {
+    "external_id": "template_mnst_-_jam_monster_liq_salt30ml_fruit",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MNST - Jam Monster (LIQ Salt)(30mL) Ice": {
+    "external_id": "template_mnst_-_jam_monster_liq_salt30ml_ice",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MNST - Jam Monster (LIQ Salt)(30mL) Juice": {
+    "external_id": "template_mnst_-_jam_monster_liq_salt30ml_juice",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MNST - Jam Monster (LIQ Salt)(30mL) Milk": {
+    "external_id": "template_mnst_-_jam_monster_liq_salt30ml_milk",
+    "status": "new",
+    "variants_count": 7,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MNST - Jam Monster (LIQ Salt)(30mL) Tobacco": {
+    "external_id": "template_mnst_-_jam_monster_liq_salt30ml_tobacco",
+    "status": "new",
+    "variants_count": 8,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MNST - Pod Monster (LIQ FB)(60mL)": {
+    "external_id": "template_mnst_-_pod_monster_liq_fb60ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MNST - Pod Monster (LIQ Salt)(60mL)": {
+    "external_id": "template_mnst_-_pod_monster_liq_salt60ml",
+    "status": "new",
+    "variants_count": 14,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MRNA - Aqua (LIQ FB)(100mL)": {
+    "external_id": "template_mrna_-_aqua_liq_fb100ml",
+    "status": "new",
+    "variants_count": 34,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MRNA - Aqua (LIQ Salt)(30mL)": {
+    "external_id": "template_mrna_-_aqua_liq_salt30ml",
+    "status": "new",
+    "variants_count": 14,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MWGD - North (Dispo) (5000Puff)(10mL)": {
+    "external_id": "template_mwgd_-_north_dispo_5000puff10ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MWGD - North FT12000 (Dispo) (12000Puff)(15mL)": {
+    "external_id": "template_mwgd_-_north_ft12000_dispo_12000puff15ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MWGD - Pillow Talk (Dispo) (8500Puff)(13mL) Resin Edt.": {
+    "external_id": "template_mwgd_-_pillow_talk_dispo_8500puff13ml_resin_edt",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MWGD - Pillow Talk IC40000 (Dispo) (40000Puff)(20mL)": {
+    "external_id": "template_mwgd_-_pillow_talk_ic40000_dispo_40000puff20ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MWGD - Pillow Talk NC40000 (Dispo) (40000Puff)(20mL)": {
+    "external_id": "template_mwgd_-_pillow_talk_nc40000_dispo_40000puff20ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "MWGD - Pillow Talk SC40000 (Dispo) (40000Puff)(20mL)": {
+    "external_id": "template_mwgd_-_pillow_talk_sc40000_dispo_40000puff20ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "NBHD - FRYD (LIQ FB)(100mL)": {
+    "external_id": "template_nbhd_-_fryd_liq_fb100ml",
+    "status": "new",
+    "variants_count": 7,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "NBHD - FRYD (LIQ Salt)(30mL)": {
+    "external_id": "template_nbhd_-_fryd_liq_salt30ml",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "NBHD - Mucho (LIQ FB)(100mL)": {
+    "external_id": "template_nbhd_-_mucho_liq_fb100ml",
+    "status": "new",
+    "variants_count": 11,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "NBHD - Mucho (LIQ Salt)(30mL)": {
+    "external_id": "template_nbhd_-_mucho_liq_salt30ml",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "NBHD - Sour House (LIQ FB)(100mL)": {
+    "external_id": "template_nbhd_-_sour_house_liq_fb100ml",
+    "status": "new",
+    "variants_count": 14,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "NSTY - Nasty Bar XL (Dispo) (20000Puff)(17mL)": {
+    "external_id": "template_nsty_-_nasty_bar_xl_dispo_20000puff17ml",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "OUVP - One Up (LIQ FB)(100mL) Bolt TFN": {
+    "external_id": "template_ouvp_-_one_up_liq_fb100ml_bolt_tfn",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "OUVP - One Up (LIQ FB)(100mL) Gold TFN": {
+    "external_id": "template_ouvp_-_one_up_liq_fb100ml_gold_tfn",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "OUVP - One Up (LIQ FB)(100mL) Rivals TFN": {
+    "external_id": "template_ouvp_-_one_up_liq_fb100ml_rivals_tfn",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "OUVP - One Up (LIQ FB)(100mL) TFN": {
+    "external_id": "template_ouvp_-_one_up_liq_fb100ml_tfn",
+    "status": "new",
+    "variants_count": 8,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "OUVP - One Up (LIQ Salt)(30mL) TFN": {
+    "external_id": "template_ouvp_-_one_up_liq_salt30ml_tfn",
+    "status": "new",
+    "variants_count": 6,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "OXBR - Oxbar (LIQ Salt)(30mL) Pod Juice Edt.": {
+    "external_id": "template_oxbr_-_oxbar_liq_salt30ml_pod_juice_edt",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "OXBR - Oxbar Ice-Nic (Dispo) (35000Puff)(14mL) Pod Juice Edt.": {
+    "external_id": "template_oxbr_-_oxbar_ice-nic_dispo_35000puff14ml_pod_juice_edt",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "OXBR - Oxbar Magic Maze 2.0 ZERO (Dispo) (30000Puff)(13mL) Pod Juice Edt.": {
+    "external_id": "template_oxbr_-_oxbar_magic_maze_20_zero_dispo_30000puff13ml_pod_juice_edt",
+    "status": "new",
+    "variants_count": 8,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "OXBR - Oxbar Magic Maze Pro (Dispo) (10000Puff)(18mL)": {
+    "external_id": "template_oxbr_-_oxbar_magic_maze_pro_dispo_10000puff18ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "OXBR - Oxbar Magic Maze Pro (Dispo) (10000Puff)(18mL) Pod Juice Edt.": {
+    "external_id": "template_oxbr_-_oxbar_magic_maze_pro_dispo_10000puff18ml_pod_juice_edt",
+    "status": "new",
+    "variants_count": 6,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "OXBR - SVOPP Pods (Liq Pod)(30000Puff)(13mL) Pod Juice Edt.": {
+    "external_id": "template_oxbr_-_svopp_pods_liq_pod30000puff13ml_pod_juice_edt",
+    "status": "new",
+    "variants_count": 10,
+    "attributes": [
+      "flavor",
+      "nicotine_mg",
+      "color"
+    ],
+    "category": "Disposable"
+  },
+  "PFLB - Puff Labs (LIQ FB)(100mL)": {
+    "external_id": "template_pflb_-_puff_labs_liq_fb100ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "PFLB - Puff Labs (LIQ FB)(100mL) Fruits": {
+    "external_id": "template_pflb_-_puff_labs_liq_fb100ml_fruits",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "PFLB - Puff Labs Hotbox Luxe (Dispo) (12000Puff)(20mL)": {
+    "external_id": "template_pflb_-_puff_labs_hotbox_luxe_dispo_12000puff20ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "PFLB - Strange Fruit (LIQ FB)(100mL)": {
+    "external_id": "template_pflb_-_strange_fruit_liq_fb100ml",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "PKWD - Packspod (Dispo) (5000Puff)(12mL) Limited Edt.": {
+    "external_id": "template_pkwd_-_packspod_dispo_5000puff12ml_limited_edt",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "POJU - Pod Juice (LIQ FB)(100mL) TFN": {
+    "external_id": "template_poju_-_pod_juice_liq_fb100ml_tfn",
+    "status": "new",
+    "variants_count": 24,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "POJU - Pod Juice (LIQ Salt)(30mL) TFN": {
+    "external_id": "template_poju_-_pod_juice_liq_salt30ml_tfn",
+    "status": "new",
+    "variants_count": 24,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "POJU - Pod Juice (LIQ Salt)(30mL) TFN PJ5000": {
+    "external_id": "template_poju_-_pod_juice_liq_salt30ml_tfn_pj5000",
+    "status": "new",
+    "variants_count": 10,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "POJU - Pod Juice Hyde IQ (Dispo) (5000Puff)(8mL)": {
+    "external_id": "template_poju_-_pod_juice_hyde_iq_dispo_5000puff8ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "POJU - Pod Juice Pod Flo (Dispo) (4000Puff)(10mL)": {
+    "external_id": "template_poju_-_pod_juice_pod_flo_dispo_4000puff10ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "POJU - Pod Juice Pod Pocket (Dispo) (7500Puff)(10mL)": {
+    "external_id": "template_poju_-_pod_juice_pod_pocket_dispo_7500puff10ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "POJU - Pod Juice x RAZ (LIQ FB)(100mL) TFN": {
+    "external_id": "template_poju_-_pod_juice_x_raz_liq_fb100ml_tfn",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "POJU - Pod Juice x RAZ (LIQ Salt)(30mL) TFN": {
+    "external_id": "template_poju_-_pod_juice_x_raz_liq_salt30ml_tfn",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "PROP - Beach Club (LIQ FB)(100mL)": {
+    "external_id": "template_prop_-_beach_club_liq_fb100ml",
+    "status": "new",
+    "variants_count": 6,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "PROP - Beach Club (LIQ Salt)(30mL)": {
+    "external_id": "template_prop_-_beach_club_liq_salt30ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "PROP - Propaganda (LIQ FB)(100mL)": {
+    "external_id": "template_prop_-_propaganda_liq_fb100ml",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "PROP - Propaganda (LIQ Salt)(30mL)": {
+    "external_id": "template_prop_-_propaganda_liq_salt30ml",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "PROP - The Hype (LIQ FB)(100mL)": {
+    "external_id": "template_prop_-_the_hype_liq_fb100ml",
+    "status": "new",
+    "variants_count": 14,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "PROP - Vape Pink (LIQ FB)(100mL)": {
+    "external_id": "template_prop_-_vape_pink_liq_fb100ml",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "RDST - Voodoo Joos (LIQ FB)(100mL)": {
+    "external_id": "template_rdst_-_voodoo_joos_liq_fb100ml",
+    "status": "new",
+    "variants_count": 40,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "RDST - Voodoo Joos (LIQ Salt)(30mL)": {
+    "external_id": "template_rdst_-_voodoo_joos_liq_salt30ml",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "RDST - Voodoo Joos (LIQ Salt)(30mL) Flavormax": {
+    "external_id": "template_rdst_-_voodoo_joos_liq_salt30ml_flavormax",
+    "status": "new",
+    "variants_count": 7,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "RELX - WAKA Smash (Dispo) (6000Puff) 5% (12mL)": {
+    "external_id": "template_relx_-_waka_smash_dispo_6000puff_5_12ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "RELX - WAKA SoPro DM (Dispo) (8000Puff)(14mL)": {
+    "external_id": "template_relx_-_waka_sopro_dm_dispo_8000puff14ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "RMGD - Wave (Dispo) (8000Puff)(18mL)": {
+    "external_id": "template_rmgd_-_wave_dispo_8000puff18ml",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "RPVP - Ripe Vapes (LIQ FB)(120mL)": {
+    "external_id": "template_rpvp_-_ripe_vapes_liq_fb120ml",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "RPVP - Ripe Vapes (LIQ FB)(120mL) San Juan Series": {
+    "external_id": "template_rpvp_-_ripe_vapes_liq_fb120ml_san_juan_series",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "RPVP - Ripe Vapes (LIQ Salt)(30mL)": {
+    "external_id": "template_rpvp_-_ripe_vapes_liq_salt30ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "RUTH - Loaded (LIQ FB)(100mL)": {
+    "external_id": "template_ruth_-_loaded_liq_fb100ml",
+    "status": "new",
+    "variants_count": 20,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "RUTH - Loaded (LIQ FB)(120mL)": {
+    "external_id": "template_ruth_-_loaded_liq_fb120ml",
+    "status": "new",
+    "variants_count": 14,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "RUTH - Loaded (LIQ Salt)(30mL)": {
+    "external_id": "template_ruth_-_loaded_liq_salt30ml",
+    "status": "new",
+    "variants_count": 7,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "RUTH - Loaded (LIQ Salt)(60mL)": {
+    "external_id": "template_ruth_-_loaded_liq_salt60ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "RUTH - Ruthless (LIQ FB)(100mL)": {
+    "external_id": "template_ruth_-_ruthless_liq_fb100ml",
+    "status": "new",
+    "variants_count": 16,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "RUTH - Ruthless (LIQ FB)(100mL) Freeze": {
+    "external_id": "template_ruth_-_ruthless_liq_fb100ml_freeze",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "RUTH - Ruthless (LIQ FB)(120mL)": {
+    "external_id": "template_ruth_-_ruthless_liq_fb120ml",
+    "status": "new",
+    "variants_count": 18,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "RUTH - Ruthless (LIQ FB)(120mL) Freeze": {
+    "external_id": "template_ruth_-_ruthless_liq_fb120ml_freeze",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "RUTH - Ruthless (LIQ FB)(120mL) Tobacco": {
+    "external_id": "template_ruth_-_ruthless_liq_fb120ml_tobacco",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "RUTH - Ruthless (LIQ Salt)(30mL)": {
+    "external_id": "template_ruth_-_ruthless_liq_salt30ml",
+    "status": "new",
+    "variants_count": 12,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "RUTH - Ruthless (LIQ Salt)(30mL) Freeze Edt.": {
+    "external_id": "template_ruth_-_ruthless_liq_salt30ml_freeze_edt",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "RUTH - Ruthless (LIQ Salt)(60mL)": {
+    "external_id": "template_ruth_-_ruthless_liq_salt60ml",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "RWEJ - Redwood (LIQ FB)(60mL)": {
+    "external_id": "template_rwej_-_redwood_liq_fb60ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SCDI - Time Bomb (LIQ FB)(120mL)": {
+    "external_id": "template_scdi_-_time_bomb_liq_fb120ml",
+    "status": "new",
+    "variants_count": 10,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SCDI - Time Bomb (LIQ Salt)(30mL)": {
+    "external_id": "template_scdi_-_time_bomb_liq_salt30ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SCDS - Kuz (Dispo) (9000Puff)(19mL)": {
+    "external_id": "template_scds_-_kuz_dispo_9000puff19ml",
+    "status": "new",
+    "variants_count": 6,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SCDS - Kuz (Dispo) (9000Puff)(19mL) DABABY Exclusive": {
+    "external_id": "template_scds_-_kuz_dispo_9000puff19ml_dababy_exclusive",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SCHW - Blank Bar (LIQ Salt)(30mL) 15000 Puff Juice": {
+    "external_id": "template_schw_-_blank_bar_liq_salt30ml_15000_puff_juice",
+    "status": "new",
+    "variants_count": 20,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SCHW - Naked (LIQ FB)(60mL)": {
+    "external_id": "template_schw_-_naked_liq_fb60ml",
+    "status": "new",
+    "variants_count": 17,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SCHW - Naked (LIQ FB)(60mL) *": {
+    "external_id": "template_schw_-_naked_liq_fb60ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SCHW - Naked (LIQ Salt)(30mL) Colombia Edt.": {
+    "external_id": "template_schw_-_naked_liq_salt30ml_colombia_edt",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SCHW - Naked (LIQ Salt)(30mL) Max TFN": {
+    "external_id": "template_schw_-_naked_liq_salt30ml_max_tfn",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SCHW - Naked 100 Max (Dispo) (4500Puff)(10mL)": {
+    "external_id": "template_schw_-_naked_100_max_dispo_4500puff10ml",
+    "status": "new",
+    "variants_count": 7,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SGEX - Sugarbar Dual Turbo (Dispo) (18000Puff)(18mL)": {
+    "external_id": "template_sgex_-_sugarbar_dual_turbo_dispo_18000puff18ml",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SILI - Sili Box (Dispo) (6000Puff)(16mL)": {
+    "external_id": "template_sili_-_sili_box_dispo_6000puff16ml",
+    "status": "new",
+    "variants_count": 14,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SILI - Sili/Ripe (Dispo) (6000Puff)(16mL)": {
+    "external_id": "template_sili_-_siliripe_dispo_6000puff16ml",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SILI - Sili/URB (Dispo) (6000Puff)(16mL)": {
+    "external_id": "template_sili_-_siliurb_dispo_6000puff16ml",
+    "status": "new",
+    "variants_count": 6,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SOWD - EBDESIGN/Pod King XC5000 (Dispo) (5000Puff)(12mL)": {
+    "external_id": "template_sowd_-_ebdesignpod_king_xc5000_dispo_5000puff12ml",
+    "status": "new",
+    "variants_count": 9,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SOWD - KadoBar PK5000 (Dispo) (5000Puff)(14mL)": {
+    "external_id": "template_sowd_-_kadobar_pk5000_dispo_5000puff14ml",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SPIN - Spinmix E-Liquid (LIQ Salt)(30mL)": {
+    "external_id": "template_spin_-_spinmix_e-liquid_liq_salt30ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SPMN - SMOK Space Man SP40000 (Dispo) (40000Puff)(20mL)": {
+    "external_id": "template_spmn_-_smok_space_man_sp40000_dispo_40000puff20ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SRMW - Onyx Cloud (Dispo) (25000Puff)(20mL)": {
+    "external_id": "template_srmw_-_onyx_cloud_dispo_25000puff20ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "STRM - Bam Bam's (LIQ FB)(100mL) Cannoli": {
+    "external_id": "template_strm_-_bam_bams_liq_fb100ml_cannoli",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "STRM - Juice Head (LIQ FB)(100mL)": {
+    "external_id": "template_strm_-_juice_head_liq_fb100ml",
+    "status": "new",
+    "variants_count": 15,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "STRM - Juice Head (LIQ FB)(100mL) TFN": {
+    "external_id": "template_strm_-_juice_head_liq_fb100ml_tfn",
+    "status": "new",
+    "variants_count": 21,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "STRM - Juice Head (LIQ Salt)(30mL)": {
+    "external_id": "template_strm_-_juice_head_liq_salt30ml",
+    "status": "new",
+    "variants_count": 9,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "STRM - Juice Head (LIQ Salt)(30mL) TFN": {
+    "external_id": "template_strm_-_juice_head_liq_salt30ml_tfn",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "STRM - Juice Head 5K (Dispo) (5000Puff)(14mL)": {
+    "external_id": "template_strm_-_juice_head_5k_dispo_5000puff14ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "STRM - Juice Head Flex Freeze (Dispo) (50000Puff)(24mL)": {
+    "external_id": "template_strm_-_juice_head_flex_freeze_dispo_50000puff24ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "STRM - Khali Vapors (LIQ FB)(60mL)": {
+    "external_id": "template_strm_-_khali_vapors_liq_fb60ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "STRM - Khali Vapors (LIQ Salt)(30mL)": {
+    "external_id": "template_strm_-_khali_vapors_liq_salt30ml",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SURN - Youme Vapsi OAO (Dispo) (6000Puff) 0% (12mL)": {
+    "external_id": "template_surn_-_youme_vapsi_oao_dispo_6000puff_0_12ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SURN - Youme Vapsi OAO (Dispo) (6000Puff) 5% (12mL)": {
+    "external_id": "template_surn_-_youme_vapsi_oao_dispo_6000puff_5_12ml",
+    "status": "new",
+    "variants_count": 14,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SVGE - Esco Bar/Savage (Dispo) (2500Puff)(6mL) Mesh Edt.": {
+    "external_id": "template_svge_-_esco_barsavage_dispo_2500puff6ml_mesh_edt",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SVGE - Vape 100 (LIQ FB)(100mL) Ripe": {
+    "external_id": "template_svge_-_vape_100_liq_fb100ml_ripe",
+    "status": "new",
+    "variants_count": 8,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SVGE - Vape 100 (LIQ Salt)(30mL) Ripe": {
+    "external_id": "template_svge_-_vape_100_liq_salt30ml_ripe",
+    "status": "new",
+    "variants_count": 7,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SVSI - LYF (LIQ FB)(100mL)": {
+    "external_id": "template_svsi_-_lyf_liq_fb100ml",
+    "status": "new",
+    "variants_count": 6,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SVSI - Slammin Duo (LIQ FB)(100mL)": {
+    "external_id": "template_svsi_-_slammin_duo_liq_fb100ml",
+    "status": "new",
+    "variants_count": 6,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SVUR - Met4 (LIQ FB)(60mL)": {
+    "external_id": "template_svur_-_met4_liq_fb60ml",
+    "status": "new",
+    "variants_count": 6,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SVUR - Met4 (LIQ Salt)(30mL)": {
+    "external_id": "template_svur_-_met4_liq_salt30ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SVUR - SVRF (LIQ FB)(60mL)": {
+    "external_id": "template_svur_-_svrf_liq_fb60ml",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SVUR - SVRF (LIQ Salt)(30mL)": {
+    "external_id": "template_svur_-_svrf_liq_salt30ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SWLF - Sigelei Smart AC10000 (Dispo) (10000Puff)(20mL)": {
+    "external_id": "template_swlf_-_sigelei_smart_ac10000_dispo_10000puff20ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SWLF - Snowwolf Compak (Dispo) (7500Puff)(17mL)": {
+    "external_id": "template_swlf_-_snowwolf_compak_dispo_7500puff17ml",
+    "status": "new",
+    "variants_count": 6,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SWLF - Snowwolf Ease Smart (Dispo) (9000Puff)(18mL)": {
+    "external_id": "template_swlf_-_snowwolf_ease_smart_dispo_9000puff18ml",
+    "status": "new",
+    "variants_count": 10,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SWSS - Ligg Pro (Dispo) (5500Puff)(14mL)": {
+    "external_id": "template_swss_-_ligg_pro_dispo_5500puff14ml",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SZCL - GOAT (Dispo) (4000Puff)(8mL)": {
+    "external_id": "template_szcl_-_goat_dispo_4000puff8ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TNRD - 100 Club (LIQ FB)(100mL)": {
+    "external_id": "template_tnrd_-_100_club_liq_fb100ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TNRD - Bora (LIQ FB)(100mL)": {
+    "external_id": "template_tnrd_-_bora_liq_fb100ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TNRD - Frozen Vape Co (LIQ FB)(100mL)": {
+    "external_id": "template_tnrd_-_frozen_vape_co_liq_fb100ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TNRD - It's Pixy (LIQ FB)(100mL)": {
+    "external_id": "template_tnrd_-_its_pixy_liq_fb100ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TNRD - Lucid Air (Dispo) (5000Puff)(16.7m)": {
+    "external_id": "template_tnrd_-_lucid_air_dispo_5000puff167m",
+    "status": "new",
+    "variants_count": 6,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TNRD - Lucid Air Plus Mesh (Dispo) (5000Puff) 5% (12mL)": {
+    "external_id": "template_tnrd_-_lucid_air_plus_mesh_dispo_5000puff_5_12ml",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TNRD - Lucid Charge (Dispo) (7000Puff)(14mL)": {
+    "external_id": "template_tnrd_-_lucid_charge_dispo_7000puff14ml",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TNRD - Lucid Flow (Dispo) (5000Puff)(16.7mL)": {
+    "external_id": "template_tnrd_-_lucid_flow_dispo_5000puff167ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TNRD - Pixy (LIQ Salt)(30mL)": {
+    "external_id": "template_tnrd_-_pixy_liq_salt30ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TNRD - Primo Bar P7000 (Dispo) (7000Puff)(14mL) + Mystery Dispo 700Puff": {
+    "external_id": "template_tnrd_-_primo_bar_p7000_dispo_7000puff14ml_mystery_dispo_700puff",
+    "status": "new",
+    "variants_count": 8,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TNRD - Shijin Vapor (LIQ FB)(100mL)": {
+    "external_id": "template_tnrd_-_shijin_vapor_liq_fb100ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TNRD - Shijin Vapor (LIQ Salt)(30mL)": {
+    "external_id": "template_tnrd_-_shijin_vapor_liq_salt30ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TNRD - Tasty O's (LIQ FB)(100mL)": {
+    "external_id": "template_tnrd_-_tasty_os_liq_fb100ml",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TNTB - Johnny Creampuff (LIQ FB)(100mL) TF-Nic": {
+    "external_id": "template_tntb_-_johnny_creampuff_liq_fb100ml_tf-nic",
+    "status": "new",
+    "variants_count": 7,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TNTB - Johnny Creampuff (LIQ Salt)(30mL) TF-Nic": {
+    "external_id": "template_tntb_-_johnny_creampuff_liq_salt30ml_tf-nic",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TRDP - Hi Drip (LIQ FB)(100mL)": {
+    "external_id": "template_trdp_-_hi_drip_liq_fb100ml",
+    "status": "new",
+    "variants_count": 34,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TRDP - Hi Drip (LIQ FB)(60mL) *": {
+    "external_id": "template_trdp_-_hi_drip_liq_fb60ml",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TRDP - Hi Drip (LIQ Salt)(30mL)": {
+    "external_id": "template_trdp_-_hi_drip_liq_salt30ml",
+    "status": "new",
+    "variants_count": 9,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TRDP - Hi Drip (LIQ Salt)(30mL; 15mL x2)": {
+    "external_id": "template_trdp_-_hi_drip_liq_salt30ml_15ml_x2",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TRDP - Tear Drip (LIQ FB)(60mL)": {
+    "external_id": "template_trdp_-_tear_drip_liq_fb60ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TRTN - Suicide Bunny (LIQ FB)(100mL) TF-Nic": {
+    "external_id": "template_trtn_-_suicide_bunny_liq_fb100ml_tf-nic",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TRTN - Suicide Bunny (LIQ FB)(120mL)": {
+    "external_id": "template_trtn_-_suicide_bunny_liq_fb120ml",
+    "status": "new",
+    "variants_count": 6,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TRTN - Suicide Bunny (LIQ Salt)(30mL)": {
+    "external_id": "template_trtn_-_suicide_bunny_liq_salt30ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TRTN - Suicide Bunny (LIQ Salt)(30mL) TF-Nic": {
+    "external_id": "template_trtn_-_suicide_bunny_liq_salt30ml_tf-nic",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TYLR - Taylor Flavors (LIQ FB)(100mL)": {
+    "external_id": "template_tylr_-_taylor_flavors_liq_fb100ml",
+    "status": "new",
+    "variants_count": 6,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TYLR - Taylor Flavors (LIQ Salt)(30mL)": {
+    "external_id": "template_tylr_-_taylor_flavors_liq_salt30ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TYLR - Taylor House (LIQ FB)(100mL)": {
+    "external_id": "template_tylr_-_taylor_house_liq_fb100ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TYLR - Taylor House (LIQ Salt)(30mL)": {
+    "external_id": "template_tylr_-_taylor_house_liq_salt30ml",
+    "status": "new",
+    "variants_count": 7,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TYSN - Tyson 2.0 Heavy Weight (Dispo) (7000Puff)(15mL)": {
+    "external_id": "template_tysn_-_tyson_20_heavy_weight_dispo_7000puff15ml",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TYSN - Tyson 2.0 Iron Mike (Dispo) (15000Puff)(14mL)": {
+    "external_id": "template_tysn_-_tyson_20_iron_mike_dispo_15000puff14ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "TYSN - Tyson 2.0 Lightweight (Dispo) (6000Puff)(12mL)(3-Pack)": {
+    "external_id": "template_tysn_-_tyson_20_lightweight_dispo_6000puff12ml3-pack",
+    "status": "new",
+    "variants_count": 13,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VDXD - Four Seasons (LIQ FB)(60mL)": {
+    "external_id": "template_vdxd_-_four_seasons_liq_fb60ml",
+    "status": "new",
+    "variants_count": 19,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VDXD - Four Seasons (LIQ Salt)(30mL)": {
+    "external_id": "template_vdxd_-_four_seasons_liq_salt30ml",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VDXD - Graham Slam (LIQ FB)(100mL)": {
+    "external_id": "template_vdxd_-_graham_slam_liq_fb100ml",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VDXD - Graham Slam (LIQ Salt)(30mL)": {
+    "external_id": "template_vdxd_-_graham_slam_liq_salt30ml",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VDXD - Mamasan (LIQ FB)(100mL)": {
+    "external_id": "template_vdxd_-_mamasan_liq_fb100ml",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VGOD - VGOD (LIQ FB)(60mL)": {
+    "external_id": "template_vgod_-_vgod_liq_fb60ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VGOD - VGOD (LIQ Salt)(30mL)": {
+    "external_id": "template_vgod_-_vgod_liq_salt30ml",
+    "status": "new",
+    "variants_count": 16,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VLPL - iJoy IC8000 (Dispo) (8000Puff)(18mL)": {
+    "external_id": "template_vlpl_-_ijoy_ic8000_dispo_8000puff18ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VLPL - iJoy SD10000 (Dispo) (10000Puff)(20mL)": {
+    "external_id": "template_vlpl_-_ijoy_sd10000_dispo_10000puff20ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VLPL - iJoy SD40000 (Dispo) (40000Puff)(20mL)": {
+    "external_id": "template_vlpl_-_ijoy_sd40000_dispo_40000puff20ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VLPL - Rabbeats RC10000 (Dispo) (10000Puff)(18mL)": {
+    "external_id": "template_vlpl_-_rabbeats_rc10000_dispo_10000puff18ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VLPL - SMOK Novo Bar AL9000 (Dispo) (9000Puff)(15mL)": {
+    "external_id": "template_vlpl_-_smok_novo_bar_al9000_dispo_9000puff15ml",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VPRB - Skwezed (LIQ FB)(100mL)": {
+    "external_id": "template_vprb_-_skwezed_liq_fb100ml",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VPRB - Skwezed (LIQ FB)(100mL) Frozen": {
+    "external_id": "template_vprb_-_skwezed_liq_fb100ml_frozen",
+    "status": "new",
+    "variants_count": 11,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VPRB - Skwezed (LIQ Salt)(30mL)": {
+    "external_id": "template_vprb_-_skwezed_liq_salt30ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VPRB - Skwezed (LIQ Salt)(30mL) Frozen": {
+    "external_id": "template_vprb_-_skwezed_liq_salt30ml_frozen",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VPWS - Aloha Sun (Dispo) (3000Puff)(8mL) TFN": {
+    "external_id": "template_vpws_-_aloha_sun_dispo_3000puff8ml_tfn",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VPWS - Flavor Beast Level X Boost Pod (Liq Pod) (25000Puffs)(20mL)": {
+    "external_id": "template_vpws_-_flavor_beast_level_x_boost_pod_liq_pod_25000puffs20ml",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VPWS - Yami (LIQ FB)(100mL)": {
+    "external_id": "template_vpws_-_yami_liq_fb100ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VRSO - iMate X 20k Disposable Pod (1-Pack)": {
+    "external_id": "template_vrso_-_imate_x_20k_disposable_pod_1-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VTSA - Vapetasia (LIQ FB)(100mL)": {
+    "external_id": "template_vtsa_-_vapetasia_liq_fb100ml",
+    "status": "new",
+    "variants_count": 13,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VTSA - Vapetasia (LIQ FB)(100mL) Killer Fruits TFN": {
+    "external_id": "template_vtsa_-_vapetasia_liq_fb100ml_killer_fruits_tfn",
+    "status": "new",
+    "variants_count": 12,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VTSA - Vapetasia (LIQ FB)(100mL) Killer Sweets TFN": {
+    "external_id": "template_vtsa_-_vapetasia_liq_fb100ml_killer_sweets_tfn",
+    "status": "new",
+    "variants_count": 9,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VTSA - Vapetasia (LIQ Salt)(30mL)": {
+    "external_id": "template_vtsa_-_vapetasia_liq_salt30ml",
+    "status": "new",
+    "variants_count": 21,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VTSA - Vapetasia (LIQ Salt)(30mL) Better Salt": {
+    "external_id": "template_vtsa_-_vapetasia_liq_salt30ml_better_salt",
+    "status": "new",
+    "variants_count": 16,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VTSA - Vapetasia (LIQ Salt)(30mL) Killter Fruits TFN": {
+    "external_id": "template_vtsa_-_vapetasia_liq_salt30ml_killter_fruits_tfn",
+    "status": "new",
+    "variants_count": 14,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VTSA - Vapetasia (LIQ Salt)(30mL) Killter Sweets TFN": {
+    "external_id": "template_vtsa_-_vapetasia_liq_salt30ml_killter_sweets_tfn",
+    "status": "new",
+    "variants_count": 7,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VTSA - Vapetasia Mint (Dispo) (6500Puff)(16mL)": {
+    "external_id": "template_vtsa_-_vapetasia_mint_dispo_6500puff16ml",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VTSA - Vapetasia MNKE Bars XL (Dispo) (25000Puff)(18mL)": {
+    "external_id": "template_vtsa_-_vapetasia_mnke_bars_xl_dispo_25000puff18ml",
+    "status": "new",
+    "variants_count": 7,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VTSA - Vapetasia MNKE Bars XL ZERO (Dispo) (25000Puff)(18mL)": {
+    "external_id": "template_vtsa_-_vapetasia_mnke_bars_xl_zero_dispo_25000puff18ml",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "ZVOO - Zovoo Drag Bar B5000 (Dispo) (5000Puff)(13mL)": {
+    "external_id": "template_zvoo_-_zovoo_drag_bar_b5000_dispo_5000puff13ml",
+    "status": "new",
+    "variants_count": 6,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "7DZE - 7Daze Clickmate Colors (Device Only)": {
+    "external_id": "template_7dze_-_7daze_clickmate_colors_device_only",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Disposable"
+  },
+  "7DZE - 7Daze Clickmate Refillable MATES (2-Pack)": {
+    "external_id": "template_7dze_-_7daze_clickmate_refillable_mates_2-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "E-Juice"
+  },
+  "7DZE - 7Daze Clickmate Refillable MAX Starter Kit": {
+    "external_id": "template_7dze_-_7daze_clickmate_refillable_max_starter_kit",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Kit"
+  },
+  "7DZE - 7Daze Click-Mates Pods (Liq Pod)(20mg 18mL; 9mL x2) (2-Pack)": {
+    "external_id": "template_7dze_-_7daze_click-mates_pods_liq_pod20mg_18ml_9ml_x2_2-pack",
+    "status": "new",
+    "variants_count": 10,
+    "attributes": [
+      "flavor"
+    ],
+    "category": "Replacement Pod"
+  },
+  "7DZE - 7Daze Click-Mates Pods (Liq Pod)(50mg 18mL; 9mL x2) (2-Pack)": {
+    "external_id": "template_7dze_-_7daze_click-mates_pods_liq_pod50mg_18ml_9ml_x2_2-pack",
+    "status": "new",
+    "variants_count": 11,
+    "attributes": [
+      "flavor"
+    ],
+    "category": "Replacement Pod"
+  },
+  "BLKO - Loud (LIQ FB)(100mL) TFN": {
+    "external_id": "template_blko_-_loud_liq_fb100ml_tfn",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "BLKO - Loud (LIQ FB)(100mL)TFN": {
+    "external_id": "template_blko_-_loud_liq_fb100mltfn",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "DMVW - Geek Bar Digi Flavor BRK (Battery Only) (1000mAh)": {
+    "external_id": "template_dmvw_-_geek_bar_digi_flavor_brk_battery_only_1000mah",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Battery"
+  },
+  "DOTM - Dotmod DotPod Plus (Pods)(2-Pack) 3mL": {
+    "external_id": "template_dotm_-_dotmod_dotpod_plus_pods2-pack_3ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "DOTM - Dotmod Dotstick (Coils)(5-Pack)": {
+    "external_id": "template_dotm_-_dotmod_dotstick_coils5-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "DVPO - Dovpo TMD Mesh (Coils)(5-Pack)": {
+    "external_id": "template_dvpo_-_dovpo_tmd_mesh_coils5-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "EFST - Efest (Charger) Lush Box Battery": {
+    "external_id": "template_efst_-_efest_charger_lush_box_battery",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Battery"
+  },
+  "FNST - Finest (LIQ FB)(120mL; 60mL x2) Signature Edt.": {
+    "external_id": "template_fnst_-_finest_liq_fb120ml_60ml_x2_signature_edt",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "FRFM - Esco Bar/Fruitia Mesh (Dispo) (5000Puff)(12mL) -White Gummy 50mg": {
+    "external_id": "template_frfm_-_esco_barfruitia_mesh_dispo_5000puff12ml_-white_gummy_50mg",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "FRMX - Freemax (REPL. Glass)(1pc) Mesh Pro": {
+    "external_id": "template_frmx_-_freemax_repl_glass1pc_mesh_pro",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "FRMX - Freemax EVOX (Pods)(3-pack) 5mL": {
+    "external_id": "template_frmx_-_freemax_evox_pods3-pack_5ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "FRMX - Freemax Fireluke M Series (Coils)(5-Pack)": {
+    "external_id": "template_frmx_-_freemax_fireluke_m_series_coils5-pack",
+    "status": "new",
+    "variants_count": 7,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "FRMX - Freemax Galex (Pods)(2-Pack)": {
+    "external_id": "template_frmx_-_freemax_galex_pods2-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "FRMX - Freemax Gemm G1 (Dispo Tank)(2-Pack) - 0.12ohm SS316 550F": {
+    "external_id": "template_frmx_-_freemax_gemm_g1_dispo_tank2-pack_-_012ohm_ss316_550f",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "color"
+    ],
+    "category": "Coil"
+  },
+  "FRMX - Freemax Gemm G1 (Dispo Tank)(2-Pack) - 0.15ohm 80W": {
+    "external_id": "template_frmx_-_freemax_gemm_g1_dispo_tank2-pack_-_015ohm_80w",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "color"
+    ],
+    "category": "Coil"
+  },
+  "FRMX - Freemax Gemm G2 (Dispo Tank)(2-Pack) - 0.2ohm 80W": {
+    "external_id": "template_frmx_-_freemax_gemm_g2_dispo_tank2-pack_-_02ohm_80w",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "color"
+    ],
+    "category": "Coil"
+  },
+  "FRMX - Freemax Gemm G2 (Dispo Tank)(2-Pack) - 0.5ohm 30W": {
+    "external_id": "template_frmx_-_freemax_gemm_g2_dispo_tank2-pack_-_05ohm_30w",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "color"
+    ],
+    "category": "Coil"
+  },
+  "FRMX - Freemax Gemm G2 (Dispo Tank)(2-Pack)": {
+    "external_id": "template_frmx_-_freemax_gemm_g2_dispo_tank2-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Tank"
+  },
+  "FRMX - Freemax Gemm G3 (Dispo Tank)(2-Pack) - 0.15ohm 90W": {
+    "external_id": "template_frmx_-_freemax_gemm_g3_dispo_tank2-pack_-_015ohm_90w",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "color"
+    ],
+    "category": "Coil"
+  },
+  "FRMX - Freemax Gemm G4 (Dispo Tank)(2-Pack) - 0.15ohm 80W": {
+    "external_id": "template_frmx_-_freemax_gemm_g4_dispo_tank2-pack_-_015ohm_80w",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Coil"
+  },
+  "FRMX - Freemax GX Mesh (Coils)(5-Pack)": {
+    "external_id": "template_frmx_-_freemax_gx_mesh_coils5-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "FRMX - Freemax Marvos MS-D Mesh (Coils)(5-Pack)": {
+    "external_id": "template_frmx_-_freemax_marvos_ms-d_mesh_coils5-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "FRMX - Freemax Maxus 2 (Kit SK)": {
+    "external_id": "template_frmx_-_freemax_maxus_2_kit_sk",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "FRMX - Freemax Maxus Pro 904L M Mesh (Coils)(3-Pack)": {
+    "external_id": "template_frmx_-_freemax_maxus_pro_904l_m_mesh_coils3-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "FRMX - Freemax MS Mesh (Coils)(5-Pack)": {
+    "external_id": "template_frmx_-_freemax_ms_mesh_coils5-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "FRMX - Freemax Starlux (Kit PS)": {
+    "external_id": "template_frmx_-_freemax_starlux_kit_ps",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "FRMX - Freemax Starlux (Pods)(1pc)": {
+    "external_id": "template_frmx_-_freemax_starlux_pods1pc",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "FRMX - Freemax X1-D Mesh (Coils)(5-Pack)": {
+    "external_id": "template_frmx_-_freemax_x1-d_mesh_coils5-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "FRMX - Freemax Xfill Pods (5mL pod + 10mL bottle)": {
+    "external_id": "template_frmx_-_freemax_xfill_pods_5ml_pod_10ml_bottle",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "GKVP - Geekvape Aegis Boost 3 (Kit PS)": {
+    "external_id": "template_gkvp_-_geekvape_aegis_boost_3_kit_ps",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "GKVP - Geekvape Aegis Max 2 Max100 (Kit SK)": {
+    "external_id": "template_gkvp_-_geekvape_aegis_max_2_max100_kit_sk",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "GKVP - Geekvape Aegis Max 2 Max100 (Mod)": {
+    "external_id": "template_gkvp_-_geekvape_aegis_max_2_max100_mod",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "GKVP - Geekvape B Series (Coils)(5-Pack)": {
+    "external_id": "template_gkvp_-_geekvape_b_series_coils5-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "GKVP - GeekVape B100 Empty (Pods)(2-Pack)": {
+    "external_id": "template_gkvp_-_geekvape_b100_empty_pods2-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "GKVP - Geekvape Boost Pro 2 B100 (Kit PS)": {
+    "external_id": "template_gkvp_-_geekvape_boost_pro_2_b100_kit_ps",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "GKVP - Geekvape Digi Max (Kit PS)": {
+    "external_id": "template_gkvp_-_geekvape_digi_max_kit_ps",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "GKVP - Geekvape H45 Hero 2 (Pods) Rte Edt. (2-Pack)": {
+    "external_id": "template_gkvp_-_geekvape_h45_hero_2_pods_rte_edt_2-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Replacement Pod"
+  },
+  "GKVP - Geekvape H45 Hero 2 (Refillable Pods + Coil) 5ml": {
+    "external_id": "template_gkvp_-_geekvape_h45_hero_2_refillable_pods_coil_5ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "GKVP - Geekvape J (Coils)(5-Pack)": {
+    "external_id": "template_gkvp_-_geekvape_j_coils5-pack",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "GKVP - Geekvape J (Pods)(2-Pack) 5mL": {
+    "external_id": "template_gkvp_-_geekvape_j_pods2-pack_5ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "GKVP - Geekvape Jr (Pods)(2-Pack) 5mL": {
+    "external_id": "template_gkvp_-_geekvape_jr_pods2-pack_5ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Replacement Pod"
+  },
+  "GKVP - Geekvape P (Coils)(5-Pack)": {
+    "external_id": "template_gkvp_-_geekvape_p_coils5-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "GKVP - Geekvape Peak (Kit PS)": {
+    "external_id": "template_gkvp_-_geekvape_peak_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "GKVP - Geekvape Q (Pods)(3-Pack) 3mL Side-Fill": {
+    "external_id": "template_gkvp_-_geekvape_q_pods3-pack_3ml_side-fill",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "GKVP - Geekvape Sonder Q (Kit PS)": {
+    "external_id": "template_gkvp_-_geekvape_sonder_q_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "GKVP - Geekvape Sonder U (Kit PS)": {
+    "external_id": "template_gkvp_-_geekvape_sonder_u_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "GKVP - Geekvape Sonder/Aegis U (Pods)(3-Pack) 2mL": {
+    "external_id": "template_gkvp_-_geekvape_sonderaegis_u_pods3-pack_2ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "GKVP - Geekvape Sonder/Wenax Q (Pods)(3-Pack)": {
+    "external_id": "template_gkvp_-_geekvape_sonderwenax_q_pods3-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "GKVP - Geekvape Soul (Pods)": {
+    "external_id": "template_gkvp_-_geekvape_soul_pods",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "GKVP - Geekvape Wenax H1 (Pods)(3-Pack)": {
+    "external_id": "template_gkvp_-_geekvape_wenax_h1_pods3-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "GKVP - Geekvape Wenax K1 (Pods)(3-Pack)": {
+    "external_id": "template_gkvp_-_geekvape_wenax_k1_pods3-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "GKVP - Geekvape Wenax M1 0.8ohm (Kit PS)": {
+    "external_id": "template_gkvp_-_geekvape_wenax_m1_08ohm_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Coil"
+  },
+  "GKVP - Geekvape Wenax M1 V2 (Pods)(4-Pack)": {
+    "external_id": "template_gkvp_-_geekvape_wenax_m1_v2_pods4-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "GKVP - Geekvape Wenax Q (Kit PS)": {
+    "external_id": "template_gkvp_-_geekvape_wenax_q_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Kit"
+  },
+  "GKVP - Geekvape Wenax Q Ultra (Kit PS) 1300mAh": {
+    "external_id": "template_gkvp_-_geekvape_wenax_q_ultra_kit_ps_1300mah",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "GLAS - Basix Pouches (DSPLY 5pc)(Nic Pouch)(20ct Can)": {
+    "external_id": "template_glas_-_basix_pouches_dsply_5pcnic_pouch20ct_can",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "GMDI - Lookah (REPL. Glass)(1pc) Unicorn Mini Glass Bubbler": {
+    "external_id": "template_gmdi_-_lookah_repl_glass1pc_unicorn_mini_glass_bubbler",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Saleable"
+  },
+  "HMBL - Humble (LIQ FB)(60mL)": {
+    "external_id": "template_hmbl_-_humble_liq_fb60ml",
+    "status": "new",
+    "variants_count": 16,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "HMBL - Humble (LIQ Salt)(30mL)": {
+    "external_id": "template_hmbl_-_humble_liq_salt30ml",
+    "status": "new",
+    "variants_count": 12,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "HRZN - Horizon Aquila (Coils)(3-Pack)": {
+    "external_id": "template_hrzn_-_horizon_aquila_coils3-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "HRZN - Horizon Falcon (Coils)(3-Pack)": {
+    "external_id": "template_hrzn_-_horizon_falcon_coils3-pack",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "model"
+    ],
+    "category": "Coil"
+  },
+  "HRZN - Horizon Falcon 2 (Coils)(3-Pack)": {
+    "external_id": "template_hrzn_-_horizon_falcon_2_coils3-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "HRZN - Horizon Sakerz Master (Tank)": {
+    "external_id": "template_hrzn_-_horizon_sakerz_master_tank",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Tank"
+  },
+  "HRZN - Horizon Talons (Kit PS)": {
+    "external_id": "template_hrzn_-_horizon_talons_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "HRZN - Horizon Talons (Pods)(2-Pack)": {
+    "external_id": "template_hrzn_-_horizon_talons_pods2-pack",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "HRZN - Horizon Talons Starter (Kit PS)": {
+    "external_id": "template_hrzn_-_horizon_talons_starter_kit_ps",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK (REPL. Glass) #4 Baby Bulb (1pc)": {
+    "external_id": "template_ivps_-_smok_repl_glass_4_baby_bulb_1pc",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Saleable"
+  },
+  "IVPS - SMOK (REPL. Glass) #7 Baby V2 Bulb (1pc)": {
+    "external_id": "template_ivps_-_smok_repl_glass_7_baby_v2_bulb_1pc",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Saleable"
+  },
+  "IVPS - SMOK Baby (Coils)(5-Pack)": {
+    "external_id": "template_ivps_-_smok_baby_coils5-pack",
+    "status": "new",
+    "variants_count": 11,
+    "attributes": [
+      "color",
+      "model"
+    ],
+    "category": "Coil"
+  },
+  "IVPS - SMOK Cobra (Drip Tip)": {
+    "external_id": "template_ivps_-_smok_cobra_drip_tip",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Saleable"
+  },
+  "IVPS - SMOK D-Coil (Coils)(5-Pack)": {
+    "external_id": "template_ivps_-_smok_d-coil_coils5-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "IVPS - SMOK Fit (Pods)(3-Pack) [Disc.]": {
+    "external_id": "template_ivps_-_smok_fit_pods3-pack_disc",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "IVPS - SMOK G-Priv 4 (Kit SK)": {
+    "external_id": "template_ivps_-_smok_g-priv_4_kit_sk",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK IGEE A1 (Pods)(3-Pack) 2mL": {
+    "external_id": "template_ivps_-_smok_igee_a1_pods3-pack_2ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "IVPS - SMOK IPX 80 (Kit PS)": {
+    "external_id": "template_ivps_-_smok_ipx_80_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK IPX 80 (Pods)(3-Pack)": {
+    "external_id": "template_ivps_-_smok_ipx_80_pods3-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "model"
+    ],
+    "category": "Replacement Pod"
+  },
+  "IVPS - SMOK LP2 (Coils)(5-Pack)": {
+    "external_id": "template_ivps_-_smok_lp2_coils5-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "IVPS - SMOK M (Coils)(5-Pack)": {
+    "external_id": "template_ivps_-_smok_m_coils5-pack",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "IVPS - SMOK Mag Solo (Mod)": {
+    "external_id": "template_ivps_-_smok_mag_solo_mod",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK Nord (Coils)(5-Pack)": {
+    "external_id": "template_ivps_-_smok_nord_coils5-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "IVPS - SMOK Nord 2 (Kit PS)": {
+    "external_id": "template_ivps_-_smok_nord_2_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK Nord 2 (Pods)(3-Pack)": {
+    "external_id": "template_ivps_-_smok_nord_2_pods3-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "IVPS - SMOK Nord 4 (Kit PS)": {
+    "external_id": "template_ivps_-_smok_nord_4_kit_ps",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK Nord 5 (Kit PS)": {
+    "external_id": "template_ivps_-_smok_nord_5_kit_ps",
+    "status": "new",
+    "variants_count": 8,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK Nord 50W (Pods)(3-Pack)": {
+    "external_id": "template_ivps_-_smok_nord_50w_pods3-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "IVPS - SMOK Nord GT (Kit PS)": {
+    "external_id": "template_ivps_-_smok_nord_gt_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK Nord GT (Kit PS) Leather Edt.- Black Gun Metal": {
+    "external_id": "template_ivps_-_smok_nord_gt_kit_ps_leather_edt-_black_gun_metal",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Kit"
+  },
+  "IVPS - SMOK Nord Pro (Coils)(5-Pack)": {
+    "external_id": "template_ivps_-_smok_nord_pro_coils5-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "IVPS - SMOK Nord Pro (Pods)(3-Pack)": {
+    "external_id": "template_ivps_-_smok_nord_pro_pods3-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "IVPS - SMOK Novo (Pods)(3-Pack)": {
+    "external_id": "template_ivps_-_smok_novo_pods3-pack",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "IVPS - SMOK Novo (Pods)(3-Pack) TF": {
+    "external_id": "template_ivps_-_smok_novo_pods3-pack_tf",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "IVPS - SMOK Novo 2 (Kit PS)": {
+    "external_id": "template_ivps_-_smok_novo_2_kit_ps",
+    "status": "new",
+    "variants_count": 14,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK Novo 2 (Pods)(3-Pack)": {
+    "external_id": "template_ivps_-_smok_novo_2_pods3-pack",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "IVPS - SMOK Novo 2C (Kit PS)": {
+    "external_id": "template_ivps_-_smok_novo_2c_kit_ps",
+    "status": "new",
+    "variants_count": 6,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK Novo 2S (Kit PS)": {
+    "external_id": "template_ivps_-_smok_novo_2s_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK Novo 2X (Kit PS)": {
+    "external_id": "template_ivps_-_smok_novo_2x_kit_ps",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK Novo 3 (Kit PS)": {
+    "external_id": "template_ivps_-_smok_novo_3_kit_ps",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK Novo 5 (Kit PS)": {
+    "external_id": "template_ivps_-_smok_novo_5_kit_ps",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK Novo Eco (Kit PS) 1000mAh": {
+    "external_id": "template_ivps_-_smok_novo_eco_kit_ps_1000mah",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK Novo GT Box (Kit PS)": {
+    "external_id": "template_ivps_-_smok_novo_gt_box_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK Novo M (Pods)(3-Pack) 2mL Top-Fill": {
+    "external_id": "template_ivps_-_smok_novo_m_pods3-pack_2ml_top-fill",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "IVPS - SMOK Novo M (Pods)(3-Pack) 2mL Top-Fill -0.8ohm": {
+    "external_id": "template_ivps_-_smok_novo_m_pods3-pack_2ml_top-fill_-08ohm",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "IVPS - SMOK Novo M (Pods)(3-Pack) 2mL Top-Fill -1.0ohm": {
+    "external_id": "template_ivps_-_smok_novo_m_pods3-pack_2ml_top-fill_-10ohm",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "IVPS - SMOK Novo Master (Kit PS)": {
+    "external_id": "template_ivps_-_smok_novo_master_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK Novo Master (Kit PS) Leather Series": {
+    "external_id": "template_ivps_-_smok_novo_master_kit_ps_leather_series",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK Novo Pro (Kit PS)": {
+    "external_id": "template_ivps_-_smok_novo_pro_kit_ps",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK Novo Pro (Kit PS) Leather Series": {
+    "external_id": "template_ivps_-_smok_novo_pro_kit_ps_leather_series",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK Novo SLR (Pods)(3-Pack) 2mL": {
+    "external_id": "template_ivps_-_smok_novo_slr_pods3-pack_2ml",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "IVPS - SMOK Novo X (Kit PS)": {
+    "external_id": "template_ivps_-_smok_novo_x_kit_ps",
+    "status": "new",
+    "variants_count": 7,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK Prince (Coils)(3-Pack)": {
+    "external_id": "template_ivps_-_smok_prince_coils3-pack",
+    "status": "new",
+    "variants_count": 8,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "IVPS - SMOK ProPod GT (Kit PS)": {
+    "external_id": "template_ivps_-_smok_propod_gt_kit_ps",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "color"
+    ],
+    "category": "Replacement Pod"
+  },
+  "IVPS - SMOK Resin (Drip Tip)": {
+    "external_id": "template_ivps_-_smok_resin_drip_tip",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "color"
+    ],
+    "category": "Saleable"
+  },
+  "IVPS - SMOK R-KISS 2 (Kit SK)": {
+    "external_id": "template_ivps_-_smok_r-kiss_2_kit_sk",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK RPM (Coils)(5-Pack)": {
+    "external_id": "template_ivps_-_smok_rpm_coils5-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "IVPS - SMOK RPM 100 (Kit PS)": {
+    "external_id": "template_ivps_-_smok_rpm_100_kit_ps",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK RPM 2 (Coils)(5-Pack)": {
+    "external_id": "template_ivps_-_smok_rpm_2_coils5-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "IVPS - SMOK RPM 2 (Kit PS)": {
+    "external_id": "template_ivps_-_smok_rpm_2_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK RPM 5 (Kit PS)": {
+    "external_id": "template_ivps_-_smok_rpm_5_kit_ps",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK RPM 85 (Kit PS)": {
+    "external_id": "template_ivps_-_smok_rpm_85_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK RPM 85/100 (Pods)(3-Pack)": {
+    "external_id": "template_ivps_-_smok_rpm_85100_pods3-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "IVPS - SMOK RPM25W (Pods)(3-Pack)": {
+    "external_id": "template_ivps_-_smok_rpm25w_pods3-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "IVPS - SMOK SLM (Pods)(5-Pack)": {
+    "external_id": "template_ivps_-_smok_slm_pods5-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "IVPS - SMOK Solus (Pods)(3-Pack)": {
+    "external_id": "template_ivps_-_smok_solus_pods3-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "IVPS - SMOK Solus 2 (Kit PS)": {
+    "external_id": "template_ivps_-_smok_solus_2_kit_ps",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK Tech 247 (Pods)(2-Pack)": {
+    "external_id": "template_ivps_-_smok_tech_247_pods2-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "IVPS - SMOK TF (Coils)(3-Pack)": {
+    "external_id": "template_ivps_-_smok_tf_coils3-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "IVPS - SMOK TFV12 (Coils)(3-Pack)": {
+    "external_id": "template_ivps_-_smok_tfv12_coils3-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "IVPS - SMOK TFV16 (Coils)(3-Pack)": {
+    "external_id": "template_ivps_-_smok_tfv16_coils3-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "IVPS - SMOK TFV18 (Tank)": {
+    "external_id": "template_ivps_-_smok_tfv18_tank",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "color"
+    ],
+    "category": "Tank"
+  },
+  "IVPS - SMOK TFV8 (Coils)(3-Pack)": {
+    "external_id": "template_ivps_-_smok_tfv8_coils3-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "IVPS - SMOK TFV9 (Tank)": {
+    "external_id": "template_ivps_-_smok_tfv9_tank",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Tank"
+  },
+  "IVPS - SMOK Vape Pen (Coils)(5-Pack)": {
+    "external_id": "template_ivps_-_smok_vape_pen_coils5-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "IVPS - SMOK Vape Pen 22 (Coils)(5-Pack)": {
+    "external_id": "template_ivps_-_smok_vape_pen_22_coils5-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "IVPS - SMOK Vape Pen V2 (Kit SK)": {
+    "external_id": "template_ivps_-_smok_vape_pen_v2_kit_sk",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK X-Priv Plus (Kit SK)": {
+    "external_id": "template_ivps_-_smok_x-priv_plus_kit_sk",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "IVPS - SMOK X-Priv Plus (Mod)": {
+    "external_id": "template_ivps_-_smok_x-priv_plus_mod",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "LMRY - Lost Mary BM5000 (Dispo) (5000Puff) 4-5% (14mL)": {
+    "external_id": "template_lmry_-_lost_mary_bm5000_dispo_5000puff_4-5_14ml",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "LSTV - Lost Vape E Plus (Pods)(3-Pack)": {
+    "external_id": "template_lstv_-_lost_vape_e_plus_pods3-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "LSTV - Lost Vape Thelema Mini (Kit SK) UB Lite Tank Edt.": {
+    "external_id": "template_lstv_-_lost_vape_thelema_mini_kit_sk_ub_lite_tank_edt",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "LSTV - Lost Vape UB Lite (Coils)(5-Pack)": {
+    "external_id": "template_lstv_-_lost_vape_ub_lite_coils5-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "LSTV - Lost Vape UB Max (Coils)(3-Pack)": {
+    "external_id": "template_lstv_-_lost_vape_ub_max_coils3-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "LSTV - Lost Vape UB Ultra (Coils)(5-Pack)": {
+    "external_id": "template_lstv_-_lost_vape_ub_ultra_coils5-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "LSTV - Lost Vape Ultra Boost (Coils)(5-Pack)": {
+    "external_id": "template_lstv_-_lost_vape_ultra_boost_coils5-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "LSTV - Lost Vape Ursa (Pods)(1pc) 2mL": {
+    "external_id": "template_lstv_-_lost_vape_ursa_pods1pc_2ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Replacement Pod"
+  },
+  "LSTV - Lost Vape Ursa V2 (Pods)(3-Pack) 2.5mL": {
+    "external_id": "template_lstv_-_lost_vape_ursa_v2_pods3-pack_25ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "MIPD - Mi-Pod 2.0 (Pods)(2-Pack) 2mL": {
+    "external_id": "template_mipd_-_mi-pod_20_pods2-pack_2ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Replacement Pod"
+  },
+  "MIPD - Mi-Pod Pro (Kit PS)": {
+    "external_id": "template_mipd_-_mi-pod_pro_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Replacement Pod"
+  },
+  "MIPD - Mi-Pod Pro (Pods)(2-Pack) 2mL": {
+    "external_id": "template_mipd_-_mi-pod_pro_pods2-pack_2ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "color"
+    ],
+    "category": "Replacement Pod"
+  },
+  "MISC - Voom Pod (Kit SK)": {
+    "external_id": "template_misc_-_voom_pod_kit_sk",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Replacement Pod"
+  },
+  "MLVS - Phix (LIQPOD)(Pods)(4-Pack)": {
+    "external_id": "template_mlvs_-_phix_liqpodpods4-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor"
+    ],
+    "category": "Replacement Pod"
+  },
+  "OXBR - Oxbar Nic-Switch (Dispo) (35000Puff)(14mL) Pod Juice Edt.": {
+    "external_id": "template_oxbr_-_oxbar_nic-switch_dispo_35000puff14ml_pod_juice_edt",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "OXBR - Oxbar Oxpod Elite (Pods)(2-Pack) 8mL Pod Juice Edt.": {
+    "external_id": "template_oxbr_-_oxbar_oxpod_elite_pods2-pack_8ml_pod_juice_edt",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "OXBR - SVOPP 30K Battery (Battery Only) Pod Juice Edt.": {
+    "external_id": "template_oxbr_-_svopp_30k_battery_battery_only_pod_juice_edt",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "color"
+    ],
+    "category": "Replacement Pod"
+  },
+  "OXVA - OXVA Xlim V3 (Pods)(3-Pack)": {
+    "external_id": "template_oxva_-_oxva_xlim_v3_pods3-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "PATA - Urban Tale Xplore (Pods)(3-Pack) 2mL": {
+    "external_id": "template_pata_-_urban_tale_xplore_pods3-pack_2ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "RCKY - LVE Orion II (Kit PS)": {
+    "external_id": "template_rcky_-_lve_orion_ii_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "RCKY - LVE Orion II (Pods)(2-Pack)": {
+    "external_id": "template_rcky_-_lve_orion_ii_pods2-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "RCKY - LVE Orion II Mesh (Coils)(5-Pack)": {
+    "external_id": "template_rcky_-_lve_orion_ii_mesh_coils5-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "RUTH - Ruthless Essentials (LIQ FB)(100mL)": {
+    "external_id": "template_ruth_-_ruthless_essentials_liq_fb100ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SIGE - Sigelei Sobra (Kit SK)": {
+    "external_id": "template_sige_-_sigelei_sobra_kit_sk",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "STRM - Juice Head (DSPLY 5pc)(Nic Pouch)(20ct Can) ZTN": {
+    "external_id": "template_strm_-_juice_head_dsply_5pcnic_pouch20ct_can_ztn",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "STRM - Juice Head (DSPLY 5pc)(Nic Pouch)(20ct Can) ZTN pre-priced": {
+    "external_id": "template_strm_-_juice_head_dsply_5pcnic_pouch20ct_can_ztn_pre-priced",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "SURN - Suorin Air Mini (Pods)(1pc)": {
+    "external_id": "template_surn_-_suorin_air_mini_pods1pc",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "SURN - Suorin Air Pod (Pods)(1pc)": {
+    "external_id": "template_surn_-_suorin_air_pod_pods1pc",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Replacement Pod"
+  },
+  "SURN - Suorin Fero (Pods)(1pc) 3mL": {
+    "external_id": "template_surn_-_suorin_fero_pods1pc_3ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "TBCO - Tobeco Super Tank (Coils)(5-Pack)": {
+    "external_id": "template_tbco_-_tobeco_super_tank_coils5-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "UWLL - Uwell Aeglos (Coils)(4-Pack)": {
+    "external_id": "template_uwll_-_uwell_aeglos_coils4-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "UWLL - Uwell Caliburn (Pods)(4-Pack)": {
+    "external_id": "template_uwll_-_uwell_caliburn_pods4-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "UWLL - Uwell Caliburn A2S (Kit PS)": {
+    "external_id": "template_uwll_-_uwell_caliburn_a2s_kit_ps",
+    "status": "new",
+    "variants_count": 5,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "UWLL - Uwell Caliburn A3S (Kit PS)": {
+    "external_id": "template_uwll_-_uwell_caliburn_a3s_kit_ps",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "UWLL - Uwell Caliburn A3S (Pods)(4-Pack)": {
+    "external_id": "template_uwll_-_uwell_caliburn_a3s_pods4-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "UWLL - Uwell Caliburn AZ3 (Pods)(4-Pack)": {
+    "external_id": "template_uwll_-_uwell_caliburn_az3_pods4-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "UWLL - Uwell Caliburn Explorer (Kit PS)": {
+    "external_id": "template_uwll_-_uwell_caliburn_explorer_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "UWLL - Uwell Caliburn Explorer (Pods)(2-Pack)": {
+    "external_id": "template_uwll_-_uwell_caliburn_explorer_pods2-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "UWLL - Uwell Caliburn G (Pods)(2-Pack)": {
+    "external_id": "template_uwll_-_uwell_caliburn_g_pods2-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "UWLL - Uwell Caliburn G3 Lite (Kit PS)": {
+    "external_id": "template_uwll_-_uwell_caliburn_g3_lite_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "UWLL - Uwell Caliburn G3 Lite KOKO (Kit PS) 1200mAh": {
+    "external_id": "template_uwll_-_uwell_caliburn_g3_lite_koko_kit_ps_1200mah",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "UWLL - Uwell Caliburn G3 Pro (Kit PS)": {
+    "external_id": "template_uwll_-_uwell_caliburn_g3_pro_kit_ps",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "UWLL - Uwell Caliburn G4 Mini (Kit PS)": {
+    "external_id": "template_uwll_-_uwell_caliburn_g4_mini_kit_ps",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "UWLL - Uwell Caliburn GPP (Pods)(3-Pack) 3mL Top-Fill": {
+    "external_id": "template_uwll_-_uwell_caliburn_gpp_pods3-pack_3ml_top-fill",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "UWLL - Uwell Caliburn Tenet (Kit PS)": {
+    "external_id": "template_uwll_-_uwell_caliburn_tenet_kit_ps",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "UWLL - Uwell Caliburn X (Pods)(2-Pack) 3mL": {
+    "external_id": "template_uwll_-_uwell_caliburn_x_pods2-pack_3ml",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "UWLL - Uwell Cravat (Kit PS)": {
+    "external_id": "template_uwll_-_uwell_cravat_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "UWLL - Uwell Crown 3 (Coils)(4-Pack)": {
+    "external_id": "template_uwll_-_uwell_crown_3_coils4-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "UWLL - Uwell Crown D (Kit PS)": {
+    "external_id": "template_uwll_-_uwell_crown_d_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "UWLL - Uwell Crown M (Coils)(4-Pack)": {
+    "external_id": "template_uwll_-_uwell_crown_m_coils4-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "UWLL - Uwell Crown X (Coils)(4-Pack)": {
+    "external_id": "template_uwll_-_uwell_crown_x_coils4-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "UWLL - Uwell Crown X (Kit PS)": {
+    "external_id": "template_uwll_-_uwell_crown_x_kit_ps",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "UWLL - Uwell Havok V1 (Coils)(4-Pack)": {
+    "external_id": "template_uwll_-_uwell_havok_v1_coils4-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "UWLL - Uwell PA (Coils)(4-Pack)": {
+    "external_id": "template_uwll_-_uwell_pa_coils4-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "UWLL - Uwell Popreel N1 (Pods)(2-Pack)": {
+    "external_id": "template_uwll_-_uwell_popreel_n1_pods2-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "UWLL - Uwell Popreel P1 (Kit PS)": {
+    "external_id": "template_uwll_-_uwell_popreel_p1_kit_ps",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "UWLL - Uwell Popreel P1/PK1 (Pods)(4-Pack)": {
+    "external_id": "template_uwll_-_uwell_popreel_p1pk1_pods4-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "UWLL - Uwell Valyrian 2 (Coils)(2-Pack)": {
+    "external_id": "template_uwll_-_uwell_valyrian_2_coils2-pack",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "UWLL - Uwell Valyrian 3 (Coils)(2-Pack)": {
+    "external_id": "template_uwll_-_uwell_valyrian_3_coils2-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "UWLL - Uwell Valyrian 3 (Kit SK)": {
+    "external_id": "template_uwll_-_uwell_valyrian_3_kit_sk",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "UWLL - Uwell Valyrian 3 (Tank)": {
+    "external_id": "template_uwll_-_uwell_valyrian_3_tank",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "color"
+    ],
+    "category": "Tank"
+  },
+  "UWLL - Uwell Valyrian Pod (Coils)(4-Pack) SE": {
+    "external_id": "template_uwll_-_uwell_valyrian_pod_coils4-pack_se",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "UWLL - Uwell Valyrian Pod-Kit (Pods)(1pc)": {
+    "external_id": "template_uwll_-_uwell_valyrian_pod-kit_pods1pc",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "VDXD - Mamasan (LIQ FB)(60mL)": {
+    "external_id": "template_vdxd_-_mamasan_liq_fb60ml",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "flavor",
+      "nicotine_mg"
+    ],
+    "category": "E-Juice"
+  },
+  "VNDY - Vandy Vape Jackaroo (Pods)": {
+    "external_id": "template_vndy_-_vandy_vape_jackaroo_pods",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Replacement Pod"
+  },
+  "VNDY - Vandy Vape Kylin M Mesh (Coils)(10-Pack)": {
+    "external_id": "template_vndy_-_vandy_vape_kylin_m_mesh_coils10-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "VNDY - Vandy Vape VVC (Coils)(4-Pack)": {
+    "external_id": "template_vndy_-_vandy_vape_vvc_coils4-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "VOPO - Voopoo Argus (Pods)(3-Pack) 2mL Top-Fill": {
+    "external_id": "template_vopo_-_voopoo_argus_pods3-pack_2ml_top-fill",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "VOPO - Voopoo Argus E40 (Pods)(2-Pack) 4.5mL": {
+    "external_id": "template_vopo_-_voopoo_argus_e40_pods2-pack_45ml",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "VOPO - Voopoo Argus G2 (Kit PS)": {
+    "external_id": "template_vopo_-_voopoo_argus_g2_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VOPO - Voopoo Argus P1S (Kit PS)": {
+    "external_id": "template_vopo_-_voopoo_argus_p1s_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor"
+    ],
+    "category": "Kit"
+  },
+  "VOPO - Voopoo Argus Pro 2 (Kit PS)": {
+    "external_id": "template_vopo_-_voopoo_argus_pro_2_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor"
+    ],
+    "category": "Kit"
+  },
+  "VOPO - Voopoo Argus V2 (Pods)(3-Pack) 2mL Top-Fill": {
+    "external_id": "template_vopo_-_voopoo_argus_v2_pods3-pack_2ml_top-fill",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "VOPO - Voopoo Argus V2 (Pods)(3-Pack) 3mL Top-Fill": {
+    "external_id": "template_vopo_-_voopoo_argus_v2_pods3-pack_3ml_top-fill",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "VOPO - Voopoo Drag 5 (Kit SK)": {
+    "external_id": "template_vopo_-_voopoo_drag_5_kit_sk",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VOPO - Voopoo Drag H40 (Kit PS)": {
+    "external_id": "template_vopo_-_voopoo_drag_h40_kit_ps",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VOPO - Voopoo Drag M100S (Mod)": {
+    "external_id": "template_vopo_-_voopoo_drag_m100s_mod",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VOPO - Voopoo Drag X2 (Kit PS)": {
+    "external_id": "template_vopo_-_voopoo_drag_x2_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VOPO - Voopoo PnP (Coils)(5-Pack)": {
+    "external_id": "template_vopo_-_voopoo_pnp_coils5-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "VOPO - Voopoo PnP (Pods)(2-Pack)": {
+    "external_id": "template_vopo_-_voopoo_pnp_pods2-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "VOPO - Voopoo PnP X (Coils)(5-Pack)": {
+    "external_id": "template_vopo_-_voopoo_pnp_x_coils5-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "VOPO - Voopoo PnP X (Pod Tank)": {
+    "external_id": "template_vopo_-_voopoo_pnp_x_pod_tank",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Replacement Pod"
+  },
+  "VOPO - Voopoo PnP X (Pods)(2-Pack) 5mL": {
+    "external_id": "template_vopo_-_voopoo_pnp_x_pods2-pack_5ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Replacement Pod"
+  },
+  "VOPO - Voopoo Uforce L (REPL. Glass)(1pc)": {
+    "external_id": "template_vopo_-_voopoo_uforce_l_repl_glass1pc",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "flavor"
+    ],
+    "category": "Saleable"
+  },
+  "VOPO - Voopoo Uforce L (Tank)": {
+    "external_id": "template_vopo_-_voopoo_uforce_l_tank",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Tank"
+  },
+  "VOPO - Voopoo Vinci V2 (Pods)(3-Pack)": {
+    "external_id": "template_vopo_-_voopoo_vinci_v2_pods3-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "VOPO - Voopoo Vmate V2 (Pods)(2-Pack) 3mL": {
+    "external_id": "template_vopo_-_voopoo_vmate_v2_pods2-pack_3ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "VOPO - Voopoo Vrizz (Kit PS) 800mAh": {
+    "external_id": "template_vopo_-_voopoo_vrizz_kit_ps_800mah",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VRSO - Vaporesso (REPL. Glass)(1pc) iTank 2": {
+    "external_id": "template_vrso_-_vaporesso_repl_glass1pc_itank_2",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Tank"
+  },
+  "VRSO - Vaporesso Armour G (Pods)(2-Pack) 5mL": {
+    "external_id": "template_vrso_-_vaporesso_armour_g_pods2-pack_5ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "VRSO - Vaporesso Armour GS (Kit SK)": {
+    "external_id": "template_vrso_-_vaporesso_armour_gs_kit_sk",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VRSO - Vaporesso Eco Nano (Kit PS) Metal Edt.": {
+    "external_id": "template_vrso_-_vaporesso_eco_nano_kit_ps_metal_edt",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VRSO - Vaporesso Eco Nano (Pods)(2-Pack) 6mL": {
+    "external_id": "template_vrso_-_vaporesso_eco_nano_pods2-pack_6ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "VRSO - Vaporesso Eco Nano (Pods)(2-Pack) 6mL Lush Edt.": {
+    "external_id": "template_vrso_-_vaporesso_eco_nano_pods2-pack_6ml_lush_edt",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "VRSO - Vaporesso Eco Nano (Pods)(2-Pack) 6mL Mesh": {
+    "external_id": "template_vrso_-_vaporesso_eco_nano_pods2-pack_6ml_mesh",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "VRSO - Vaporesso Eco Nano CMF (Kit PS)": {
+    "external_id": "template_vrso_-_vaporesso_eco_nano_cmf_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VRSO - Vaporesso Gen Max (Mod)": {
+    "external_id": "template_vrso_-_vaporesso_gen_max_mod",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VRSO - Vaporesso Gen80 S (Mod)": {
+    "external_id": "template_vrso_-_vaporesso_gen80_s_mod",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VRSO - Vaporesso GenAir (Pods)(2-Pack)": {
+    "external_id": "template_vrso_-_vaporesso_genair_pods2-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "VRSO - Vaporesso GenAir 40 (Kit PS)": {
+    "external_id": "template_vrso_-_vaporesso_genair_40_kit_ps",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VRSO - Vaporesso GTi (Coils)(5-Pack)": {
+    "external_id": "template_vrso_-_vaporesso_gti_coils5-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "VRSO - Vaporesso GTX (Coils)(5-Pack)": {
+    "external_id": "template_vrso_-_vaporesso_gtx_coils5-pack",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "VRSO - Vaporesso GTX GO 40 (Kit PS)": {
+    "external_id": "template_vrso_-_vaporesso_gtx_go_40_kit_ps",
+    "status": "new",
+    "variants_count": 3,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VRSO - Vaporesso GTX GO 80 (Kit PS)": {
+    "external_id": "template_vrso_-_vaporesso_gtx_go_80_kit_ps",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VRSO - Vaporesso Luxe PM40 (Pods)(2-Pack)": {
+    "external_id": "template_vrso_-_vaporesso_luxe_pm40_pods2-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "VRSO - Vaporesso Luxe Q (Pods)(4-Pack) 2mL (All compatible version)": {
+    "external_id": "template_vrso_-_vaporesso_luxe_q_pods4-pack_2ml_all_compatible_version",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "VRSO - Vaporesso Luxe Q (Pods)(4-Pack) 3mL": {
+    "external_id": "template_vrso_-_vaporesso_luxe_q_pods4-pack_3ml",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "VRSO - Vaporesso Luxe Q2 SE (Kit PS)": {
+    "external_id": "template_vrso_-_vaporesso_luxe_q2_se_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VRSO - Vaporesso Luxe XR Max (Kit PS) x1 Pod + x2 Coils Edt.": {
+    "external_id": "template_vrso_-_vaporesso_luxe_xr_max_kit_ps_x1_pod_x2_coils_edt",
+    "status": "new",
+    "variants_count": 6,
+    "attributes": [
+      "color"
+    ],
+    "category": "Coil"
+  },
+  "VRSO - Vaporesso QF (Coils)(3-Pack)": {
+    "external_id": "template_vrso_-_vaporesso_qf_coils3-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Coil"
+  },
+  "VRSO - Vaporesso Veco Go (Pods)(2-Pack)": {
+    "external_id": "template_vrso_-_vaporesso_veco_go_pods2-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "VRSO - Vaporesso Vibe (Kit PS) 1000mAh": {
+    "external_id": "template_vrso_-_vaporesso_vibe_kit_ps_1000mah",
+    "status": "new",
+    "variants_count": 2,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VRSO - Vaporesso Vibe (Pods)(2-Pack) 4.5mL": {
+    "external_id": "template_vrso_-_vaporesso_vibe_pods2-pack_45ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "VRSO - Vaporesso XROS (Pods)(4-Pack) 3mL": {
+    "external_id": "template_vrso_-_vaporesso_xros_pods4-pack_3ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "VRSO - Vaporesso XROS 2 (Kit PS)": {
+    "external_id": "template_vrso_-_vaporesso_xros_2_kit_ps",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VRSO - Vaporesso XROS 3 Mini (Kit PS) 1.0ohm": {
+    "external_id": "template_vrso_-_vaporesso_xros_3_mini_kit_ps_10ohm",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Coil"
+  },
+  "VRSO - Vaporesso XROS 4 Mini (Kit PS)": {
+    "external_id": "template_vrso_-_vaporesso_xros_4_mini_kit_ps",
+    "status": "new",
+    "variants_count": 7,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VRSO - Vaporesso XROS 4 Nano (Kit PS)": {
+    "external_id": "template_vrso_-_vaporesso_xros_4_nano_kit_ps",
+    "status": "new",
+    "variants_count": 4,
+    "attributes": [
+      "color"
+    ],
+    "category": "Kit"
+  },
+  "VRSO - Vaporesso XROS COREX 2.0 (Pods)(4-Pack) 3mL": {
+    "external_id": "template_vrso_-_vaporesso_xros_corex_20_pods4-pack_3ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "VRSO - Vaporesso xTank (Pods)(2-Pack)": {
+    "external_id": "template_vrso_-_vaporesso_xtank_pods2-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [
+      "color"
+    ],
+    "category": "Replacement Pod"
+  },
+  "VRSO - Vaporesso XTRA Unipod (Pods)(2-Pack)": {
+    "external_id": "template_vrso_-_vaporesso_xtra_unipod_pods2-pack",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  },
+  "VRSO - Vaporesso Zero S (Pods)(2-Pack) 2mL": {
+    "external_id": "template_vrso_-_vaporesso_zero_s_pods2-pack_2ml",
+    "status": "new",
+    "variants_count": 1,
+    "attributes": [],
+    "category": "Replacement Pod"
+  }
+}

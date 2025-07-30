@@ -1,8 +1,8 @@
 {
   "total_products": 3350,
-  "variants_generated": 3124,
-  "template_matches": 3350,
-  "template_misses": 0,
-  "attribute_misses": 226,
-  "templates_processed": 1874
+  "variants_generated": 3209,
+  "template_matches": 3271,
+  "template_misses": 79,
+  "attribute_misses": 62,
+  "templates_processed": 1868
 }

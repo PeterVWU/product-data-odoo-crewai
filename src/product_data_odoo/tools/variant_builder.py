@@ -20,7 +20,7 @@ def variant_builder_tool(
     output_dir: str
 ) -> dict:
     """
-    Generate product variant import CSV using template value IDs from Odoo template export.
+    Generate product variant import CSV using existing variant IDs from Odoo exports.
     
     Args:
         clear_products_file: Path to clear products JSON file
@@ -49,6 +49,9 @@ def variant_builder_tool(
     # Parse Odoo templates to understand template value IDs
     template_data = _parse_template_export(odoo_product_template_file)
     
+    # Load existing Odoo variants for ID mapping
+    existing_variants = _load_existing_variants(output_dir)
+    
     # Generate variants by matching products to templates and their value combinations
     variant_imports = []
     generation_stats = {
@@ -73,6 +76,17 @@ def variant_builder_tool(
         
         generation_stats["template_matches"] += 1
         
+        # Find matching existing variant ID
+        existing_variant_id = _find_existing_variant_id(
+            product, matching_template, existing_variants
+        )
+        
+        if not existing_variant_id:
+            generation_stats["attribute_misses"] += 1
+            print(f"No existing variant ID found for product: {product.get('product_name', product.get('name', 'Unknown'))}")
+            print(f"  Product attributes: {product.get('attributes', {})}")
+            continue
+        
         # Find matching attribute value combination within the template
         template_value_ids = _find_template_value_combination(
             product, matching_template
@@ -84,12 +98,13 @@ def variant_builder_tool(
             print(f"  Product attributes: {product.get('attributes', {})}")
             continue
         
-        # Generate variant import record
+        # Generate variant import record with existing variant ID
         template_name = matching_template['template_name']
         sku = product.get('sku', '')
         price = float(product.get('price', 0.0))
         
         variant_import = {
+            'id': existing_variant_id,
             'name': template_name,
             'product_template_variant_value_ids/id': ','.join(template_value_ids),
             'default_code': sku,
@@ -104,7 +119,7 @@ def variant_builder_tool(
     output_file = output_path / "product_variant_import.csv"
     
     if variant_imports:
-        fieldnames = ['name', 'product_template_variant_value_ids/id', 'default_code', 'standard_price']
+        fieldnames = ['id', 'name', 'product_template_variant_value_ids/id', 'default_code', 'standard_price']
         with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
@@ -512,5 +527,358 @@ def _find_best_value_match(product_value: str, template_value_mapping: Dict[str,
                 return template_value
     
     return None
+
+
+def _load_existing_variants(output_dir: str) -> Dict[str, Dict]:
+    """
+    Load existing Odoo variants from odoo_product_variant.csv.
+    Handles multi-row variants where additional attributes are in subsequent rows with empty IDs.
+    
+    Returns:
+        Dict mapping variant_key (template_name|combined_attributes) to variant info
+    """
+    
+    # Construct path to odoo_product_variant.csv (in src directory)
+    base_path = Path(output_dir).parent / "src" / "product_data_odoo" / "odoo_product_variant.csv"
+    
+    if not base_path.exists():
+        print(f"Warning: Could not find odoo_product_variant.csv at {base_path}")
+        return {}
+    
+    existing_variants = {}
+    
+    try:
+        df = pd.read_csv(base_path)
+        
+        i = 0
+        while i < len(df):
+            row = df.iloc[i]
+            variant_id = str(row['ID']) if pd.notna(row['ID']) else ""
+            template_name = str(row['Name']) if pd.notna(row['Name']) else ""
+            variant_values = str(row['Variant Values']) if pd.notna(row['Variant Values']) else ""
+            
+            # Skip rows with empty variant ID (these are continuation rows)
+            if not variant_id.strip():
+                i += 1
+                continue
+            
+            # This is a main variant row - collect all its attributes
+            all_attributes = []
+            if variant_values.strip():
+                all_attributes.append(variant_values.strip())
+            
+            # Look ahead for continuation rows (empty ID/Name but has Variant Values)
+            j = i + 1
+            while j < len(df):
+                next_row = df.iloc[j]
+                next_id = str(next_row['ID']) if pd.notna(next_row['ID']) else ""
+                next_name = str(next_row['Name']) if pd.notna(next_row['Name']) else ""
+                next_values = str(next_row['Variant Values']) if pd.notna(next_row['Variant Values']) else ""
+                
+                # If next row has empty ID/Name but has values, it's a continuation
+                if not next_id.strip() and not next_name.strip() and next_values.strip():
+                    all_attributes.append(next_values.strip())
+                    j += 1
+                else:
+                    # Next row is a new variant or end of data
+                    break
+            
+            # Combine all attributes for this variant
+            combined_attributes = "|".join(sorted(all_attributes)) if all_attributes else ""
+            
+            # Parse attributes into a dictionary for easier matching
+            attribute_dict = {}
+            for attr in all_attributes:
+                if ":" in attr:
+                    attr_name, attr_value = attr.split(":", 1)
+                    # Convert to our internal attribute format for consistent matching
+                    original_attr_name = attr_name.strip()
+                    attr_value = attr_value.strip()
+                    
+                    # Map Odoo attribute names to our internal format using the same logic as _convert_to_odoo_attribute_name
+                    if original_attr_name.lower() == "flavor":
+                        attribute_dict["flavor"] = attr_value
+                    elif original_attr_name.lower() == "nicotine level":
+                        attribute_dict["nicotine level"] = attr_value
+                    elif original_attr_name.lower() == "color":
+                        attribute_dict["color"] = attr_value
+                    elif original_attr_name.lower() == "resistance":
+                        attribute_dict["resistance"] = attr_value
+                    elif "coil" in original_attr_name.lower() and ("type" in original_attr_name.lower() or "model" in original_attr_name.lower()):
+                        if "type" in original_attr_name.lower():
+                            attribute_dict["coil type"] = attr_value
+                        else:
+                            attribute_dict["coil type"] = attr_value  # Use same key for both type and model
+                    else:
+                        # Keep original format for other attributes
+                        attribute_dict[original_attr_name.lower()] = attr_value
+            
+            # Create variant entry
+            existing_variants[variant_id] = {
+                'id': variant_id,
+                'template_name': template_name,
+                'all_attributes': all_attributes,
+                'combined_attributes': combined_attributes,
+                'attribute_dict': attribute_dict
+            }
+            
+            # Also create lookup by template name + attributes combination
+            variant_key = f"{template_name}|{combined_attributes}"
+            if variant_key not in existing_variants:
+                existing_variants[variant_key] = existing_variants[variant_id]
+            
+            print(f"Loaded variant {variant_id}: {template_name} with attributes: {all_attributes}")
+            
+            # Move to the next unprocessed row
+            i = j
+        
+        print(f"Loaded {len([k for k in existing_variants.keys() if k.startswith('__export__')])} existing variants from Odoo")
+        
+    except Exception as e:
+        print(f"Error loading existing variants: {e}")
+    
+    return existing_variants
+
+
+def _find_existing_variant_id(product: Dict, template: Dict, existing_variants: Dict[str, Dict]) -> Optional[str]:
+    """
+    Find the existing variant ID that matches the product's template name and attributes.
+    Now works with multi-attribute variants that have complete attribute dictionaries.
+    
+    Args:
+        product: Product data with attributes
+        template: Template data
+        existing_variants: Dict of existing variants with complete attribute information
+        
+    Returns:
+        Existing variant ID or None if not found
+    """
+    
+    template_name = str(template.get('template_name', '')) if template.get('template_name') is not None else ''
+    product_attributes = product.get('attributes', {})
+    
+    print(f"Looking for variant: {template_name} with attributes: {product_attributes}")
+    
+    # Try exact matching first - find variants with matching template name
+    template_name_lower = template_name.lower()
+    
+    for variant_id, variant_info in existing_variants.items():
+        # Skip non-ID keys (template+attribute combinations)
+        if not variant_id.startswith('__export__.product_product_'):
+            continue
+            
+        stored_template_name = variant_info.get('template_name', '')
+        stored_template_lower = str(stored_template_name).lower() if stored_template_name else ""
+        
+        # Check if template names match
+        if template_name_lower != stored_template_lower:
+            continue
+        
+        # Template matches - now check if attributes match
+        stored_attribute_dict = variant_info.get('attribute_dict', {})
+        
+        # NEW LOGIC: Use stored variant's attributes as matching criteria
+        # This handles cases where Odoo only created variants for attributes with multiple values
+        # and skipped single-value attributes that don't create meaningful variants
+        
+        print(f"Checking variant {variant_id}: stored_attrs={stored_attribute_dict}")
+        print(f"  Product attributes available: {product_attributes}")
+        
+        # HANDLE SIMPLE PRODUCTS (no attributes)
+        if not stored_attribute_dict:
+            print(f"Found simple product match (no attributes): {variant_id}")
+            return variant_id
+        
+        # STORED-ATTRIBUTE-DRIVEN MATCHING:
+        # Check if product has matching values for ALL attributes that the stored variant has
+        attributes_match = True
+        matches_found = 0
+        
+        for stored_attr, stored_value in stored_attribute_dict.items():
+            # Convert stored attribute name to our internal format and find corresponding product value
+            product_value = _find_product_attribute_value(stored_attr, product_attributes)
+            
+            if not product_value:
+                print(f"Product missing attribute that stored variant requires: {stored_attr}")
+                attributes_match = False
+                break
+            elif not _attribute_values_match(product_value, stored_value):
+                print(f"Attribute value mismatch: {stored_attr} product='{product_value}' stored='{stored_value}'")
+                attributes_match = False
+                break
+            else:
+                print(f"  ✓ {stored_attr}: '{product_value}' matches '{stored_value}'")
+                matches_found += 1
+        
+        if attributes_match and matches_found == len(stored_attribute_dict):
+            print(f"✅ Found stored-attribute-driven match: {variant_id}")
+            print(f"  Matched {matches_found}/{len(stored_attribute_dict)} stored attributes")
+            print(f"  Stored: {stored_attribute_dict}")
+            return variant_id
+    
+    print(f"No exact match found for template: {template_name}, attributes: {product_attributes}")
+    return None
+
+
+def _find_product_attribute_value(stored_attr_name: str, product_attributes: Dict[str, Any]) -> Optional[str]:
+    """
+    Find the product attribute value that corresponds to a stored variant attribute.
+    Handles the mapping between Odoo attribute names and our internal attribute names.
+    
+    Args:
+        stored_attr_name: The attribute name from the stored variant (e.g., "flavor", "nicotine level")
+        product_attributes: Dictionary of product attributes with internal names
+        
+    Returns:
+        The product's value for the corresponding attribute, or None if not found
+    """
+    
+    stored_attr_lower = stored_attr_name.lower().strip()
+    
+    # Direct mapping attempts first
+    if stored_attr_lower in product_attributes:
+        value = product_attributes[stored_attr_lower]
+        return str(value) if value is not None else None
+    
+    # Handle common attribute name variations
+    attribute_mappings = {
+        'flavor': ['flavor'],
+        'nicotine level': ['nicotine_mg', 'nicotine', 'nicotine_level'],
+        'color': ['color'],
+        'resistance': ['resistance_ohm', 'resistance', 'ohm'],
+        'size': ['volume_ml', 'volume', 'size'],
+        'coil type': ['coil_type', 'coil_model', 'model'],
+        'brand': ['brand']
+    }
+    
+    # Try to find a mapping
+    for odoo_attr, internal_variations in attribute_mappings.items():
+        if stored_attr_lower == odoo_attr:
+            # Found the Odoo attribute, now look for any of its internal variations
+            for internal_attr in internal_variations:
+                if internal_attr in product_attributes:
+                    value = product_attributes[internal_attr]
+                    return str(value) if value is not None else None
+    
+    # If no direct mapping found, try fuzzy matching
+    for product_attr, product_value in product_attributes.items():
+        product_attr_lower = str(product_attr).lower()
+        
+        # Check for partial matches
+        if stored_attr_lower in product_attr_lower or product_attr_lower in stored_attr_lower:
+            return str(product_value) if product_value is not None else None
+    
+    return None
+
+
+def _attribute_values_match(expected_value: str, stored_value: str) -> bool:
+    """Check if two attribute values match using various strategies."""
+    
+    if not expected_value or not stored_value:
+        return False
+    
+    expected_lower = str(expected_value).lower().strip()
+    stored_lower = str(stored_value).lower().strip()
+    
+    # Exact match
+    if expected_lower == stored_lower:
+        return True
+    
+    # Numeric matching for nicotine levels (3 matches 3, 3.0, etc.)
+    if expected_lower.replace('.', '').replace('mg', '').isdigit() and stored_lower.replace('.', '').replace('mg', '').isdigit():
+        expected_num = float(expected_lower.replace('mg', ''))
+        stored_num = float(stored_lower.replace('mg', ''))
+        if expected_num == stored_num:
+            return True
+    
+    # Substring matching
+    if expected_lower in stored_lower or stored_lower in expected_lower:
+        return True
+    
+    return False
+
+
+def _convert_to_odoo_attribute_name(attr_name: str) -> str:
+    """Convert internal attribute names to Odoo format using the same mapping as attribute_builder."""
+    
+    # Use the same attribute variations mapping as in attribute_builder.py
+    attr_variations = {
+        'nicotine level': ['nicotine', 'nicotine_mg', 'nicotine strength', 'nicotine_mg_range', 'nicotine_mg_min', 'nicotine_mg_max'],
+        'flavor': ['flavor'],
+        'brand': ['brand'],
+        'color': ['color'],
+        'resistance': ['resistance', 'resistance_ohm', 'ohm'],
+        'size': ['volume', 'volume_ml', 'capacity'],
+        'coil type': ['coil_type', 'coil model', 'coil_model']
+    }
+    
+    attr_name_lower = attr_name.lower()
+    
+    # Find which Odoo attribute name this maps to
+    for odoo_name, variations in attr_variations.items():
+        if attr_name_lower in variations:
+            return odoo_name
+    
+    # If no mapping found, return the original name
+    return attr_name.lower()
+
+
+def _get_top_variant_attributes(product_attributes: Dict[str, Any], max_attributes: int = 2) -> Dict[str, str]:
+    """
+    Get the top N attributes from product using the same priority system as Template Builder.
+    This ensures we match on the same attributes that were used to create the existing variants.
+    """
+    
+    # Use the exact same attribute priorities as Template Builder
+    attribute_priorities = {
+        'flavor': 10,           # Highest priority - customer choice
+        'nicotine_mg': 9,       # High priority - customer choice  
+        'resistance_ohm': 8,    # Hardware spec - customer choice
+        'coil_type': 7,         # Hardware spec - customer choice
+        'color': 6,             # Visual choice
+        'model': 5,             # Hardware model (for coils)
+        'coil_model': 5,        # Hardware model (alternative)
+    }
+    
+    # Filter to only allowed attributes that exist in the product
+    available_attributes = []
+    for attr_name, attr_value_raw in product_attributes.items():
+        if attr_name in attribute_priorities:
+            attr_value = str(attr_value_raw) if attr_value_raw is not None else ""
+            if attr_value.strip():  # Only include if has a value
+                priority = attribute_priorities[attr_name]
+                available_attributes.append((attr_name, priority, attr_value))
+    
+    # Sort by priority (descending) - same logic as Template Builder
+    available_attributes.sort(key=lambda x: -x[1])
+    
+    # Take only the top N attributes and convert to Odoo format
+    expected_attributes = {}
+    for attr_name, priority, attr_value in available_attributes[:max_attributes]:
+        # Convert internal attribute names to Odoo format
+        odoo_attr_name = _convert_to_odoo_attribute_name(attr_name).lower()
+        expected_attributes[odoo_attr_name] = attr_value
+    
+    return expected_attributes
+
+
+def _templates_match_fuzzy(template1: str, template2: str) -> bool:
+    """Check if two template names match using fuzzy logic."""
+    
+    # Convert to strings and handle None values
+    template1_str = str(template1) if template1 is not None else ""
+    template2_str = str(template2) if template2 is not None else ""
+    
+    # Simple fuzzy matching - check if they share significant overlap
+    words1 = set(template1_str.split())
+    words2 = set(template2_str.split())
+    
+    if len(words1) == 0 or len(words2) == 0:
+        return False
+    
+    overlap = len(words1.intersection(words2))
+    similarity = overlap / min(len(words1), len(words2))
+    
+    return similarity >= 0.7
 
 

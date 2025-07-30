@@ -1,12 +1,39 @@
 value/value,attribute,display_type,create_variant
-650mAh,Battery Capacity,radio,instantly
-DTL,Role,radio,instantly
-LP2 Compatible,,,
+650,Battery Mah,radio,instantly
+1,Pack Quantity,radio,instantly
+2,,,
+E2,Model,select,instantly
+L7,,,
+L8,,,
+M-Triple,,,
+M1,,,
+M4 V2,,,
+M6,,,
+M7,,,
+M8,,,
+PnP II,,,
+RPM 2,,,
+Sector Mesh,,,
+T8,,,
+VVC-30,,,
+X1,,,
+X3,,,
+X4,,,
+was E1,Note,radio,instantly
+DL,Vaping Style,radio,instantly
+DTL,,,
 MTL,,,
-Nord Compatible,,,
-Clapton,Technical Spec,radio,instantly
-M4,,,
-Max Mesh,,,
-Q4,,,
-Strip,,,
-Triple Mesh,,,
+3-Pack,Pack Size,radio,instantly
+Quartz,Coil Material,radio,instantly
+Carbon Fiber,Material,radio,instantly
+Ka1 Mesh,,,
+Leather,,,
+Resin,,,
+Stabwood,,,
+Cobra,Pattern,radio,instantly
+Discontinued,Status,radio,instantly
+V1,Version,radio,instantly
+DTL,Style,radio,instantly
+MTL,,,
+5ml,Capacity (mL),radio,instantly
+DTL,Draw Type,radio,instantly

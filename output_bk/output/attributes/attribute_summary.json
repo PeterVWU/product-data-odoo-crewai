@@ -1,0 +1,255 @@
+{
+  "flavor": {
+    "external_id": "__export__.product_attribute_38_d222431b",
+    "display_type": "radio",
+    "value_count": 1318,
+    "total_usage": 2882,
+    "sources": [
+      "llm",
+      "regex"
+    ],
+    "status": "existing"
+  },
+  "nicotine_mg": {
+    "external_id": "__export__.product_attribute_40_7590b0f7",
+    "display_type": "radio",
+    "value_count": 19,
+    "total_usage": 2858,
+    "sources": [
+      "llm",
+      "regex"
+    ],
+    "status": "existing"
+  },
+  "volume_ml": {
+    "external_id": "__export__.product_attribute_44_243795ae",
+    "display_type": "radio",
+    "value_count": 24,
+    "total_usage": 2658,
+    "sources": [
+      "llm",
+      "regex"
+    ],
+    "status": "existing"
+  },
+  "brand": {
+    "external_id": "__export__.product_attribute_31_a7331468",
+    "display_type": "radio",
+    "value_count": 34,
+    "total_usage": 467,
+    "sources": [
+      "llm"
+    ],
+    "status": "existing"
+  },
+  "color": {
+    "external_id": "__export__.product_attribute_34_590deacf",
+    "display_type": "radio",
+    "value_count": 121,
+    "total_usage": 204,
+    "sources": [
+      "llm"
+    ],
+    "status": "existing"
+  },
+  "battery_mAh": {
+    "external_id": "attr_battery_mah",
+    "display_type": "radio",
+    "value_count": 1,
+    "total_usage": 1,
+    "sources": [
+      "llm"
+    ],
+    "status": "new"
+  },
+  "resistance_ohm": {
+    "external_id": "__export__.product_attribute_43_fabbbbe0",
+    "display_type": "radio",
+    "value_count": 29,
+    "total_usage": 143,
+    "sources": [
+      "llm"
+    ],
+    "status": "existing"
+  },
+  "coil_type": {
+    "external_id": "__export__.product_attribute_32_992dc97f",
+    "display_type": "radio",
+    "value_count": 20,
+    "total_usage": 44,
+    "sources": [
+      "llm"
+    ],
+    "status": "existing"
+  },
+  "resistance": {
+    "external_id": "__export__.product_attribute_43_fabbbbe0",
+    "display_type": "radio",
+    "value_count": 9,
+    "total_usage": 15,
+    "sources": [
+      "llm"
+    ],
+    "status": "existing"
+  },
+  "pack_quantity": {
+    "external_id": "attr_pack_quantity",
+    "display_type": "radio",
+    "value_count": 2,
+    "total_usage": 3,
+    "sources": [
+      "llm"
+    ],
+    "status": "new"
+  },
+  "coil_model": {
+    "external_id": "__export__.product_attribute_32_992dc97f",
+    "display_type": "radio",
+    "value_count": 11,
+    "total_usage": 13,
+    "sources": [
+      "llm"
+    ],
+    "status": "existing"
+  },
+  "model": {
+    "external_id": "attr_model",
+    "display_type": "select",
+    "value_count": 17,
+    "total_usage": 17,
+    "sources": [
+      "llm"
+    ],
+    "status": "new"
+  },
+  "note": {
+    "external_id": "attr_note",
+    "display_type": "radio",
+    "value_count": 1,
+    "total_usage": 1,
+    "sources": [
+      "llm"
+    ],
+    "status": "new"
+  },
+  "vaping_style": {
+    "external_id": "attr_vaping_style",
+    "display_type": "radio",
+    "value_count": 3,
+    "total_usage": 7,
+    "sources": [
+      "llm"
+    ],
+    "status": "new"
+  },
+  "type": {
+    "external_id": "__export__.product_attribute_47_41ee3b41",
+    "display_type": "radio",
+    "value_count": 3,
+    "total_usage": 5,
+    "sources": [
+      "llm"
+    ],
+    "status": "existing"
+  },
+  "pack_size": {
+    "external_id": "attr_pack_size",
+    "display_type": "radio",
+    "value_count": 1,
+    "total_usage": 1,
+    "sources": [
+      "llm"
+    ],
+    "status": "new"
+  },
+  "coil_material": {
+    "external_id": "attr_coil_material",
+    "display_type": "radio",
+    "value_count": 1,
+    "total_usage": 1,
+    "sources": [
+      "llm"
+    ],
+    "status": "new"
+  },
+  "material": {
+    "external_id": "attr_material",
+    "display_type": "radio",
+    "value_count": 6,
+    "total_usage": 7,
+    "sources": [
+      "llm"
+    ],
+    "status": "new"
+  },
+  "quantity": {
+    "external_id": "__export__.product_attribute_42_177d0f35",
+    "display_type": "radio",
+    "value_count": 1,
+    "total_usage": 1,
+    "sources": [
+      "llm"
+    ],
+    "status": "existing"
+  },
+  "pattern": {
+    "external_id": "attr_pattern",
+    "display_type": "radio",
+    "value_count": 1,
+    "total_usage": 1,
+    "sources": [
+      "llm"
+    ],
+    "status": "new"
+  },
+  "status": {
+    "external_id": "attr_status",
+    "display_type": "radio",
+    "value_count": 1,
+    "total_usage": 2,
+    "sources": [
+      "llm"
+    ],
+    "status": "new"
+  },
+  "version": {
+    "external_id": "attr_version",
+    "display_type": "radio",
+    "value_count": 1,
+    "total_usage": 1,
+    "sources": [
+      "llm"
+    ],
+    "status": "new"
+  },
+  "style": {
+    "external_id": "attr_style",
+    "display_type": "radio",
+    "value_count": 2,
+    "total_usage": 2,
+    "sources": [
+      "llm"
+    ],
+    "status": "new"
+  },
+  "capacity_ml": {
+    "external_id": "attr_capacity_ml",
+    "display_type": "radio",
+    "value_count": 1,
+    "total_usage": 1,
+    "sources": [
+      "llm"
+    ],
+    "status": "new"
+  },
+  "draw_type": {
+    "external_id": "attr_draw_type",
+    "display_type": "radio",
+    "value_count": 1,
+    "total_usage": 1,
+    "sources": [
+      "llm"
+    ],
+    "status": "new"
+  }
+}

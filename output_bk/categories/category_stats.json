@@ -1,0 +1,28 @@
+{
+  "total_products": 3897,
+  "by_category": {
+    "E-Juice": 2861,
+    "Saleable": 558,
+    "Disposable": 3,
+    "Kit": 189,
+    "Replacement Pod": 140,
+    "Battery": 2,
+    "Coil": 133,
+    "Tank": 11
+  },
+  "by_source": {
+    "regex": 3350,
+    "llm": 547
+  },
+  "mapping_reasons": {
+    "Product has flavor and nicotine/volume - liquid e-juice": 2860,
+    "Default category - no specific match found": 558,
+    "Product contains disposable/puff/device keywords": 3,
+    "Brand \"7dze\" typically produces e-liquid": 1,
+    "Product contains kit/mod keywords": 189,
+    "Product contains pod/cartridge keywords": 140,
+    "Product contains battery keywords": 2,
+    "Product contains coil/mesh/ohm keywords": 133,
+    "Product contains tank keywords": 11
+  }
+}

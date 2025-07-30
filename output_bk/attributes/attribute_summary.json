@@ -1,0 +1,125 @@
+{
+  "flavor": {
+    "external_id": "__export__.product_attribute_38_3ff3f277",
+    "display_type": "radio",
+    "value_count": 1325,
+    "total_usage": 2900,
+    "sources": [
+      "llm",
+      "regex"
+    ],
+    "status": "existing"
+  },
+  "nicotine_mg": {
+    "external_id": "__export__.product_attribute_40_ba9aed44",
+    "display_type": "radio",
+    "value_count": 19,
+    "total_usage": 2874,
+    "sources": [
+      "llm",
+      "regex"
+    ],
+    "status": "existing"
+  },
+  "volume_ml": {
+    "external_id": "__export__.product_attribute_44_5bfde801",
+    "display_type": "radio",
+    "value_count": 26,
+    "total_usage": 2660,
+    "sources": [
+      "llm",
+      "regex"
+    ],
+    "status": "existing"
+  },
+  "brand": {
+    "external_id": "__export__.product_attribute_31_f9258654",
+    "display_type": "radio",
+    "value_count": 36,
+    "total_usage": 547,
+    "sources": [
+      "llm"
+    ],
+    "status": "existing"
+  },
+  "color": {
+    "external_id": "__export__.product_attribute_34_af1a1fa4",
+    "display_type": "radio",
+    "value_count": 145,
+    "total_usage": 245,
+    "sources": [
+      "llm"
+    ],
+    "status": "existing"
+  },
+  "battery_capacity": {
+    "external_id": "attr_battery_capacity",
+    "display_type": "radio",
+    "value_count": 1,
+    "total_usage": 1,
+    "sources": [
+      "llm"
+    ],
+    "status": "new"
+  },
+  "resistance": {
+    "external_id": "__export__.product_attribute_43_0704264c",
+    "display_type": "radio",
+    "value_count": 52,
+    "total_usage": 169,
+    "sources": [
+      "llm"
+    ],
+    "status": "existing"
+  },
+  "type": {
+    "external_id": "__export__.product_attribute_47_ec306821",
+    "display_type": "radio",
+    "value_count": 1,
+    "total_usage": 1,
+    "sources": [
+      "llm"
+    ],
+    "status": "existing"
+  },
+  "material": {
+    "external_id": "__export__.product_attribute_247_eea7bc8d",
+    "display_type": "radio",
+    "value_count": 1,
+    "total_usage": 1,
+    "sources": [
+      "llm"
+    ],
+    "status": "existing"
+  },
+  "model": {
+    "external_id": "__export__.product_attribute_245_4e53b781",
+    "display_type": "radio",
+    "value_count": 6,
+    "total_usage": 6,
+    "sources": [
+      "llm"
+    ],
+    "status": "existing"
+  },
+  "role": {
+    "external_id": "attr_role",
+    "display_type": "radio",
+    "value_count": 4,
+    "total_usage": 5,
+    "sources": [
+      "llm"
+    ],
+    "status": "new"
+  },
+  "technical_spec": {
+    "external_id": "attr_technical_spec",
+    "display_type": "radio",
+    "value_count": 6,
+    "total_usage": 6,
+    "sources": [
+      "llm"
+    ],
+    "status": "new"
+  }
+}

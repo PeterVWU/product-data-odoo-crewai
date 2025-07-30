@@ -1,0 +1,788 @@
+[
+  {
+    "sku": "ONT031919",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT031922",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT029703",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT044868",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT043544",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT043547",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT043551",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT027382",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT027386",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT022888",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT032086",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT032079",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT032081",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT032082",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT032083",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT032085",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT044587",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT044588",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT044594",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT028980",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT045165",
+    "product_name": "GKVP - Geekvape H45 Hero 2 (Refillable Pods + Coil) 5ml",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT045166",
+    "product_name": "GKVP - Geekvape H45 Hero 2 (Refillable Pods + Coil) 5ml",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT044583",
+    "product_name": "GKVP - Geekvape J (Coils)(5-Pack)",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT044584",
+    "product_name": "GKVP - Geekvape J (Coils)(5-Pack)",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT044585",
+    "product_name": "GKVP - Geekvape J (Coils)(5-Pack)",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT044586",
+    "product_name": "GKVP - Geekvape J (Coils)(5-Pack)",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT027666",
+    "product_name": "GKVP - Geekvape P (Coils)(5-Pack)",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT027668",
+    "product_name": "GKVP - Geekvape Wenax H1 (Pods)(3-Pack)",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT027669",
+    "product_name": "GKVP - Geekvape Wenax H1 (Pods)(3-Pack)",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT041404",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT040662",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT045160",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT041622",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT040059",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT016480",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT016481",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT016482",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT016484",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT016487",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT016488",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT016489",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT016490",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT016491",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT016492",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT016493",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT020815",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT016494",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT030590",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT002372",
+    "product_name": "HRZN - Horizon Falcon (Coils)(3-Pack)",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT034237",
+    "product_name": "HRZN - Horizon Falcon (Coils)(3-Pack)",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT034238",
+    "product_name": "HRZN - Horizon Falcon (Coils)(3-Pack)",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT002376",
+    "product_name": "HRZN - Horizon Falcon (Coils)(3-Pack)",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT002164",
+    "product_name": "IVPS - SMOK Baby (Coils)(5-Pack)",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT002154",
+    "product_name": "IVPS - SMOK Baby (Coils)(5-Pack)",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT002158",
+    "product_name": "IVPS - SMOK Baby (Coils)(5-Pack)",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT002156",
+    "product_name": "IVPS - SMOK Baby (Coils)(5-Pack)",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT002157",
+    "product_name": "IVPS - SMOK Baby (Coils)(5-Pack)",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT002155",
+    "product_name": "IVPS - SMOK Baby (Coils)(5-Pack)",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT019975",
+    "product_name": "IVPS - SMOK IPX 80 (Pods)(3-Pack)",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT015918",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT008784",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT008794",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT017857",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT017858",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT017861",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT017863",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT017868",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT029182",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT029188",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT029187",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT029184",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT029180",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT029181",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT029189",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT029179",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT023122",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT023123",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT038363",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT038355",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT015786",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT015787",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT015789",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT015790",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT015791",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT002196",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT002193",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT002186",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT002195",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT002191",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT002187",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT002192",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT002194",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT035916",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT035913",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT035914",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT035918",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT004193",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT004198",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT004194",
+    "product_name": "",
+    "source": "regex",
+    "reason": "no_template_match"
+  },
+  {
+    "sku": "ONT030964",
+    "product_name": "IVPS - SMOK RPM 85/100 (Pods)(3-Pack)",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT002170",
+    "product_name": "IVPS - SMOK TFV8 (Coils)(3-Pack)",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT002167",
+    "product_name": "IVPS - SMOK TFV8 (Coils)(3-Pack)",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT017456",
+    "product_name": "IVPS - SMOK Vape Pen V2 (Kit SK)",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT031722",
+    "product_name": "LSTV - Lost Vape UB Lite (Coils)(5-Pack)",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT031723",
+    "product_name": "LSTV - Lost Vape UB Lite (Coils)(5-Pack)",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT028856",
+    "product_name": "LSTV - Lost Vape UB Max (Coils)(3-Pack)",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT028858",
+    "product_name": "LSTV - Lost Vape UB Max (Coils)(3-Pack)",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT044279",
+    "product_name": "OXBR - SVOPP Pods (Liq Pod)(30000Puff)(13mL) Pod Juice Edt.",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT044280",
+    "product_name": "OXBR - SVOPP Pods (Liq Pod)(30000Puff)(13mL) Pod Juice Edt.",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT000103",
+    "product_name": "SCHW - Naked (LIQ FB)(60mL)",
+    "source": "regex",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT000149",
+    "product_name": "SCHW - Naked (LIQ FB)(60mL)",
+    "source": "regex",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT000150",
+    "product_name": "SCHW - Naked (LIQ FB)(60mL)",
+    "source": "regex",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT000151",
+    "product_name": "SCHW - Naked (LIQ FB)(60mL)",
+    "source": "regex",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT000172",
+    "product_name": "SCHW - Naked (LIQ FB)(60mL)",
+    "source": "regex",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT000173",
+    "product_name": "SCHW - Naked (LIQ FB)(60mL)",
+    "source": "regex",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT000174",
+    "product_name": "SCHW - Naked (LIQ FB)(60mL)",
+    "source": "regex",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT000175",
+    "product_name": "SCHW - Naked (LIQ FB)(60mL)",
+    "source": "regex",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT000189",
+    "product_name": "SCHW - Naked (LIQ FB)(60mL)",
+    "source": "regex",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT000190",
+    "product_name": "SCHW - Naked (LIQ FB)(60mL)",
+    "source": "regex",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT000191",
+    "product_name": "SCHW - Naked (LIQ FB)(60mL)",
+    "source": "regex",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT000107",
+    "product_name": "SCHW - Naked (LIQ FB)(60mL)",
+    "source": "regex",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT000122",
+    "product_name": "SCHW - Naked (LIQ FB)(60mL)",
+    "source": "regex",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT000123",
+    "product_name": "SCHW - Naked (LIQ FB)(60mL)",
+    "source": "regex",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT000147",
+    "product_name": "SCHW - Naked (LIQ FB)(60mL)",
+    "source": "regex",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT000154",
+    "product_name": "SCHW - Naked (LIQ FB)(60mL)",
+    "source": "regex",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT000155",
+    "product_name": "SCHW - Naked (LIQ FB)(60mL)",
+    "source": "regex",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT000138",
+    "product_name": "SCHW - Naked (LIQ FB)(60mL) *",
+    "source": "regex",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT000139",
+    "product_name": "SCHW - Naked (LIQ FB)(60mL) *",
+    "source": "regex",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT030236",
+    "product_name": "UWLL - Uwell Caliburn X (Pods)(2-Pack) 3mL",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT017409",
+    "product_name": "VOPO - Voopoo PnP (Pods)(2-Pack)",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  },
+  {
+    "sku": "ONT035638",
+    "product_name": "VOPO - Voopoo PnP (Pods)(2-Pack)",
+    "source": "llm",
+    "reason": "no_attribute_match"
+  }
+]
